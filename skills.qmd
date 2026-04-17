@@ -1,0 +1,283 @@
+---
+title: "Compétences"
+subtitle: "Stack technique, outils et domaines d'expertise"
+format:
+  html:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+## Vue d'ensemble — Radar des compétences
+
+```{r radar-competences}
+library(plotly)
+
+categories <- c(
+  "Hydrologie &<br>Modélisation",
+  "SIG &<br>Télédétection",
+  "Analyse R &<br>Python",
+  "Machine<br>Learning",
+  "Gestion<br>des Risques",
+  "GIRE &<br>Planification",
+  "Visualisation<br>des données",
+  "Formation &<br>Communication"
+)
+
+niveaux <- c(90, 85, 88, 75, 82, 80, 78, 85)
+# Fermer le polygone
+categories_plot <- c(categories, categories[1])
+niveaux_plot    <- c(niveaux, niveaux[1])
+
+fig <- plot_ly(
+  type   = 'scatterpolar',
+  fill   = 'toself',
+  mode   = 'lines+markers'
+) |>
+  add_trace(
+    r     = niveaux_plot,
+    theta = categories_plot,
+    name  = "Niveau",
+    line  = list(color = '#00b4d8', width = 2.5),
+    marker = list(color = '#48cae4', size = 8),
+    fillcolor = 'rgba(0, 180, 216, 0.18)'
+  ) |>
+  layout(
+    paper_bgcolor = 'rgba(0,0,0,0)',
+    plot_bgcolor  = 'rgba(0,0,0,0)',
+    polar = list(
+      bgcolor = 'rgba(17,34,64,0.6)',
+      radialaxis = list(
+        visible = TRUE, range = c(0, 100),
+        gridcolor = '#1a3a6b', color = '#7090a0',
+        tickfont = list(color = '#7090a0', size = 11)
+      ),
+      angularaxis = list(
+        color = '#90a8c0',
+        tickfont = list(color = '#cdd6f4', size = 12)
+      )
+    ),
+    legend = list(font = list(color = '#cdd6f4')),
+    margin = list(l = 80, r = 80, t = 40, b = 40)
+  )
+
+fig
+```
+
+---
+
+## 💻 Langages & Outils
+
+<div class="row g-4">
+<div class="col-md-6">
+
+<div class="skill-group">
+<div class="skill-category-label">Langages de programmation</div>
+
+<div class="skill-item">
+  <div class="skill-name"><span>R (analyse, modélisation, visualisation)</span><span class="skill-pct">90%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+</div>
+<div class="skill-item">
+  <div class="skill-name"><span>Python (analyse de données)</span><span class="skill-pct">68%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:68%"></div></div>
+</div>
+<div class="skill-item">
+  <div class="skill-name"><span>SQL (bases de données)</span><span class="skill-pct">65%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+</div>
+<div class="skill-item">
+  <div class="skill-name"><span>R Markdown / Quarto</span><span class="skill-pct">85%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+</div>
+
+</div><!-- /skill-group -->
+
+<div class="skill-group">
+<div class="skill-category-label">SIG & Télédétection</div>
+
+<div class="skill-item">
+  <div class="skill-name"><span>QGIS</span><span class="skill-pct">85%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+</div>
+<div class="skill-item">
+  <div class="skill-name"><span>ArcGIS</span><span class="skill-pct">80%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+</div>
+<div class="skill-item">
+  <div class="skill-name"><span>Google Earth Engine</span><span class="skill-pct">70%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+</div>
+<div class="skill-item">
+  <div class="skill-name"><span>R (terra, sf, stars)</span><span class="skill-pct">82%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:82%"></div></div>
+</div>
+
+</div><!-- /skill-group -->
+</div><!-- /col-md-6 -->
+
+<div class="col-md-6">
+
+<div class="skill-group">
+<div class="skill-category-label">Modélisation hydrologique</div>
+
+<div class="skill-item">
+  <div class="skill-name"><span>Modèles GR4J / GR6J (airGR)</span><span class="skill-pct">88%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div>
+</div>
+<div class="skill-item">
+  <div class="skill-name"><span>SWAT</span><span class="skill-pct">72%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:72%"></div></div>
+</div>
+<div class="skill-item">
+  <div class="skill-name"><span>Analyse fréquentielle (IDF, crues)</span><span class="skill-pct">85%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+</div>
+<div class="skill-item">
+  <div class="skill-name"><span>Scénarios climatiques (NetCDF, CMIP6)</span><span class="skill-pct">80%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+</div>
+
+</div><!-- /skill-group -->
+
+<div class="skill-group">
+<div class="skill-category-label">Machine Learning & BI</div>
+
+<div class="skill-item">
+  <div class="skill-name"><span>Random Forest, Arbres de décision</span><span class="skill-pct">78%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:78%"></div></div>
+</div>
+<div class="skill-item">
+  <div class="skill-name"><span>Régression logistique</span><span class="skill-pct">75%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+</div>
+<div class="skill-item">
+  <div class="skill-name"><span>Power BI / Looker Studio</span><span class="skill-pct">68%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:68%"></div></div>
+</div>
+<div class="skill-item">
+  <div class="skill-name"><span>ggplot2 / plotly / leaflet</span><span class="skill-pct">85%</span></div>
+  <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+</div>
+
+</div><!-- /skill-group -->
+
+</div><!-- /col-md-6 -->
+</div><!-- /row -->
+
+---
+
+## 📦 Packages R principaux
+
+```{r packages-r}
+library(ggplot2)
+library(dplyr)
+
+pkgs <- data.frame(
+  Package  = c("terra","sf","stars","leaflet","ggplot2","plotly",
+               "airGR","tidyr","dplyr","cluster","randomForest",
+               "rmarkdown","lubridate","ncdf4","raster"),
+  Domaine  = c("SIG","SIG","SIG","SIG","Visualisation","Visualisation",
+               "Hydrologie","Données","Données","ML","ML",
+               "Publication","Données","Climatologie","SIG"),
+  Niveau   = c(85,80,70,82,88,80,85,90,90,75,72,85,88,75,70)
+)
+
+couleurs_domaine <- c(
+  "SIG"          = "#f4a261",
+  "Visualisation"= "#48cae4",
+  "Hydrologie"   = "#0096c7",
+  "Données"      = "#06d6a0",
+  "ML"           = "#c4b5fd",
+  "Publication"  = "#90e0ef",
+  "Climatologie" = "#ffd166"
+)
+
+pkgs <- pkgs |> arrange(desc(Niveau))
+
+ggplot(pkgs, aes(x = reorder(Package, Niveau), y = Niveau, fill = Domaine)) +
+  geom_col(width = 0.7) +
+  geom_text(aes(label = paste0(Niveau, "%")), 
+            hjust = -0.2, size = 3, color = "#cdd6f4") +
+  coord_flip() +
+  scale_fill_manual(values = couleurs_domaine) +
+  scale_y_continuous(limits = c(0, 105), breaks = seq(0, 100, 25)) +
+  labs(
+    title    = "Packages R — Niveau de maîtrise",
+    subtitle = "Évaluation personnelle par domaine d'utilisation",
+    x        = NULL, y = "Niveau (%)",
+    fill     = "Domaine"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    plot.background  = element_rect(fill = "#0d1b2a", color = NA),
+    panel.background = element_rect(fill = "#112240", color = NA),
+    panel.grid.major.x = element_line(color = "#1a3a6b", linewidth = 0.4),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor   = element_blank(),
+    axis.text  = element_text(color = "#cdd6f4"),
+    axis.title = element_text(color = "#90a8c0"),
+    plot.title    = element_text(color = "#90e0ef", face = "bold"),
+    plot.subtitle = element_text(color = "#7090a0"),
+    legend.background = element_rect(fill = "#112240", color = NA),
+    legend.text  = element_text(color = "#cdd6f4"),
+    legend.title = element_text(color = "#90a8c0")
+  )
+```
+
+---
+
+## 🌊 Domaines thématiques
+
+<div class="row g-3">
+  <div class="col-md-6">
+    <div style="background:#112240;border:1px solid #1a3a6b;border-left:4px solid #00b4d8;border-radius:0.5rem;padding:1.25rem;">
+      <h5 style="color:#90e0ef;margin-bottom:0.75rem;">Gestion des Risques & Catastrophes</h5>
+      <ul style="color:#90a8c0;font-size:0.9rem;padding-left:1.25rem;margin:0;">
+        <li>Analyse des aléas hydrologiques et climatiques</li>
+        <li>Cartographie et analyse spatiale des risques</li>
+        <li>Analyse des vulnérabilités territoriales</li>
+        <li>Préparation et planification des risques</li>
+        <li>Systèmes d'alerte précoce</li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div style="background:#112240;border:1px solid #1a3a6b;border-left:4px solid #06d6a0;border-radius:0.5rem;padding:1.25rem;">
+      <h5 style="color:#90e0ef;margin-bottom:0.75rem;">Analyse Hydroclimatique</h5>
+      <ul style="color:#90a8c0;font-size:0.9rem;padding-left:1.25rem;margin:0;">
+        <li>Analyse de séries hydroclimatiques</li>
+        <li>Variabilité et tendances climatiques</li>
+        <li>Événements extrêmes — crues, sécheresses</li>
+        <li>Correction de biais (scénarios CMIP6)</li>
+        <li>Agroclimatologie (saisons, séquences sèches)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div style="background:#112240;border:1px solid #1a3a6b;border-left:4px solid #f4a261;border-radius:0.5rem;padding:1.25rem;">
+      <h5 style="color:#90e0ef;margin-bottom:0.75rem;">SIG & Télédétection</h5>
+      <ul style="color:#90a8c0;font-size:0.9rem;padding-left:1.25rem;margin:0;">
+        <li>Cartographie des ressources en eau</li>
+        <li>Classification d'images satellitaires (Landsat)</li>
+        <li>Analyse du potentiel aquifère</li>
+        <li>Morphométrie des bassins versants</li>
+        <li>Spatialisation des données climatiques</li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div style="background:#112240;border:1px solid #1a3a6b;border-left:4px solid #c4b5fd;border-radius:0.5rem;padding:1.25rem;">
+      <h5 style="color:#90e0ef;margin-bottom:0.75rem;">GIRE & Approches participatives</h5>
+      <ul style="color:#90a8c0;font-size:0.9rem;padding-left:1.25rem;margin:0;">
+        <li>Gestion Intégrée des Ressources en Eau</li>
+        <li>Diagnostic participatif</li>
+        <li>Planification territoriale</li>
+        <li>Renforcement des capacités</li>
+        <li>Suivi-évaluation de projets</li>
+      </ul>
+    </div>
+  </div>
+</div>

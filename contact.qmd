@@ -1,0 +1,146 @@
+---
+title: "Contact"
+subtitle: "N'hésitez pas à me contacter pour toute question ou opportunité de collaboration"
+format:
+  html:
+    toc: false
+---
+
+<div class="row g-5 mt-2">
+
+<div class="col-md-6">
+
+<h3 class="text-water mb-4">Coordonnées</h3>
+
+<a href="mailto:ngastoncyrille@gmail.com" class="contact-card">
+  <div class="contact-icon">✉</div>
+  <div>
+    <div class="contact-label">Email</div>
+    <div class="contact-value">ngastoncyrille@gmail.com</div>
+  </div>
+</a>
+
+<a href="https://www.linkedin.com/in/gaston-cyrille-nebie-a2a977222" 
+   target="_blank" class="contact-card">
+  <div class="contact-icon">in</div>
+  <div>
+    <div class="contact-label">LinkedIn</div>
+    <div class="contact-value">Gaston Cyrille NEBIE</div>
+  </div>
+</a>
+
+<a href="https://github.com/ngastoncyrille" target="_blank" class="contact-card">
+  <div class="contact-icon">⌥</div>
+  <div>
+    <div class="contact-label">GitHub</div>
+    <div class="contact-value">ngastoncyrille</div>
+  </div>
+</a>
+
+<a href="https://rpubs.com/nebiegc" target="_blank" class="contact-card">
+  <div class="contact-icon">📊</div>
+  <div>
+    <div class="contact-label">RPubs</div>
+    <div class="contact-value">rpubs.com/nebiegc</div>
+  </div>
+</a>
+
+<div style="background:#112240;border:1px solid #1a3a6b;border-radius:0.65rem;padding:1.25rem;margin-top:1.5rem;">
+  <div style="font-size:0.75rem;color:#48cae4;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.5rem;">
+    💧 Association Hydro-Burkina
+  </div>
+  <div style="font-size:0.9rem;color:#90a8c0;">
+    Vice-Président · Production et diffusion d'information sur l'eau et le climat en 
+    Afrique de l'Ouest
+  </div>
+</div>
+
+</div><!-- /col -->
+
+<div class="col-md-6">
+
+<h3 class="text-water mb-4">Formulaire de contact</h3>
+
+<div style="background:#112240;border:1px solid #1a3a6b;border-radius:0.75rem;padding:1.75rem;">
+
+<form action="https://formspree.io/f/VOTRE_ID_FORMSPREE" method="POST">
+
+  <div style="margin-bottom:1rem;">
+    <label style="font-size:0.85rem;color:#90a8c0;display:block;margin-bottom:0.4rem;">
+      Nom complet
+    </label>
+    <input type="text" name="nom" required
+           style="width:100%;padding:0.6rem 0.9rem;background:#0d1b2a;border:1px solid #1a3a6b;
+                  border-radius:0.4rem;color:#cdd6f4;font-size:0.95rem;"
+           placeholder="Votre nom">
+  </div>
+
+  <div style="margin-bottom:1rem;">
+    <label style="font-size:0.85rem;color:#90a8c0;display:block;margin-bottom:0.4rem;">
+      Adresse email
+    </label>
+    <input type="email" name="email" required
+           style="width:100%;padding:0.6rem 0.9rem;background:#0d1b2a;border:1px solid #1a3a6b;
+                  border-radius:0.4rem;color:#cdd6f4;font-size:0.95rem;"
+           placeholder="votre@email.com">
+  </div>
+
+  <div style="margin-bottom:1rem;">
+    <label style="font-size:0.85rem;color:#90a8c0;display:block;margin-bottom:0.4rem;">
+      Sujet
+    </label>
+    <select name="sujet"
+            style="width:100%;padding:0.6rem 0.9rem;background:#0d1b2a;border:1px solid #1a3a6b;
+                   border-radius:0.4rem;color:#cdd6f4;font-size:0.95rem;">
+      <option value="collaboration">Collaboration / Projet</option>
+      <option value="consultation">Mission de consultation</option>
+      <option value="formation">Formation / Renforcement de capacités</option>
+      <option value="recherche">Recherche / Partenariat académique</option>
+      <option value="autre">Autre</option>
+    </select>
+  </div>
+
+  <div style="margin-bottom:1.5rem;">
+    <label style="font-size:0.85rem;color:#90a8c0;display:block;margin-bottom:0.4rem;">
+      Message
+    </label>
+    <textarea name="message" required rows="5"
+              style="width:100%;padding:0.6rem 0.9rem;background:#0d1b2a;border:1px solid #1a3a6b;
+                     border-radius:0.4rem;color:#cdd6f4;font-size:0.95rem;resize:vertical;"
+              placeholder="Décrivez votre demande..."></textarea>
+  </div>
+
+  <button type="submit" 
+          style="width:100%;padding:0.75rem;background:#0077b6;border:none;border-radius:0.4rem;
+                 color:white;font-size:1rem;font-weight:600;cursor:pointer;
+                 transition:background 0.2s;"
+          onmouseover="this.style.background='#00b4d8'"
+          onmouseout="this.style.background='#0077b6'">
+    Envoyer le message
+  </button>
+
+</form>
+
+<p style="font-size:0.8rem;color:#5a7090;margin-top:1rem;text-align:center;">
+  ⚡ Alimenté par Formspree · Réponse sous 48h
+</p>
+
+</div>
+
+</div><!-- /col -->
+
+</div><!-- /row -->
+
+---
+
+<div class="text-center mt-4" style="padding:2rem;">
+  <p class="text-muted-blue" style="font-size:0.85rem;text-transform:uppercase;letter-spacing:0.1em;">
+    Localisation actuelle
+  </p>
+  <p style="font-size:1.1rem;color:#90e0ef;font-weight:500;">
+    🇧🇪 Liège, Belgique &nbsp;/&nbsp; 🇧🇫 Ouagadougou, Burkina Faso
+  </p>
+  <p style="font-size:0.9rem;color:#7090a0;">
+    Disponible pour des missions en présentiel ou à distance
+  </p>
+</div>

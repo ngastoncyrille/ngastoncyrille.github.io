@@ -1,0 +1,23 @@
+---
+title: "Classification K-means d'images Landsat 8 avec R"
+subtitle: "Télédétection non supervisée — Clustering spectral et interprétation thématique"
+description: "Tutoriel complet de classification non supervisée d'images satellitaires Landsat 8 avec les packages terra et cluster de R, appliqué à la commune de Bama au Burkina Faso."
+author: "NEBIE Gaston Cyrille"
+date: "2024-03-10"
+categories: [R, Télédétection, SIG, Machine Learning]
+format:
+  html:
+    toc: true
+---
+
+::: {.callout-note}
+## Ce tutoriel
+Ce post reprend et complète le document technique publié sur 
+[RPubs — nebiegc](https://rpubs.com/nebiegc){target="_blank"}.  
+Voir aussi la [page projet dédiée](../../projects/teledetection.html).
+:::
+
+Ce tutoriel guide pas à pas la classification non supervisée d'images Landsat 8 
+avec R, depuis le chargement des bandes spectrales jusqu'à la cartographie finale.
+
+Retrouvez le contenu complet dans la [page projet Télédétection](../../projects/teledetection.html).

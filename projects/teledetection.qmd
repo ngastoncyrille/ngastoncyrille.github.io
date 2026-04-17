@@ -1,0 +1,355 @@
+---
+title: "Télédétection avec R"
+subtitle: "Classification non supervisée d'images satellites — K-means sur Landsat 8"
+author: "NEBIE Gaston Cyrille"
+date: "2024"
+categories: [Télédétection, R, SIG, Machine Learning]
+image: "../../assets/img/projects/teledetection_thumbnail.png"
+format:
+  html:
+    toc: true
+    toc-depth: 4
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo    = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  eval    = FALSE   # Mettre eval=TRUE quand les données sont disponibles
+)
+```
+
+<div class="row g-3 mb-4">
+  <div class="col-auto"><span class="tag tag-sig">Télédétection</span></div>
+  <div class="col-auto"><span class="tag tag-ml">K-means</span></div>
+  <div class="col-auto"><span class="tag tag-r">R</span></div>
+  <div class="col-auto"><span class="tag tag-water">Landsat 8</span></div>
+  <div class="col-auto"><span class="tag tag-sig">Burkina Faso</span></div>
+</div>
+
+::: {.callout-note}
+## À propos de ce projet
+Ce tutoriel est également disponible sur 
+[RPubs — nebiegc](https://rpubs.com/nebiegc){target="_blank"}.  
+Le code est reproductible avec vos propres images Landsat 8.
+:::
+
+---
+
+## Avant-propos
+
+La télédétection représente un domaine captivant où les données satellitaires jouent un rôle crucial en fournissant des informations essentielles sur notre environnement et nos ressources naturelles. Ce document explore la **classification non supervisée d'images satellites**, une méthode indispensable pour extraire des informations pertinentes à partir de vastes ensembles de données.
+
+La classification non supervisée consiste à regrouper des pixels similaires d'une image en groupes homogènes basés principalement sur leurs **caractéristiques spectrales**, sans données de référence préalables. Elle est couramment utilisée pour :
+
+- La surveillance environnementale
+- La cartographie de la couverture terrestre  
+- La gestion des catastrophes naturelles
+
+**Zone d'étude :** Commune de Bama, Burkina Faso (ouest du pays).  
+**Données :** Image Landsat 8, acquisition du 25 janvier 2024.
+
+---
+
+## Packages requis
+
+```{r packages}
+# Installation (si nécessaire)
+# install.packages(c("terra", "tidyr", "ggplot2", "cluster"))
+
+library(terra)    # Manipulation données raster et vectorielles
+library(cluster)  # Algorithme K-means et indice de silhouette
+library(ggplot2)  # Visualisation
+library(tidyr)    # Restructuration des données
+```
+
+**Configuration matérielle minimale :** 8 Go de RAM.
+
+---
+
+## 1. Chargement des données
+
+### 1.1 Données raster (bandes spectrales)
+
+```{r charger-raster}
+# Fixer le répertoire de travail
+setwd("D:/articles_r/first_doc/")
+
+# Lister les fichiers Landsat 8 (bandes .TIF)
+files <- list.files("data/landsat8", pattern = "\\.TIF$", full.names = TRUE)
+files
+
+# Charger les bandes spectrales
+landsat <- rast(files)
+landsat  # Afficher les métadonnées
+```
+
+Les identifiants contiennent : satellite (LC08), niveau de traitement (L1TP), 
+chemin/rangée (197052), date d'acquisition (20240125).
+
+```{r renommer-bandes}
+# Renommer les bandes pour simplifier
+names(landsat) <- paste0("B", 1:7)
+names(landsat)
+```
+
+| Bande | Longueur d'onde | Utilisation |
+|-------|----------------|-------------|
+| B1 | Côtière (0.43-0.45 µm) | Aérosols côtiers |
+| B2 | Bleu (0.45-0.51 µm) | Bathymétrie |
+| B3 | Vert (0.53-0.59 µm) | Végétation |
+| B4 | Rouge (0.64-0.67 µm) | Chlorophylle |
+| B5 | PIR (0.85-0.88 µm) | Végétation/eau |
+| B6 | SWIR 1 (1.57-1.65 µm) | Humidité sol |
+| B7 | SWIR 2 (2.11-2.29 µm) | Minéraux |
+
+### 1.2 Données vectorielles
+
+```{r charger-vecteur}
+# Charger les limites de la commune de Bama
+poly <- vect("data/commune_bama.shp")
+poly
+
+# Visualisation rapide : bande PIR + contour
+plot(landsat[["B5"]])
+lines(poly, col = "red", lwd = 2)
+```
+
+---
+
+## 2. Préparation des données
+
+### 2.1 Recadrage sur la zone d'intérêt
+
+```{r recadrer}
+# Recadrer sur les limites de Bama
+landsat_crop <- crop(landsat, poly)
+landsat_mask <- mask(landsat_crop, poly)
+```
+
+### 2.2 Normalisation et suppression des valeurs aberrantes
+
+```{r normaliser}
+# Quantiles pour l'étirement linéaire
+q_low  <- 0.02
+q_high <- 0.98
+
+# Appliquer par bande
+for (b in names(landsat_mask)) {
+  vals      <- values(landsat_mask[[b]])
+  v_low     <- quantile(vals, q_low,  na.rm = TRUE)
+  v_high    <- quantile(vals, q_high, na.rm = TRUE)
+  vals_norm <- (vals - v_low) / (v_high - v_low)
+  vals_norm <- pmax(0, pmin(1, vals_norm))  # Clamp [0, 1]
+  values(landsat_mask[[b]]) <- vals_norm
+}
+```
+
+### 2.3 Préparation de la matrice pour le clustering
+
+```{r matrice}
+# Convertir le raster en matrice
+mat <- as.matrix(values(landsat_mask))
+
+# Supprimer les NA
+valid_idx <- complete.cases(mat)
+mat_clean <- mat[valid_idx, ]
+
+# Échantillonnage (pour accélérer le calcul)
+set.seed(42)
+n_sample <- 15000
+idx_sample <- sample(nrow(mat_clean), min(n_sample, nrow(mat_clean)))
+mat_sample <- mat_clean[idx_sample, ]
+
+cat("Pixels valides :", nrow(mat_clean), "\n")
+cat("Taille échantillon :", nrow(mat_sample), "\n")
+```
+
+---
+
+## 3. Classification K-means
+
+### 3.1 Choix du nombre optimal de clusters
+
+```{r choisir-k}
+# Méthode de l'indice de silhouette
+k_range <- 2:8
+sil_scores <- numeric(length(k_range))
+
+for (i in seq_along(k_range)) {
+  k      <- k_range[i]
+  km     <- kmeans(mat_sample, centers = k, nstart = 10, iter.max = 100)
+  sil    <- silhouette(km$cluster, dist(mat_sample[sample(nrow(mat_sample), 500), ]))
+  sil_scores[i] <- mean(sil[, 3])
+  cat("k =", k, "| Silhouette moyen =", round(sil_scores[i], 4), "\n")
+}
+
+# Visualisation des scores
+sil_df <- data.frame(k = k_range, silhouette = sil_scores)
+
+ggplot(sil_df, aes(x = k, y = silhouette)) +
+  geom_line(color = "#00b4d8", linewidth = 1.2) +
+  geom_point(color = "#48cae4", size = 4) +
+  geom_point(data = sil_df[which.max(sil_df$silhouette), ],
+             color = "#ffd166", size = 6, shape = 18) +
+  labs(
+    title    = "Choix du nombre optimal de clusters",
+    subtitle = "Méthode de l'indice de silhouette moyen",
+    x        = "Nombre de clusters (k)",
+    y        = "Indice de silhouette moyen"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    plot.background  = element_rect(fill = "#0d1b2a", color = NA),
+    panel.background = element_rect(fill = "#112240", color = NA),
+    panel.grid = element_line(color = "#1a3a6b"),
+    axis.text  = element_text(color = "#cdd6f4"),
+    axis.title = element_text(color = "#90a8c0"),
+    plot.title    = element_text(color = "#90e0ef", face = "bold"),
+    plot.subtitle = element_text(color = "#7090a0")
+  )
+```
+
+### 3.2 Application du K-means
+
+```{r kmeans}
+# Paramètres optimaux (adapter selon le résultat ci-dessus)
+k_optimal <- 5
+
+set.seed(42)
+km_result <- kmeans(
+  x       = mat_clean,
+  centers = k_optimal,
+  nstart  = 25,
+  iter.max = 200
+)
+
+# Résultats
+cat("K-means avec k =", k_optimal, "\n")
+cat("Inertie intra-cluster :", round(km_result$tot.withinss, 2), "\n")
+cat("Répartition des clusters :\n")
+print(table(km_result$cluster))
+```
+
+---
+
+## 4. Interprétation des clusters
+
+### 4.1 Boîtes à moustaches par cluster et par bande
+
+```{r interpretation}
+# Associer les labels de cluster aux pixels valides
+df_clusters <- as.data.frame(mat_clean)
+df_clusters$cluster <- as.factor(km_result$cluster)
+
+# Restructurer en format long
+df_long <- tidyr::pivot_longer(
+  df_clusters,
+  cols      = starts_with("B"),
+  names_to  = "Bande",
+  values_to = "Reflectance"
+)
+
+# Visualisation
+ggplot(df_long, aes(x = Bande, y = Reflectance, fill = cluster)) +
+  geom_boxplot(alpha = 0.75, outlier.size = 0.5) +
+  scale_fill_manual(
+    values = c("#0077b6","#f4a261","#06d6a0","#e63946","#c4b5fd"),
+    labels = paste("Cluster", 1:k_optimal)
+  ) +
+  labs(
+    title    = "Profils spectraux par cluster",
+    subtitle = "Distribution de la réflectance par bande — Commune de Bama",
+    x        = "Bande spectrale",
+    y        = "Réflectance normalisée",
+    fill     = "Cluster"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.background  = element_rect(fill = "#0d1b2a", color = NA),
+    panel.background = element_rect(fill = "#112240", color = NA),
+    panel.grid = element_line(color = "#1a3a6b"),
+    axis.text  = element_text(color = "#cdd6f4"),
+    axis.title = element_text(color = "#90a8c0"),
+    plot.title    = element_text(color = "#90e0ef", face = "bold"),
+    plot.subtitle = element_text(color = "#7090a0"),
+    legend.background = element_rect(fill = "#112240", color = NA),
+    legend.text  = element_text(color = "#cdd6f4"),
+    legend.title = element_text(color = "#90a8c0")
+  )
+```
+
+### 4.2 Interprétation thématique
+
+Sur la base des profils spectraux (valeurs de réflectance par bande) :
+
+| Cluster | Profil dominant | Interprétation probable |
+|---------|----------------|------------------------|
+| 1 | Forte réflectance B6, B7 (SWIR) | Sols nus / zones dégradées |
+| 2 | Forte réflectance B5 (PIR) | Végétation dense |
+| 3 | Faible réflectance toutes bandes | Eau / zones humides |
+| 4 | Réflectance modérée B3, B4 | Végétation éparse / jachères |
+| 5 | Forte réflectance B2, B3 | Zones bâties / surfaces artificielles |
+
+---
+
+## 5. Cartographie des résultats
+
+```{r cartographie}
+# Créer le raster de classification
+class_rast <- rast(landsat_mask[[1]])  # Copier la structure
+
+# Remplir avec les labels de cluster
+vals_class           <- rep(NA, ncell(class_rast))
+vals_class[valid_idx] <- km_result$cluster
+values(class_rast)   <- vals_class
+
+# Palette de couleurs thématiques
+palette_classes <- c(
+  "#c9b08e",  # Sols nus / zones dégradées
+  "#228b22",  # Végétation dense
+  "#1e90ff",  # Eau / zones humides
+  "#8fbc8f",  # Végétation éparse
+  "#e8d5b7"   # Zones bâties
+)
+
+# Visualisation avec terra::plot
+terra::plot(
+  class_rast,
+  col  = palette_classes,
+  main = "Classification K-means — Commune de Bama (Landsat 8, jan. 2024)",
+  axes = FALSE
+)
+terra::lines(poly, col = "white", lwd = 1.5)
+terra::add_legend(
+  "bottomright",
+  fill   = palette_classes,
+  legend = c("Sols nus", "Végétation dense", "Eau", "Végétation éparse", "Zone bâtie"),
+  bty    = "n",
+  cex    = 0.8
+)
+```
+
+---
+
+## Résultats et conclusion
+
+Cette analyse démontre la capacité du langage R, via le package `terra`, à réaliser une chaîne de traitement complète d'images satellitaires Landsat 8 :
+
+::: {.callout-tip}
+## Points clés
+1. **La classification K-means** avec validation par l'indice de silhouette permet d'identifier k=5 classes spectrales pertinentes sur la commune de Bama
+2. **Les profils spectraux** (boîtes à moustaches par bande) facilitent l'interprétation thématique de chaque cluster
+3. **L'outil est facilement reproductible** sur n'importe quelle image Landsat 8 en adaptant le chemin des données
+:::
+
+## Références
+
+- `terra` : Hijmans R.J. (2024). terra: Spatial Data Analysis
+- `cluster` : Maechler M. et al. (2023). cluster: Cluster Analysis
+- Description des bandes Landsat 8 : [NASA Landsat Science](https://landsat.gsfc.nasa.gov/satellites/landsat-8/landsat-8-bands/)
+
+---
+
+*Retrouvez d'autres analyses sur [RPubs — nebiegc](https://rpubs.com/nebiegc){target="_blank"}*

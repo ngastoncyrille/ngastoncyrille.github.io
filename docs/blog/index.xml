@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>NEBIE Gaston Cyrille</title>
+<link>https://ngastoncyrille.github.io/blog/index.html</link>
+<atom:link href="https://ngastoncyrille.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Ingénieur Hydrologue | Expert en Gestion des Risques Climatiques | Analyste de données</description>
+<generator>quarto-1.0.38</generator>
+<lastBuildDate>Sun, 19 May 2024 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Correction de biais des scénarios climatiques avec R</title>
+  <dc:creator>NEBIE Gaston Cyrille</dc:creator>
+  <link>https://ngastoncyrille.github.io/blog/posts/biais-correction/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Ce tutoriel
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Correspond à la publication RPubs <strong>P_f bk2020_012</strong>.<br>
+Retrouvez l’ensemble de mes publications sur <a href="https://rpubs.com/nebiegc" target="_blank">RPubs — nebiegc</a>.</p>
+</div>
+</div>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Les modèles climatiques régionaux (RCM) et globaux (GCM/CMIP6) présentent systématiquement des <strong>biais statistiques</strong> par rapport aux observations. La correction de biais est une étape indispensable avant d’utiliser ces données pour la modélisation hydrologique ou l’analyse agroclimatique.</p>
+<p>Ce tutoriel présente la méthode <strong>Quantile Mapping (QM)</strong>, l’une des approches les plus robustes pour la correction de biais des précipitations et températures.</p>
+<hr>
+</section>
+<section id="méthode-quantile-mapping" class="level2">
+<h2 class="anchored" data-anchor-id="méthode-quantile-mapping">Méthode Quantile Mapping</h2>
+<p>Le Quantile Mapping repose sur l’hypothèse que la distribution statistique des données simulées peut être corrigée en la comparant à la distribution observée sur une période de référence.</p>
+<p><img src="https://latex.codecogs.com/png.latex?P_%7Bcorr%7D(t)%20=%20F_%7Bobs%7D%5E%7B-1%7D%5Cleft%5BF_%7Bsim%7D(P_%7Bsim%7D(t))%5Cright%5D"></p>
+<p>où <img src="https://latex.codecogs.com/png.latex?F_%7Bobs%7D"> et <img src="https://latex.codecogs.com/png.latex?F_%7Bsim%7D"> sont les fonctions de distribution cumulée des observations et des simulations sur la période de référence.</p>
+<hr>
+<p><em>Article complet en cours de rédaction — disponible prochainement.</em></p>
+
+
+<!-- -->
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Climatologie</category>
+  <category>CMIP6</category>
+  <category>Scénarios</category>
+  <guid>https://ngastoncyrille.github.io/blog/posts/biais-correction/index.html</guid>
+  <pubDate>Sun, 19 May 2024 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Classification K-means d’images Landsat 8 avec R</title>
+  <dc:creator>NEBIE Gaston Cyrille</dc:creator>
+  <link>https://ngastoncyrille.github.io/blog/posts/kmeans-landsat/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Ce tutoriel
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ce post reprend et complète le document technique publié sur <a href="https://rpubs.com/nebiegc" target="_blank">RPubs — nebiegc</a>.<br>
+Voir aussi la <a href="../../projects/teledetection.html">page projet dédiée</a>.</p>
+</div>
+</div>
+<p>Ce tutoriel guide pas à pas la classification non supervisée d’images Landsat 8 avec R, depuis le chargement des bandes spectrales jusqu’à la cartographie finale.</p>
+<p>Retrouvez le contenu complet dans la <a href="../../projects/teledetection.html">page projet Télédétection</a>.</p>
+
+
+<!-- -->
+
+
+ ]]></description>
+  <category>R</category>
+  <category>Télédétection</category>
+  <category>SIG</category>
+  <category>Machine Learning</category>
+  <guid>https://ngastoncyrille.github.io/blog/posts/kmeans-landsat/index.html</guid>
+  <pubDate>Sat, 09 Mar 2024 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Courbes IDF avec R</title>
+  <dc:creator>NEBIE Gaston Cyrille</dc:creator>
+  <link>https://ngastoncyrille.github.io/blog/posts/idf-curves-r/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<div class="row g-2 mb-4">
+<div class="col-auto">
+<span class="tag tag-r">R</span>
+</div>
+<div class="col-auto">
+<span class="tag tag-water">Hydrologie</span>
+</div>
+<div class="col-auto">
+<span class="tag tag-water">IDF</span>
+</div>
+<div class="col-auto">
+<span class="tag tag-risk">Analyse fréquentielle</span>
+</div>
+</div>
+<p><em>Aussi disponible sur <a href="https://rpubs.com/nebiegc" target="_blank">RPubs — P_f bk2020_007 &amp; 008</a></em></p>
+<hr>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Les courbes <strong>Intensité-Durée-Fréquence (IDF)</strong> sont des outils fondamentaux en hydrologie pour la conception des ouvrages hydrauliques (dimensionnement de caniveaux, bassins de rétention, ponts…). Elles permettent de lier :</p>
+<ul>
+<li><strong>Intensité</strong> (mm/h) : le débit moyen de la pluie sur une durée donnée</li>
+<li><strong>Durée</strong> (min, h) : le temps de la pluie observée<br>
+</li>
+<li><strong>Fréquence</strong> (ou période de retour, en années)</li>
+</ul>
+<p>Dans ce tutoriel, nous allons construire des courbes IDF à partir de données pluviographiques réelles en utilisant uniquement le langage <strong>R</strong>.</p>
+<hr>
+</section>
+<section id="données-nécessaires" class="level2">
+<h2 class="anchored" data-anchor-id="données-nécessaires">Données nécessaires</h2>
+<p>Les données requises sont des <strong>relevés pluviographiques</strong> à pas de temps fin (5 min, 10 min, 15 min, 30 min, 1h) sur une longue série (≥ 20 ans idéalement).</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;"># Structure attendue des données</span></span>
+<span id="cb1-2"><span class="co" style="color: #5E5E5E;"># station : identifiant de la station</span></span>
+<span id="cb1-3"><span class="co" style="color: #5E5E5E;"># date    : date de l'événement</span></span>
+<span id="cb1-4"><span class="co" style="color: #5E5E5E;"># duree   : durée (en minutes)</span></span>
+<span id="cb1-5"><span class="co" style="color: #5E5E5E;"># pluie   : hauteur de pluie (mm)</span></span>
+<span id="cb1-6"></span>
+<span id="cb1-7"><span class="co" style="color: #5E5E5E;"># Exemple de création d'un jeu de données simulé</span></span>
+<span id="cb1-8"><span class="fu" style="color: #4758AB;">set.seed</span>(<span class="dv" style="color: #AD0000;">42</span>)</span>
+<span id="cb1-9"></span>
+<span id="cb1-10">durees <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">5</span>, <span class="dv" style="color: #AD0000;">10</span>, <span class="dv" style="color: #AD0000;">15</span>, <span class="dv" style="color: #AD0000;">30</span>, <span class="dv" style="color: #AD0000;">60</span>, <span class="dv" style="color: #AD0000;">120</span>, <span class="dv" style="color: #AD0000;">360</span>, <span class="dv" style="color: #AD0000;">720</span>, <span class="dv" style="color: #AD0000;">1440</span>) <span class="co" style="color: #5E5E5E;"># en minutes</span></span>
+<span id="cb1-11">n_annees <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="dv" style="color: #AD0000;">30</span></span>
+<span id="cb1-12"></span>
+<span id="cb1-13"><span class="co" style="color: #5E5E5E;"># Simuler des maximums annuels (distribution GEV)</span></span>
+<span id="cb1-14"><span class="fu" style="color: #4758AB;">library</span>(evd)</span>
+<span id="cb1-15">data_idf <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">expand.grid</span>(</span>
+<span id="cb1-16">  <span class="at" style="color: #657422;">annee =</span> <span class="dv" style="color: #AD0000;">1991</span><span class="sc" style="color: #5E5E5E;">:</span><span class="dv" style="color: #AD0000;">2020</span>,</span>
+<span id="cb1-17">  <span class="at" style="color: #657422;">duree =</span> durees</span>
+<span id="cb1-18">)</span>
+<span id="cb1-19">data_idf<span class="sc" style="color: #5E5E5E;">$</span>pluie <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">rgev</span>(<span class="fu" style="color: #4758AB;">nrow</span>(data_idf), <span class="at" style="color: #657422;">loc =</span> <span class="dv" style="color: #AD0000;">20</span>, <span class="at" style="color: #657422;">scale =</span> <span class="dv" style="color: #AD0000;">8</span>, <span class="at" style="color: #657422;">shape =</span> <span class="fl" style="color: #AD0000;">0.1</span>)</span>
+<span id="cb1-20"></span>
+<span id="cb1-21"><span class="fu" style="color: #4758AB;">head</span>(data_idf, <span class="dv" style="color: #AD0000;">12</span>)</span></code></pre></div>
+</details>
+</div>
+<hr>
+</section>
+<section id="ajustement-statistique" class="level2">
+<h2 class="anchored" data-anchor-id="ajustement-statistique">Ajustement statistique</h2>
+<section id="loi-de-gumbel-distribution-des-extrêmes" class="level3">
+<h3 class="anchored" data-anchor-id="loi-de-gumbel-distribution-des-extrêmes">Loi de Gumbel (distribution des extrêmes)</h3>
+<p>La loi de <strong>Gumbel (Extrême Value Type I)</strong> est couramment utilisée pour l’analyse fréquentielle des précipitations extrêmes.</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;">library</span>(dplyr)</span>
+<span id="cb2-2"><span class="fu" style="color: #4758AB;">library</span>(ggplot2)</span>
+<span id="cb2-3"></span>
+<span id="cb2-4"><span class="co" style="color: #5E5E5E;"># Fonction d'ajustement Gumbel par durée</span></span>
+<span id="cb2-5">ajuster_gumbel <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cf" style="color: #003B4F;">function</span>(x) {</span>
+<span id="cb2-6">  n <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">length</span>(x)</span>
+<span id="cb2-7">  mu <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">mean</span>(x)</span>
+<span id="cb2-8">  sigma <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">sd</span>(x) <span class="sc" style="color: #5E5E5E;">*</span> <span class="fu" style="color: #4758AB;">sqrt</span>(<span class="dv" style="color: #AD0000;">6</span>) <span class="sc" style="color: #5E5E5E;">/</span> pi</span>
+<span id="cb2-9">  u <span class="ot" style="color: #003B4F;">&lt;-</span> mu <span class="sc" style="color: #5E5E5E;">-</span> <span class="fl" style="color: #AD0000;">0.5772</span> <span class="sc" style="color: #5E5E5E;">*</span> sigma</span>
+<span id="cb2-10">  <span class="fu" style="color: #4758AB;">return</span>(<span class="fu" style="color: #4758AB;">list</span>(<span class="at" style="color: #657422;">u =</span> u, <span class="at" style="color: #657422;">sigma =</span> sigma))</span>
+<span id="cb2-11">}</span>
+<span id="cb2-12"></span>
+<span id="cb2-13"><span class="co" style="color: #5E5E5E;"># Périodes de retour</span></span>
+<span id="cb2-14">T_retour <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">2</span>, <span class="dv" style="color: #AD0000;">5</span>, <span class="dv" style="color: #AD0000;">10</span>, <span class="dv" style="color: #AD0000;">20</span>, <span class="dv" style="color: #AD0000;">50</span>, <span class="dv" style="color: #AD0000;">100</span>)</span>
+<span id="cb2-15"></span>
+<span id="cb2-16"><span class="co" style="color: #5E5E5E;"># Fonction quantile Gumbel</span></span>
+<span id="cb2-17">q_gumbel <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cf" style="color: #003B4F;">function</span>(T, u, sigma) {</span>
+<span id="cb2-18">  yT <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="sc" style="color: #5E5E5E;">-</span><span class="fu" style="color: #4758AB;">log</span>(<span class="sc" style="color: #5E5E5E;">-</span><span class="fu" style="color: #4758AB;">log</span>(<span class="dv" style="color: #AD0000;">1</span> <span class="sc" style="color: #5E5E5E;">-</span> <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">/</span>T))</span>
+<span id="cb2-19">  <span class="fu" style="color: #4758AB;">return</span>(u <span class="sc" style="color: #5E5E5E;">+</span> sigma <span class="sc" style="color: #5E5E5E;">*</span> yT)</span>
+<span id="cb2-20">}</span>
+<span id="cb2-21"></span>
+<span id="cb2-22"><span class="co" style="color: #5E5E5E;"># Calcul des quantiles par durée et période de retour</span></span>
+<span id="cb2-23">resultats <span class="ot" style="color: #003B4F;">&lt;-</span> data_idf <span class="sc" style="color: #5E5E5E;">|&gt;</span></span>
+<span id="cb2-24">  <span class="fu" style="color: #4758AB;">group_by</span>(duree) <span class="sc" style="color: #5E5E5E;">|&gt;</span></span>
+<span id="cb2-25">  <span class="fu" style="color: #4758AB;">summarise</span>(<span class="at" style="color: #657422;">params =</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="fu" style="color: #4758AB;">ajuster_gumbel</span>(pluie)), <span class="at" style="color: #657422;">.groups =</span> <span class="st" style="color: #20794D;">"drop"</span>) <span class="sc" style="color: #5E5E5E;">|&gt;</span></span>
+<span id="cb2-26">  <span class="fu" style="color: #4758AB;">mutate</span>(</span>
+<span id="cb2-27">    <span class="at" style="color: #657422;">u     =</span> <span class="fu" style="color: #4758AB;">sapply</span>(params, <span class="st" style="color: #20794D;">`</span><span class="at" style="color: #657422;">[[</span><span class="st" style="color: #20794D;">`</span>, <span class="st" style="color: #20794D;">"u"</span>),</span>
+<span id="cb2-28">    <span class="at" style="color: #657422;">sigma =</span> <span class="fu" style="color: #4758AB;">sapply</span>(params, <span class="st" style="color: #20794D;">`</span><span class="at" style="color: #657422;">[[</span><span class="st" style="color: #20794D;">`</span>, <span class="st" style="color: #20794D;">"sigma"</span>)</span>
+<span id="cb2-29">  )</span>
+<span id="cb2-30"></span>
+<span id="cb2-31"><span class="co" style="color: #5E5E5E;"># Calculer les intensités (mm/h) pour chaque période de retour</span></span>
+<span id="cb2-32">idf_table <span class="ot" style="color: #003B4F;">&lt;-</span> resultats <span class="sc" style="color: #5E5E5E;">|&gt;</span></span>
+<span id="cb2-33">  <span class="fu" style="color: #4758AB;">select</span>(duree, u, sigma) <span class="sc" style="color: #5E5E5E;">|&gt;</span></span>
+<span id="cb2-34">  <span class="fu" style="color: #4758AB;">rowwise</span>() <span class="sc" style="color: #5E5E5E;">|&gt;</span></span>
+<span id="cb2-35">  <span class="fu" style="color: #4758AB;">mutate</span>(<span class="fu" style="color: #4758AB;">across</span>(<span class="fu" style="color: #4758AB;">starts_with</span>(<span class="st" style="color: #20794D;">"u"</span>), <span class="sc" style="color: #5E5E5E;">~</span><span class="cn" style="color: #8f5902;">NULL</span>)) <span class="sc" style="color: #5E5E5E;">|&gt;</span></span>
+<span id="cb2-36">  <span class="fu" style="color: #4758AB;">bind_cols</span>(</span>
+<span id="cb2-37">    <span class="fu" style="color: #4758AB;">setNames</span>(</span>
+<span id="cb2-38">      <span class="fu" style="color: #4758AB;">lapply</span>(T_retour, <span class="cf" style="color: #003B4F;">function</span>(T) {</span>
+<span id="cb2-39">        (<span class="fu" style="color: #4758AB;">q_gumbel</span>(T, resultats<span class="sc" style="color: #5E5E5E;">$</span>u, resultats<span class="sc" style="color: #5E5E5E;">$</span>sigma) <span class="sc" style="color: #5E5E5E;">/</span> resultats<span class="sc" style="color: #5E5E5E;">$</span>duree) <span class="sc" style="color: #5E5E5E;">*</span> <span class="dv" style="color: #AD0000;">60</span></span>
+<span id="cb2-40">      }),</span>
+<span id="cb2-41">      <span class="fu" style="color: #4758AB;">paste0</span>(<span class="st" style="color: #20794D;">"T"</span>, T_retour)</span>
+<span id="cb2-42">    )</span>
+<span id="cb2-43">  )</span>
+<span id="cb2-44"></span>
+<span id="cb2-45"><span class="fu" style="color: #4758AB;">print</span>(idf_table)</span></code></pre></div>
+</details>
+</div>
+<hr>
+</section>
+</section>
+<section id="construction-des-courbes-idf" class="level2">
+<h2 class="anchored" data-anchor-id="construction-des-courbes-idf">Construction des courbes IDF</h2>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;">library</span>(tidyr)</span>
+<span id="cb3-2"></span>
+<span id="cb3-3"><span class="co" style="color: #5E5E5E;"># Mise en format long pour la visualisation</span></span>
+<span id="cb3-4">idf_long <span class="ot" style="color: #003B4F;">&lt;-</span> idf_table <span class="sc" style="color: #5E5E5E;">|&gt;</span></span>
+<span id="cb3-5">  <span class="fu" style="color: #4758AB;">select</span>(duree, <span class="fu" style="color: #4758AB;">starts_with</span>(<span class="st" style="color: #20794D;">"T"</span>)) <span class="sc" style="color: #5E5E5E;">|&gt;</span></span>
+<span id="cb3-6">  <span class="fu" style="color: #4758AB;">pivot_longer</span>(</span>
+<span id="cb3-7">    <span class="at" style="color: #657422;">cols      =</span> <span class="fu" style="color: #4758AB;">starts_with</span>(<span class="st" style="color: #20794D;">"T"</span>),</span>
+<span id="cb3-8">    <span class="at" style="color: #657422;">names_to  =</span> <span class="st" style="color: #20794D;">"periode_retour"</span>,</span>
+<span id="cb3-9">    <span class="at" style="color: #657422;">values_to =</span> <span class="st" style="color: #20794D;">"intensite"</span></span>
+<span id="cb3-10">  ) <span class="sc" style="color: #5E5E5E;">|&gt;</span></span>
+<span id="cb3-11">  <span class="fu" style="color: #4758AB;">mutate</span>(</span>
+<span id="cb3-12">    <span class="at" style="color: #657422;">periode_retour =</span> <span class="fu" style="color: #4758AB;">factor</span>(</span>
+<span id="cb3-13">      <span class="fu" style="color: #4758AB;">gsub</span>(<span class="st" style="color: #20794D;">"T"</span>, <span class="st" style="color: #20794D;">""</span>, periode_retour),</span>
+<span id="cb3-14">      <span class="at" style="color: #657422;">levels =</span> <span class="fu" style="color: #4758AB;">as.character</span>(T_retour)</span>
+<span id="cb3-15">    )</span>
+<span id="cb3-16">  )</span>
+<span id="cb3-17"></span>
+<span id="cb3-18"><span class="co" style="color: #5E5E5E;"># Palette de couleurs</span></span>
+<span id="cb3-19">palette_idf <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">c</span>(</span>
+<span id="cb3-20">  <span class="st" style="color: #20794D;">"2"</span>   <span class="ot" style="color: #003B4F;">=</span> <span class="st" style="color: #20794D;">"#90e0ef"</span>,</span>
+<span id="cb3-21">  <span class="st" style="color: #20794D;">"5"</span>   <span class="ot" style="color: #003B4F;">=</span> <span class="st" style="color: #20794D;">"#48cae4"</span>,</span>
+<span id="cb3-22">  <span class="st" style="color: #20794D;">"10"</span>  <span class="ot" style="color: #003B4F;">=</span> <span class="st" style="color: #20794D;">"#00b4d8"</span>,</span>
+<span id="cb3-23">  <span class="st" style="color: #20794D;">"20"</span>  <span class="ot" style="color: #003B4F;">=</span> <span class="st" style="color: #20794D;">"#0096c7"</span>,</span>
+<span id="cb3-24">  <span class="st" style="color: #20794D;">"50"</span>  <span class="ot" style="color: #003B4F;">=</span> <span class="st" style="color: #20794D;">"#0077b6"</span>,</span>
+<span id="cb3-25">  <span class="st" style="color: #20794D;">"100"</span> <span class="ot" style="color: #003B4F;">=</span> <span class="st" style="color: #20794D;">"#023e8a"</span></span>
+<span id="cb3-26">)</span>
+<span id="cb3-27"></span>
+<span id="cb3-28"><span class="co" style="color: #5E5E5E;"># Visualisation des courbes IDF</span></span>
+<span id="cb3-29"><span class="fu" style="color: #4758AB;">ggplot</span>(idf_long, <span class="fu" style="color: #4758AB;">aes</span>(<span class="at" style="color: #657422;">x =</span> duree, <span class="at" style="color: #657422;">y =</span> intensite, </span>
+<span id="cb3-30">                      <span class="at" style="color: #657422;">color =</span> periode_retour,</span>
+<span id="cb3-31">                      <span class="at" style="color: #657422;">group =</span> periode_retour)) <span class="sc" style="color: #5E5E5E;">+</span></span>
+<span id="cb3-32">  <span class="fu" style="color: #4758AB;">geom_line</span>(<span class="at" style="color: #657422;">linewidth =</span> <span class="fl" style="color: #AD0000;">1.2</span>) <span class="sc" style="color: #5E5E5E;">+</span></span>
+<span id="cb3-33">  <span class="fu" style="color: #4758AB;">geom_point</span>(<span class="at" style="color: #657422;">size =</span> <span class="fl" style="color: #AD0000;">2.5</span>) <span class="sc" style="color: #5E5E5E;">+</span></span>
+<span id="cb3-34">  <span class="fu" style="color: #4758AB;">scale_x_log10</span>(</span>
+<span id="cb3-35">    <span class="at" style="color: #657422;">breaks =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="dv" style="color: #AD0000;">5</span>, <span class="dv" style="color: #AD0000;">10</span>, <span class="dv" style="color: #AD0000;">15</span>, <span class="dv" style="color: #AD0000;">30</span>, <span class="dv" style="color: #AD0000;">60</span>, <span class="dv" style="color: #AD0000;">120</span>, <span class="dv" style="color: #AD0000;">360</span>, <span class="dv" style="color: #AD0000;">720</span>, <span class="dv" style="color: #AD0000;">1440</span>),</span>
+<span id="cb3-36">    <span class="at" style="color: #657422;">labels =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"5 min"</span>, <span class="st" style="color: #20794D;">"10"</span>, <span class="st" style="color: #20794D;">"15"</span>, <span class="st" style="color: #20794D;">"30"</span>, <span class="st" style="color: #20794D;">"1h"</span>, <span class="st" style="color: #20794D;">"2h"</span>, <span class="st" style="color: #20794D;">"6h"</span>, <span class="st" style="color: #20794D;">"12h"</span>, <span class="st" style="color: #20794D;">"24h"</span>)</span>
+<span id="cb3-37">  ) <span class="sc" style="color: #5E5E5E;">+</span></span>
+<span id="cb3-38">  <span class="fu" style="color: #4758AB;">scale_y_log10</span>() <span class="sc" style="color: #5E5E5E;">+</span></span>
+<span id="cb3-39">  <span class="fu" style="color: #4758AB;">scale_color_manual</span>(</span>
+<span id="cb3-40">    <span class="at" style="color: #657422;">values =</span> palette_idf,</span>
+<span id="cb3-41">    <span class="at" style="color: #657422;">name   =</span> <span class="st" style="color: #20794D;">"Période de</span><span class="sc" style="color: #5E5E5E;">\n</span><span class="st" style="color: #20794D;">retour (ans)"</span></span>
+<span id="cb3-42">  ) <span class="sc" style="color: #5E5E5E;">+</span></span>
+<span id="cb3-43">  <span class="fu" style="color: #4758AB;">labs</span>(</span>
+<span id="cb3-44">    <span class="at" style="color: #657422;">title    =</span> <span class="st" style="color: #20794D;">"Courbes Intensité-Durée-Fréquence (IDF)"</span>,</span>
+<span id="cb3-45">    <span class="at" style="color: #657422;">subtitle =</span> <span class="st" style="color: #20794D;">"Ajustement par la loi de Gumbel — Station fictive"</span>,</span>
+<span id="cb3-46">    <span class="at" style="color: #657422;">x =</span> <span class="st" style="color: #20794D;">"Durée"</span>,</span>
+<span id="cb3-47">    <span class="at" style="color: #657422;">y =</span> <span class="st" style="color: #20794D;">"Intensité (mm/h)"</span></span>
+<span id="cb3-48">  ) <span class="sc" style="color: #5E5E5E;">+</span></span>
+<span id="cb3-49">  <span class="fu" style="color: #4758AB;">theme_minimal</span>(<span class="at" style="color: #657422;">base_size =</span> <span class="dv" style="color: #AD0000;">13</span>) <span class="sc" style="color: #5E5E5E;">+</span></span>
+<span id="cb3-50">  <span class="fu" style="color: #4758AB;">theme</span>(</span>
+<span id="cb3-51">    <span class="at" style="color: #657422;">plot.background  =</span> <span class="fu" style="color: #4758AB;">element_rect</span>(<span class="at" style="color: #657422;">fill =</span> <span class="st" style="color: #20794D;">"#0d1b2a"</span>, <span class="at" style="color: #657422;">color =</span> <span class="cn" style="color: #8f5902;">NA</span>),</span>
+<span id="cb3-52">    <span class="at" style="color: #657422;">panel.background =</span> <span class="fu" style="color: #4758AB;">element_rect</span>(<span class="at" style="color: #657422;">fill =</span> <span class="st" style="color: #20794D;">"#112240"</span>, <span class="at" style="color: #657422;">color =</span> <span class="cn" style="color: #8f5902;">NA</span>),</span>
+<span id="cb3-53">    <span class="at" style="color: #657422;">panel.grid =</span> <span class="fu" style="color: #4758AB;">element_line</span>(<span class="at" style="color: #657422;">color =</span> <span class="st" style="color: #20794D;">"#1a3a6b"</span>, <span class="at" style="color: #657422;">linewidth =</span> <span class="fl" style="color: #AD0000;">0.4</span>),</span>
+<span id="cb3-54">    <span class="at" style="color: #657422;">axis.text  =</span> <span class="fu" style="color: #4758AB;">element_text</span>(<span class="at" style="color: #657422;">color =</span> <span class="st" style="color: #20794D;">"#cdd6f4"</span>),</span>
+<span id="cb3-55">    <span class="at" style="color: #657422;">axis.title =</span> <span class="fu" style="color: #4758AB;">element_text</span>(<span class="at" style="color: #657422;">color =</span> <span class="st" style="color: #20794D;">"#90a8c0"</span>),</span>
+<span id="cb3-56">    <span class="at" style="color: #657422;">plot.title    =</span> <span class="fu" style="color: #4758AB;">element_text</span>(<span class="at" style="color: #657422;">color =</span> <span class="st" style="color: #20794D;">"#90e0ef"</span>, <span class="at" style="color: #657422;">face =</span> <span class="st" style="color: #20794D;">"bold"</span>),</span>
+<span id="cb3-57">    <span class="at" style="color: #657422;">plot.subtitle =</span> <span class="fu" style="color: #4758AB;">element_text</span>(<span class="at" style="color: #657422;">color =</span> <span class="st" style="color: #20794D;">"#7090a0"</span>),</span>
+<span id="cb3-58">    <span class="at" style="color: #657422;">legend.background =</span> <span class="fu" style="color: #4758AB;">element_rect</span>(<span class="at" style="color: #657422;">fill =</span> <span class="st" style="color: #20794D;">"#112240"</span>, <span class="at" style="color: #657422;">color =</span> <span class="cn" style="color: #8f5902;">NA</span>),</span>
+<span id="cb3-59">    <span class="at" style="color: #657422;">legend.text  =</span> <span class="fu" style="color: #4758AB;">element_text</span>(<span class="at" style="color: #657422;">color =</span> <span class="st" style="color: #20794D;">"#cdd6f4"</span>),</span>
+<span id="cb3-60">    <span class="at" style="color: #657422;">legend.title =</span> <span class="fu" style="color: #4758AB;">element_text</span>(<span class="at" style="color: #657422;">color =</span> <span class="st" style="color: #20794D;">"#90a8c0"</span>),</span>
+<span id="cb3-61">    <span class="at" style="color: #657422;">axis.text.x =</span> <span class="fu" style="color: #4758AB;">element_text</span>(<span class="at" style="color: #657422;">angle =</span> <span class="dv" style="color: #AD0000;">30</span>, <span class="at" style="color: #657422;">hjust =</span> <span class="dv" style="color: #AD0000;">1</span>)</span>
+<span id="cb3-62">  )</span></code></pre></div>
+</details>
+</div>
+<hr>
+</section>
+<section id="formule-idf-de-montana" class="level2">
+<h2 class="anchored" data-anchor-id="formule-idf-de-montana">Formule IDF de Montana</h2>
+<p>La formule de <strong>Montana</strong> est l’expression analytique la plus utilisée pour les courbes IDF :</p>
+<p><img src="https://latex.codecogs.com/png.latex?I(D,%20T)%20=%20a(T)%20%5Ccdot%20D%5E%7B-b(T)%7D"></p>
+<p>où <img src="https://latex.codecogs.com/png.latex?I"> est l’intensité (mm/h), <img src="https://latex.codecogs.com/png.latex?D"> la durée (h), et <img src="https://latex.codecogs.com/png.latex?a(T)">, <img src="https://latex.codecogs.com/png.latex?b(T)"> des paramètres dépendants de la période de retour <img src="https://latex.codecogs.com/png.latex?T">.</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;"># Ajustement des paramètres de Montana par régression</span></span>
+<span id="cb4-2">ajuster_montana <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cf" style="color: #003B4F;">function</span>(intensites, durees_h) {</span>
+<span id="cb4-3">  log_durees <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">log</span>(durees_h)</span>
+<span id="cb4-4">  log_intens <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">log</span>(intensites)</span>
+<span id="cb4-5">  </span>
+<span id="cb4-6">  fit <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">lm</span>(log_intens <span class="sc" style="color: #5E5E5E;">~</span> log_durees)</span>
+<span id="cb4-7">  b   <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="sc" style="color: #5E5E5E;">-</span><span class="fu" style="color: #4758AB;">coef</span>(fit)[<span class="dv" style="color: #AD0000;">2</span>]</span>
+<span id="cb4-8">  a   <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">exp</span>(<span class="fu" style="color: #4758AB;">coef</span>(fit)[<span class="dv" style="color: #AD0000;">1</span>])</span>
+<span id="cb4-9">  </span>
+<span id="cb4-10">  <span class="fu" style="color: #4758AB;">return</span>(<span class="fu" style="color: #4758AB;">list</span>(<span class="at" style="color: #657422;">a =</span> a, <span class="at" style="color: #657422;">b =</span> b, <span class="at" style="color: #657422;">r2 =</span> <span class="fu" style="color: #4758AB;">summary</span>(fit)<span class="sc" style="color: #5E5E5E;">$</span>r.squared))</span>
+<span id="cb4-11">}</span>
+<span id="cb4-12"></span>
+<span id="cb4-13"><span class="co" style="color: #5E5E5E;"># Calculer pour chaque période de retour</span></span>
+<span id="cb4-14">montana_params <span class="ot" style="color: #003B4F;">&lt;-</span> idf_long <span class="sc" style="color: #5E5E5E;">|&gt;</span></span>
+<span id="cb4-15">  <span class="fu" style="color: #4758AB;">mutate</span>(<span class="at" style="color: #657422;">duree_h =</span> duree <span class="sc" style="color: #5E5E5E;">/</span> <span class="dv" style="color: #AD0000;">60</span>) <span class="sc" style="color: #5E5E5E;">|&gt;</span></span>
+<span id="cb4-16">  <span class="fu" style="color: #4758AB;">group_by</span>(periode_retour) <span class="sc" style="color: #5E5E5E;">|&gt;</span></span>
+<span id="cb4-17">  <span class="fu" style="color: #4758AB;">summarise</span>(</span>
+<span id="cb4-18">    <span class="at" style="color: #657422;">params =</span> <span class="fu" style="color: #4758AB;">list</span>(<span class="fu" style="color: #4758AB;">ajuster_montana</span>(intensite, duree_h)),</span>
+<span id="cb4-19">    <span class="at" style="color: #657422;">.groups =</span> <span class="st" style="color: #20794D;">"drop"</span></span>
+<span id="cb4-20">  ) <span class="sc" style="color: #5E5E5E;">|&gt;</span></span>
+<span id="cb4-21">  <span class="fu" style="color: #4758AB;">mutate</span>(</span>
+<span id="cb4-22">    <span class="at" style="color: #657422;">a  =</span> <span class="fu" style="color: #4758AB;">sapply</span>(params, <span class="st" style="color: #20794D;">`</span><span class="at" style="color: #657422;">[[</span><span class="st" style="color: #20794D;">`</span>, <span class="st" style="color: #20794D;">"a"</span>),</span>
+<span id="cb4-23">    <span class="at" style="color: #657422;">b  =</span> <span class="fu" style="color: #4758AB;">sapply</span>(params, <span class="st" style="color: #20794D;">`</span><span class="at" style="color: #657422;">[[</span><span class="st" style="color: #20794D;">`</span>, <span class="st" style="color: #20794D;">"b"</span>),</span>
+<span id="cb4-24">    <span class="at" style="color: #657422;">r2 =</span> <span class="fu" style="color: #4758AB;">sapply</span>(params, <span class="st" style="color: #20794D;">`</span><span class="at" style="color: #657422;">[[</span><span class="st" style="color: #20794D;">`</span>, <span class="st" style="color: #20794D;">"r2"</span>)</span>
+<span id="cb4-25">  ) <span class="sc" style="color: #5E5E5E;">|&gt;</span></span>
+<span id="cb4-26">  <span class="fu" style="color: #4758AB;">select</span>(<span class="sc" style="color: #5E5E5E;">-</span>params)</span>
+<span id="cb4-27"></span>
+<span id="cb4-28">knitr<span class="sc" style="color: #5E5E5E;">::</span><span class="fu" style="color: #4758AB;">kable</span>(</span>
+<span id="cb4-29">  montana_params,</span>
+<span id="cb4-30">  <span class="at" style="color: #657422;">digits  =</span> <span class="dv" style="color: #AD0000;">3</span>,</span>
+<span id="cb4-31">  <span class="at" style="color: #657422;">caption =</span> <span class="st" style="color: #20794D;">"Paramètres de Montana par période de retour"</span>,</span>
+<span id="cb4-32">  <span class="at" style="color: #657422;">col.names =</span> <span class="fu" style="color: #4758AB;">c</span>(<span class="st" style="color: #20794D;">"T (ans)"</span>, <span class="st" style="color: #20794D;">"a"</span>, <span class="st" style="color: #20794D;">"b"</span>, <span class="st" style="color: #20794D;">"R²"</span>)</span>
+<span id="cb4-33">)</span></code></pre></div>
+</details>
+</div>
+<hr>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Pour aller plus loin
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Comparer différentes lois statistiques (Gumbel, GEV, log-normale)</li>
+<li>Appliquer des tests de qualité d’ajustement (K-S, Anderson-Darling)</li>
+<li>Utiliser le package <code>nsRFA</code> pour l’analyse fréquentielle régionale</li>
+<li>Retrouvez les données et analyses complémentaires sur <a href="https://rpubs.com/nebiegc" target="_blank">RPubs — nebiegc</a></li>
+</ul>
+</div>
+</div>
+
+
+<!-- -->
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Hydrologie</category>
+  <category>Analyse fréquentielle</category>
+  <category>IDF</category>
+  <guid>https://ngastoncyrille.github.io/blog/posts/idf-curves-r/index.html</guid>
+  <pubDate>Sun, 14 Jan 2024 23:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

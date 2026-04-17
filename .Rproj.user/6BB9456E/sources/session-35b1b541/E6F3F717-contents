@@ -1,0 +1,94 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "NEBIE Gaston Cyrille"
+  description: "Ingénieur Hydrologue | Expert en Gestion des Risques Climatiques | Analyste de données"
+  site-url: "https://ngastoncyrille.github.io"
+  # favicon: assets/img/favicon.png   # Décommenter après avoir ajouté le fichier
+
+  navbar:
+    background: "#050d1a"
+    foreground: "#cdd6f4"
+    # logo: assets/img/logo_hz.png    # Décommenter après avoir ajouté le logo
+    title: "💧 NGC"
+    collapse-below: lg
+    left:
+      - text: "Accueil"
+        href: index.qmd
+        icon: house
+      - text: "À propos"
+        href: about.qmd
+        icon: person
+      - text: "Compétences"
+        href: skills.qmd
+        icon: bar-chart
+      - text: "Projets"
+        href: projects/index.qmd
+        icon: folder
+      - text: "Publications"
+        href: publications.qmd
+        icon: journal-text
+      - text: "Blog"
+        href: blog/index.qmd
+        icon: pencil
+      - text: "Contact"
+        href: contact.qmd
+        icon: envelope
+    right:
+      - icon: github
+        href: https://github.com/ngastoncyrille
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/gaston-cyrille-nebie-a2a977222
+        aria-label: LinkedIn
+
+  page-footer:
+    background: "#050d1a"
+    border: true
+    left: |
+      © 2026 **NEBIE Gaston Cyrille** · Ingénieur Hydrologue
+    center: |
+      Fait avec [Quarto](https://quarto.org) & [R](https://www.r-project.org)
+    right: |
+      [RPubs](https://rpubs.com/nebiegc){target="_blank"} ·
+      [GitHub](https://github.com/ngastoncyrille){target="_blank"}
+
+  search:
+    location: navbar
+    type: overlay
+
+  cookie-consent: false
+
+  back-to-top-navigation: true
+
+format:
+  html:
+    theme:
+      - darkly
+      - styles.scss
+    toc: true
+    toc-depth: 3
+    toc-title: "Sommaire"
+    toc-location: right
+    number-sections: false
+    code-fold: true
+    code-tools: true
+    code-copy: true
+    code-link: false
+    highlight-style: dracula
+    link-external-icon: true
+    link-external-newwindow: true
+    smooth-scroll: true
+    anchor-sections: true
+    citations-hover: true
+    footnotes-hover: true
+    fig-align: center
+    fig-cap-location: bottom
+
+execute:
+  warning: false
+  message: false
+  echo: true
+  freeze: auto

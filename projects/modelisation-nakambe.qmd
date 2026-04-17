@@ -1,0 +1,226 @@
+---
+title: "Modélisation hydrologique du bassin versant du Nakanbé"
+subtitle: "Élaboration de scénarios d'évolution des ressources en eau de surface"
+author: "NEBIE Gaston Cyrille"
+date: "2020"
+categories: [Hydrologie, Modélisation, R, CMIP6]
+format:
+  html:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, eval = FALSE)
+```
+
+<div class="row g-2 mb-4">
+  <div class="col-auto"><span class="tag tag-water">Hydrologie</span></div>
+  <div class="col-auto"><span class="tag tag-climate">CMIP6</span></div>
+  <div class="col-auto"><span class="tag tag-r">R</span></div>
+  <div class="col-auto"><span class="tag tag-water">GR4J / GR6J</span></div>
+  <div class="col-auto"><span class="tag tag-water">SWAT</span></div>
+</div>
+
+## Contexte
+
+Ce projet constitue le travail de **mémoire d'ingénieur** réalisé au Centre Régional 
+Agrhymet (CRA, Niamey, Niger) en 2020. Il porte sur l'élaboration de scénarios 
+d'évolution de la ressource en eau de surface dans le **bassin versant du Nakanbé** 
+au Burkina Faso.
+
+Le bassin versant du Nakanbé est l'un des principaux bassins du Burkina Faso. 
+Il alimente le barrage de Bagré et constitue une ressource vitale pour l'agriculture 
+irriguée et l'alimentation en eau de plusieurs villes.
+
+---
+
+## Méthodologie
+
+### 1. Données hydroclimatiques
+
+```{r donnees}
+library(tidyverse)
+library(lubridate)
+library(ncdf4)
+
+# Charger les données observées
+# - Précipitations : 15 stations pluviométriques (1970-2018)
+# - Débits : Station de Wayen (1970-2018)
+# - ETP : Méthode Penman-Monteith
+
+pluies <- read.csv("data/precipitations_nakambe.csv")
+debits <- read.csv("data/debits_wayen.csv")
+```
+
+### 2. Correction de biais des scénarios CMIP6
+
+```{r correction-biais}
+library(ncdf4)
+library(qmap)
+
+# Ouvrir le fichier NetCDF CMIP6
+nc_hist <- nc_open("data/pr_hist_CMIP6.nc")
+nc_futur <- nc_open("data/pr_ssp245_CMIP6.nc")
+
+# Extraire les données de précipitation
+pr_hist <- ncvar_get(nc_hist, "pr")
+pr_futur <- ncvar_get(nc_futur, "pr")
+
+# Correction par Quantile Mapping (QM)
+qm_fit <- fitQmap(
+  obs = pluies_obs_ref,
+  mod = pr_hist_ref,
+  method = "RQUANT",
+  qstep = 0.01
+)
+
+pr_futur_corrige <- doQmap(pr_futur, qm_fit)
+```
+
+### 3. Modélisation avec GR4J (package airGR)
+
+```{r gr4j}
+library(airGR)
+
+# Préparer les données d'entrée
+InputsModel <- CreateInputsModel(
+  FUN_MOD    = RunModel_GR4J,
+  DatesR     = as.POSIXct(debits$date),
+  Precip     = pluies_bassin$P,
+  PotEvap    = etp$ETP
+)
+
+# Paramètres calés par algorithme de Nelder-Mead
+RunOptions <- CreateRunOptions(
+  FUN_MOD        = RunModel_GR4J,
+  InputsModel    = InputsModel,
+  IndPeriod_Run  = 1:length(debits$date),
+  IniStates      = NULL,
+  IniResLevels   = NULL
+)
+
+# Calibration
+CalibOptions <- CreateCalibOptions(
+  FUN_MOD            = RunModel_GR4J,
+  FUN_CALIB          = Calibration_Michel,
+  SearchRanges       = matrix(
+    c(100, 0.5, 20, 1.1, 5000, 5, 300, 2.9),
+    ncol = 2
+  )
+)
+
+Param_calib <- Calibration(
+  InputsModel  = InputsModel,
+  RunOptions   = RunOptions,
+  InputsCrit   = CreateInputsCrit(
+    FUN_CRIT   = ErrorCrit_NSE,
+    InputsModel = InputsModel,
+    RunOptions = RunOptions,
+    Obs        = debits$Q
+  ),
+  CalibOptions = CalibOptions,
+  FUN_MOD      = RunModel_GR4J,
+  FUN_CALIB    = Calibration_Michel
+)
+
+cat("Paramètres calés GR4J :", Param_calib$ParamFinalR, "\n")
+cat("NSE :", Param_calib$CritFinal, "\n")
+```
+
+### 4. Simulation des scénarios futurs
+
+```{r scenarios}
+# Simuler avec les données climatiques corrigées
+# Scénario SSP2-4.5 et SSP5-8.5
+
+scenarios <- list(
+  SSP245 = pr_futur_corrige_ssp245,
+  SSP585 = pr_futur_corrige_ssp585
+)
+
+resultats_scenarios <- lapply(names(scenarios), function(sc) {
+  # Simulation hydrologique
+  InputsModel_fut <- CreateInputsModel(
+    FUN_MOD = RunModel_GR4J,
+    DatesR  = dates_futur,
+    Precip  = scenarios[[sc]],
+    PotEvap = etp_futur
+  )
+  
+  OutputsModel <- RunModel_GR4J(
+    InputsModel = InputsModel_fut,
+    RunOptions  = RunOptions_fut,
+    Param       = Param_calib$ParamFinalR
+  )
+  
+  data.frame(
+    date    = dates_futur,
+    debit   = OutputsModel$Qsim,
+    scenario = sc
+  )
+})
+
+debits_scenarios <- bind_rows(resultats_scenarios)
+```
+
+---
+
+## Résultats
+
+### Performance du modèle en calage/validation
+
+| Critère | Calage (1980-2000) | Validation (2001-2018) |
+|---------|---------------------|----------------------|
+| Nash-Sutcliffe (NSE) | 0.82 | 0.78 |
+| Biais (%) | -2.3 | +4.1 |
+| Corrélation (r) | 0.91 | 0.89 |
+
+```{r visualisation-scenarios}
+library(ggplot2)
+
+ggplot(debits_scenarios, aes(x = date, y = debit, color = scenario)) +
+  geom_line(alpha = 0.7) +
+  scale_color_manual(
+    values = c("SSP245" = "#0096c7", "SSP585" = "#e63946"),
+    labels = c("SSP2-4.5 (optimiste)", "SSP5-8.5 (pessimiste)")
+  ) +
+  labs(
+    title    = "Évolution des débits simulés — Bassin versant du Nakanbé",
+    subtitle = "Modèle GR4J · Scénarios CMIP6 corrigés",
+    x        = NULL, y = "Débit (m³/s)",
+    color    = "Scénario"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    plot.background  = element_rect(fill = "#0d1b2a", color = NA),
+    panel.background = element_rect(fill = "#112240", color = NA),
+    panel.grid = element_line(color = "#1a3a6b"),
+    axis.text  = element_text(color = "#cdd6f4"),
+    axis.title = element_text(color = "#90a8c0"),
+    plot.title    = element_text(color = "#90e0ef", face = "bold"),
+    plot.subtitle = element_text(color = "#7090a0"),
+    legend.background = element_rect(fill = "#112240", color = NA),
+    legend.text  = element_text(color = "#cdd6f4"),
+    legend.title = element_text(color = "#90a8c0")
+  )
+```
+
+### Tendances projetées
+
+::: {.callout-important}
+## Résultats principaux
+Les projections indiquent une **réduction des débits annuels de -15% à -30%** à 
+l'horizon 2050-2100 pour le scénario SSP5-8.5, avec une intensification des événements 
+extrêmes (crues et étiages).
+:::
+
+---
+
+## Conclusions
+
+Ce travail a permis de démontrer la faisabilité de la modélisation hydrologique 
+couplée aux scénarios climatiques CMIP6 pour le bassin du Nakanbé, et de produire 
+des projections utiles à la **planification de la gestion de l'eau à long terme**.
+
+Les résultats ont été utilisés dans le cadre du **Programme National de Gestion 
+Intégrée des Ressources en Eau (PNGIRE)** du Burkina Faso.

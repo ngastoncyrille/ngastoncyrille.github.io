@@ -1,0 +1,247 @@
+---
+title: ""
+pagetitle: "NEBIE Gaston Cyrille | Ingénieur Hydrologue"
+format:
+  html:
+    toc: false
+---
+
+<!-- ============================================================ -->
+<!-- HERO                                                          -->
+<!-- ============================================================ -->
+<div class="hero-section">
+<div class="container py-4">
+<div class="row align-items-center g-5">
+
+<div class="col-lg-7">
+  <p class="hero-subtitle">Ingénieur Hydrologue &nbsp;·&nbsp; Expert Risques Climatiques</p>
+  <h1 class="hero-title">NEBIE<br><span>Gaston Cyrille</span></h1>
+  <p class="hero-tagline">
+    Analyste des risques hydrologiques et climatiques, spécialiste en SIG 
+    et science des données appliquée à la gestion intégrée des ressources 
+    en eau en Afrique de l'Ouest.
+  </p>
+  <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
+    <a href="projects/index.html" class="btn btn-primary btn-lg px-4">Voir mes projets</a>
+    <a href="about.html" class="btn btn-outline-info btn-lg px-4">À propos</a>
+    <a href="assets/cv/cv_nebie_2026.pdf" class="btn btn-outline-secondary btn-lg px-4" target="_blank">
+      ↓ CV
+    </a>
+  </div>
+</div>
+
+<div class="col-lg-5 text-center">
+  <img src="assets/img/photo.jpg" 
+       class="profile-img" 
+       alt="NEBIE Gaston Cyrille – Ingénieur Hydrologue"
+       onerror="this.parentElement.innerHTML='<div class=\'profile-img-placeholder\'>💧</div>'">
+</div>
+
+</div><!-- /row -->
+
+<!-- Stats -->
+<div class="row g-3 mt-4">
+  <div class="col-6 col-md-3">
+    <div class="stat-card">
+      <span class="stat-number">5+</span>
+      <span class="stat-label">Années d'expérience</span>
+    </div>
+  </div>
+  <div class="col-6 col-md-3">
+    <div class="stat-card">
+      <span class="stat-number">8+</span>
+      <span class="stat-label">Projets réalisés</span>
+    </div>
+  </div>
+  <div class="col-6 col-md-3">
+    <div class="stat-card">
+      <span class="stat-number">12+</span>
+      <span class="stat-label">Publications RPubs</span>
+    </div>
+  </div>
+  <div class="col-6 col-md-3">
+    <div class="stat-card">
+      <span class="stat-number">🏆</span>
+      <span class="stat-label">Prix Trophées Eau 2024</span>
+    </div>
+  </div>
+</div>
+
+</div><!-- /container -->
+</div><!-- /hero -->
+
+
+<!-- ============================================================ -->
+<!-- PROJETS PHARES                                                -->
+<!-- ============================================================ -->
+<div class="container py-5">
+
+<div class="section-header">
+  <div class="section-label">Réalisations</div>
+  <h2 class="section-main-title">Projets phares</h2>
+  <div class="section-divider"></div>
+  <p class="text-muted-blue mt-2">Des projets concrets mêlant données hydrologiques, SIG et intelligence artificielle.</p>
+</div>
+
+<div class="row g-4">
+
+  <div class="col-md-4">
+  <div class="project-card">
+    <div class="project-icon">🛰️</div>
+    <div class="project-title">Télédétection avec R</div>
+    <div class="project-desc">
+      Classification non supervisée (K-means) d'images Landsat 8 sur la 
+      commune de Bama, Burkina Faso. Utilisation des packages terra, 
+      cluster et ggplot2.
+    </div>
+    <div class="project-footer">
+      <span class="tag tag-r">R</span>
+      <span class="tag tag-sig">Télédétection</span>
+      <span class="tag tag-ml">K-means</span>
+      <a href="projects/teledetection.html" class="btn btn-sm btn-outline-info mt-2 w-100">Voir le projet →</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="col-md-4">
+  <div class="project-card">
+    <div class="project-icon">🤖</div>
+    <div class="project-title">IA pour la cartographie aquifère</div>
+    <div class="project-desc">
+      Première utilisation du machine learning (Random Forest, régression 
+      logistique) pour la cartographie du potentiel aquifère en zone de 
+      socle au Burkina Faso.
+    </div>
+    <div class="project-footer">
+      <span class="tag tag-ml">Machine Learning</span>
+      <span class="tag tag-sig">SIG</span>
+      <span class="tag tag-r">R</span>
+      <a href="projects/ml-aquifere.html" class="btn btn-sm btn-outline-info mt-2 w-100">Voir le projet →</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="col-md-4">
+  <div class="project-card">
+    <div class="project-icon">🌊</div>
+    <div class="project-title">Scénarios hydrologiques du Nakanbé</div>
+    <div class="project-desc">
+      Modélisation hydrologique du bassin versant du Nakanbé avec les 
+      modèles GR4J, GR6J et SWAT. Correction de biais et production de 
+      scénarios CMIP6.
+    </div>
+    <div class="project-footer">
+      <span class="tag tag-water">Hydrologie</span>
+      <span class="tag tag-climate">CMIP6</span>
+      <span class="tag tag-r">R</span>
+      <a href="projects/modelisation-nakambe.html" class="btn btn-sm btn-outline-info mt-2 w-100">Voir le projet →</a>
+    </div>
+  </div>
+  </div>
+
+</div><!-- /row -->
+
+<div class="text-center mt-4">
+  <a href="projects/index.html" class="btn btn-outline-primary px-5">
+    Voir tous les projets →
+  </a>
+</div>
+
+</div><!-- /container -->
+
+
+<!-- ============================================================ -->
+<!-- DISTINCTION                                                   -->
+<!-- ============================================================ -->
+<div style="background:#050d1a;padding:4rem 0;border-top:1px solid #1a3a6b;border-bottom:1px solid #1a3a6b;">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-lg-8">
+
+<div class="award-card">
+  <div class="award-year">2024</div>
+  <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:0.15em;color:#ffd166;font-weight:700;margin-bottom:0.5rem;">
+    🏆 Distinction
+  </div>
+  <div class="award-title">Prix des Pratiques Innovantes</div>
+  <div class="award-org">
+    3ème édition des Trophées de l'Eau et de l'Assainissement du Burkina Faso
+  </div>
+  <p style="font-size:0.9rem;color:#90a8c0;margin:0;max-width:540px;">
+    Récompense pour l'application de méthodes d'intelligence artificielle 
+    à la cartographie des ressources en eau en zone de socle.
+  </p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- DERNIERS ARTICLES                                             -->
+<!-- ============================================================ -->
+<div class="container py-5">
+
+<div class="section-header">
+  <div class="section-label">Blog</div>
+  <h2 class="section-main-title">Derniers tutoriels R</h2>
+  <div class="section-divider"></div>
+</div>
+
+<div class="row g-3">
+  <div class="col-md-4">
+    <div class="pub-item">
+      <div class="pub-type pub-type-rpubs">Tutoriel R</div>
+      <div class="pub-title">Réalisation de courbes IDF avec R</div>
+      <div class="pub-meta">Analyse fréquentielle des précipitations extrêmes</div>
+      <a href="blog/posts/idf-curves-r/index.html" class="btn btn-sm btn-outline-secondary mt-2">Lire →</a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="pub-item">
+      <div class="pub-type pub-type-rpubs">Tutoriel R</div>
+      <div class="pub-title">Classification K-means Landsat 8</div>
+      <div class="pub-meta">Télédétection non supervisée avec terra et cluster</div>
+      <a href="blog/posts/kmeans-landsat/index.html" class="btn btn-sm btn-outline-secondary mt-2">Lire →</a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="pub-item">
+      <div class="pub-type pub-type-rpubs">Tutoriel R</div>
+      <div class="pub-title">Correction de biais des scénarios climatiques</div>
+      <div class="pub-meta">Post-traitement des données CMIP avec R</div>
+      <a href="blog/posts/biais-correction/index.html" class="btn btn-sm btn-outline-secondary mt-2">Lire →</a>
+    </div>
+  </div>
+</div>
+
+<div class="text-center mt-4">
+  <a href="blog/index.html" class="btn btn-outline-primary px-5">Voir tous les articles →</a>
+</div>
+
+</div><!-- /container -->
+
+
+<!-- ============================================================ -->
+<!-- ASSOCIATIONS & RÉSEAUX                                        -->
+<!-- ============================================================ -->
+<div style="background:#050d1a;padding:3rem 0;border-top:1px solid #1a3a6b;">
+<div class="container text-center">
+  <p class="text-muted-blue mb-3" style="font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;">
+    Engagement associatif & académique
+  </p>
+  <div class="d-flex justify-content-center align-items-center gap-4 flex-wrap">
+    <div style="background:#112240;border:1px solid #1a3a6b;border-radius:0.5rem;padding:0.75rem 1.5rem;color:#cdd6f4;font-size:0.9rem;font-weight:500;">
+      💧 Vice-Président — Association Hydro-Burkina
+    </div>
+    <div style="background:#112240;border:1px solid #1a3a6b;border-radius:0.5rem;padding:0.75rem 1.5rem;color:#cdd6f4;font-size:0.9rem;font-weight:500;">
+      🎓 Master GRC — Université de Liège, Belgique
+    </div>
+    <div style="background:#112240;border:1px solid #1a3a6b;border-radius:0.5rem;padding:0.75rem 1.5rem;color:#cdd6f4;font-size:0.9rem;font-weight:500;">
+      📊 CRA Agrhymet — Ingénieur Hydrologue
+    </div>
+  </div>
+</div>
+</div>

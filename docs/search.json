@@ -1,0 +1,415 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "À propos",
+    "section": "",
+    "text": "<span class=\"tag tag-water\">Ingénieur Hydrologue</span>\n<span class=\"tag tag-risk\">Gestion des Risques</span>\n<span class=\"tag tag-r\">R & Python</span>\n<span class=\"tag tag-sig\">SIG</span>\n<span class=\"tag tag-ml\">Machine Learning</span>\n<span class=\"tag tag-gire\">GIRE</span>\n\n\n<a href=\"https://rpubs.com/nebiegc\" target=\"_blank\" class=\"btn btn-sm btn-outline-info\">\n  📊 RPubs\n</a>\n<a href=\"https://www.linkedin.com/in/gaston-cyrille-nebie-a2a977222\" target=\"_blank\" class=\"btn btn-sm btn-outline-secondary\">\n  LinkedIn\n</a>\n<a href=\"mailto:ngastoncyrille@gmail.com\" class=\"btn btn-sm btn-outline-secondary\">\n  ✉ Email\n</a>\n\n\n\n\n\nHydrologue · Analyste des Risques Climatiques · Data Scientist\n\n\nIngénieur hydrologue avec plus de cinq années d’expérience dans l’analyse hydroclimatique, la gestion des ressources en eau et la cartographie des risques. Mon parcours combine une formation technique rigoureuse au Centre Régional Agrhymet (CRA, Niamey) et une expérience opérationnelle au sein du Ministère en charge de l’Eau et de l’Assainissement du Burkina Faso.\n\n\nActuellement étudiant en Master de spécialisation en Gestion des Risques et des Catastrophes à l’ère de l’Anthropocène à l’Université de Liège (Belgique), je développe une expertise transversale alliant hydrologie, analyse spatiale, intelligence artificielle et approches participatives de réduction des vulnérabilités.\n\n\nVice-président de l’Association Hydro-Burkina, je contribue à la diffusion de l’information climatique et à la mise en place d’outils d’aide à la décision pour la gestion de l’eau en Afrique de l’Ouest."
+  },
+  {
+    "objectID": "about.html#formation",
+    "href": "about.html#formation",
+    "title": "À propos",
+    "section": "🎓 Formation",
+    "text": "🎓 Formation\n\n\n\n2025 – 2026\n\n\nMaster de spécialisation en Gestion des Risques et des Catastrophes à l’ère de l’Anthropocène\n\n\nUniversité de Liège (ULiège) — Belgique\n\n\nAxes : analyse des risques et catastrophes · résilience territoriale · migration environnementale · systèmes d'alerte précoce · droit international humanitaire.\n\n\n\n\n2020\n\n\nDiplôme d’Ingénieur Hydrologue\n\n\nCentre Régional Agrhymet (CRA) — Niamey, Niger\n\n\nMémoire : <em>Élaboration de scénarios d'évolution de la ressource en eau de surface dans le bassin versant du Nakanbé</em>. Modèles GR4J, GR6J, SWAT ; correction de biais ; scénarios climatiques CMIP.\n\n\n\n\n2016\n\n\nLicence Professionnelle — Technologie de l’Eau et de l’Assainissement\n\n\nInstitut de Génie de l’Environnement et du Développement (IGEDD) — Ouagadougou\n\n\nFondamentaux en ingénierie de l'eau, assainissement et géosciences appliquées."
+  },
+  {
+    "objectID": "about.html#expériences-professionnelles",
+    "href": "about.html#expériences-professionnelles",
+    "title": "À propos",
+    "section": "💼 Expériences professionnelles",
+    "text": "💼 Expériences professionnelles\n\n\n\nDéc. 2024 – aujourd’hui\n\n\nChef de Service SIG et Base de Données\n\n\nAgence de l’Eau du Nakanbé (AEN) — Ziniaré, Burkina Faso\n\n\nGestion des bases de données du SDAGE et PPI · Contribution à la modélisation et planification stratégique des ressources en eau.\n\n\n\n\nMai – Déc. 2024\n\n\nChef de Service Prospective et Planification\n\n\nAgence de l’Eau du Nakanbé (AEN) — Ziniaré, Burkina Faso\n\n\nÉlaboration du premier document d'opérationnalisation du SDAGE · Analyse et valorisation des données hydroclimatiques.\n\n\n\n\n2020 – 2024\n\n\nIngénieur du Génie Rural\n\n\nMinistère en charge de l’Eau et de l’Assainissement — Burkina Faso\n\n\nDirection Régionale du Centre (DRC) puis Direction Générale des Ressources en Eau (DGRE) · Mise en place du Comité d'Usagers de l'Eau · Diagnostic des ouvrages de mobilisation d'eau · Contribution au PNGIRE.\n\n\n\n\n2024 (mission)\n\n\nConsultant — Gestion Communautaire de l’Eau\n\n\nCECA-DR (Centre d’Encadrement et d’Appui pour le Développement Rural)\n\n\nÉlaboration d'un manuel de GIRE · Diagnostic participatif dans 6 villages du Plateau Central · Plans d'action communautaires · Animation d'ateliers participatifs.\n\n\n\n\n2022 – 2023 (missions)\n\n\nExpert SIG & Data Science\n\n\nGroupe SGI (PAEA) & Bureau d’études Bugego (ESEPV-Sahel)\n\n\nCartographie du potentiel aquifère en zone de socle par machine learning (Random Forest, arbres de décision, régression logistique) — première utilisation de l'IA dans ce domaine au Burkina Faso."
+  },
+  {
+    "objectID": "about.html#zones-dintervention",
+    "href": "about.html#zones-dintervention",
+    "title": "À propos",
+    "section": "🗺️ Zones d’intervention",
+    "text": "🗺️ Zones d’intervention"
+  },
+  {
+    "objectID": "about.html#certifications-distinctions",
+    "href": "about.html#certifications-distinctions",
+    "title": "À propos",
+    "section": "🏅 Certifications & Distinctions",
+    "text": "🏅 Certifications & Distinctions\n\n🏆 Prix des Pratiques Innovantes — Trophées de l’Eau et de l’Assainissement du Burkina Faso, 2024\nApplication de méthodes d’intelligence artificielle à la cartographie des ressources en eau.\n\n\n\n<div style=\"background:#112240;border:1px solid #1a3a6b;border-radius:0.5rem;padding:1rem;\">\n  <div style=\"color:#06d6a0;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;font-weight:700;margin-bottom:0.4rem;\">Certification</div>\n  <div style=\"font-weight:600;color:#cdd6f4;\">Brevet Européen des Premiers Secours (BEPS)</div>\n  <div style=\"font-size:0.85rem;color:#7090a0;\">Croix-Rouge de Belgique — valable jusqu'en 2030</div>\n</div>\n\n\n<div style=\"background:#112240;border:1px solid #1a3a6b;border-radius:0.5rem;padding:1rem;\">\n  <div style=\"color:#06d6a0;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;font-weight:700;margin-bottom:0.4rem;\">Formation</div>\n  <div style=\"font-weight:600;color:#cdd6f4;\">Osons l'Humanitaire — DIH</div>\n  <div style=\"font-size:0.85rem;color:#7090a0;\">Croix-Rouge de Belgique — 2026</div>\n</div>\n\n\n<div style=\"background:#112240;border:1px solid #1a3a6b;border-radius:0.5rem;padding:1rem;\">\n  <div style=\"color:#06d6a0;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;font-weight:700;margin-bottom:0.4rem;\">Formation continue</div>\n  <div style=\"font-weight:600;color:#cdd6f4;\">MOOC FUN, MOOC ADF, Udemy</div>\n  <div style=\"font-size:0.85rem;color:#7090a0;\">R, Python, SIG, Machine Learning</div>\n</div>"
+  },
+  {
+    "objectID": "about.html#langues",
+    "href": "about.html#langues",
+    "title": "À propos",
+    "section": "🌍 Langues",
+    "text": "🌍 Langues\n\n\n\nLangue\nNiveau\n\n\n\n\nFrançais\nCourant\n\n\nAnglais\nDébutant\n\n\nDioula\nMoyen\n\n\nGrounssi\nMoyen"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog & Tutoriels",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nCorrection de biais des scénarios climatiques avec R\n\n\n0 min\n\n\n\nR\n\n\nClimatologie\n\n\nCMIP6\n\n\nScénarios\n\n\n\nTutoriel sur les méthodes de correction de biais des données de modèles climatiques CMIP6 avec R, pour la production de scénarios hydrologiques fiables.\n\n\n\nNEBIE Gaston Cyrille\n\n\nMay 20, 2024\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nClassification K-means d’images Landsat 8 avec R\n\n\n0 min\n\n\n\nR\n\n\nTélédétection\n\n\nSIG\n\n\nMachine Learning\n\n\n\nTutoriel complet de classification non supervisée d’images satellitaires Landsat 8 avec les packages terra et cluster de R, appliqué à la commune de Bama au Burkina Faso.\n\n\n\nNEBIE Gaston Cyrille\n\n\nMar 10, 2024\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nCourbes IDF avec R\n\n\n5 min\n\n\n\nR\n\n\nHydrologie\n\n\nAnalyse fréquentielle\n\n\nIDF\n\n\n\nTutoriel complet pour l’analyse fréquentielle des précipitations et la construction de courbes IDF avec R — de l’ajustement statistique à la visualisation.\n\n\n\nNEBIE Gaston Cyrille\n\n\nJan 15, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/posts/biais-correction/index.html",
+    "href": "blog/posts/biais-correction/index.html",
+    "title": "Correction de biais des scénarios climatiques avec R",
+    "section": "",
+    "text": "Ce tutoriel\n\n\n\nCorrespond à la publication RPubs P_f bk2020_012.\nRetrouvez l’ensemble de mes publications sur RPubs — nebiegc."
+  },
+  {
+    "objectID": "blog/posts/biais-correction/index.html#introduction",
+    "href": "blog/posts/biais-correction/index.html#introduction",
+    "title": "Correction de biais des scénarios climatiques avec R",
+    "section": "Introduction",
+    "text": "Introduction\nLes modèles climatiques régionaux (RCM) et globaux (GCM/CMIP6) présentent systématiquement des biais statistiques par rapport aux observations. La correction de biais est une étape indispensable avant d’utiliser ces données pour la modélisation hydrologique ou l’analyse agroclimatique.\nCe tutoriel présente la méthode Quantile Mapping (QM), l’une des approches les plus robustes pour la correction de biais des précipitations et températures."
+  },
+  {
+    "objectID": "blog/posts/biais-correction/index.html#méthode-quantile-mapping",
+    "href": "blog/posts/biais-correction/index.html#méthode-quantile-mapping",
+    "title": "Correction de biais des scénarios climatiques avec R",
+    "section": "Méthode Quantile Mapping",
+    "text": "Méthode Quantile Mapping\nLe Quantile Mapping repose sur l’hypothèse que la distribution statistique des données simulées peut être corrigée en la comparant à la distribution observée sur une période de référence.\n\\[P_{corr}(t) = F_{obs}^{-1}\\left[F_{sim}(P_{sim}(t))\\right]\\]\noù \\(F_{obs}\\) et \\(F_{sim}\\) sont les fonctions de distribution cumulée des observations et des simulations sur la période de référence.\n\nArticle complet en cours de rédaction — disponible prochainement."
+  },
+  {
+    "objectID": "blog/posts/idf-curves-r/index.html",
+    "href": "blog/posts/idf-curves-r/index.html",
+    "title": "Courbes IDF avec R",
+    "section": "",
+    "text": "R\n\n\nHydrologie\n\n\nIDF\n\n\nAnalyse fréquentielle\nAussi disponible sur RPubs — P_f bk2020_007 & 008"
+  },
+  {
+    "objectID": "blog/posts/idf-curves-r/index.html#introduction",
+    "href": "blog/posts/idf-curves-r/index.html#introduction",
+    "title": "Courbes IDF avec R",
+    "section": "Introduction",
+    "text": "Introduction\nLes courbes Intensité-Durée-Fréquence (IDF) sont des outils fondamentaux en hydrologie pour la conception des ouvrages hydrauliques (dimensionnement de caniveaux, bassins de rétention, ponts…). Elles permettent de lier :\n\nIntensité (mm/h) : le débit moyen de la pluie sur une durée donnée\nDurée (min, h) : le temps de la pluie observée\n\nFréquence (ou période de retour, en années)\n\nDans ce tutoriel, nous allons construire des courbes IDF à partir de données pluviographiques réelles en utilisant uniquement le langage R."
+  },
+  {
+    "objectID": "blog/posts/idf-curves-r/index.html#données-nécessaires",
+    "href": "blog/posts/idf-curves-r/index.html#données-nécessaires",
+    "title": "Courbes IDF avec R",
+    "section": "Données nécessaires",
+    "text": "Données nécessaires\nLes données requises sont des relevés pluviographiques à pas de temps fin (5 min, 10 min, 15 min, 30 min, 1h) sur une longue série (≥ 20 ans idéalement).\n\n\nCode\n# Structure attendue des données\n# station : identifiant de la station\n# date    : date de l'événement\n# duree   : durée (en minutes)\n# pluie   : hauteur de pluie (mm)\n\n# Exemple de création d'un jeu de données simulé\nset.seed(42)\n\ndurees <- c(5, 10, 15, 30, 60, 120, 360, 720, 1440) # en minutes\nn_annees <- 30\n\n# Simuler des maximums annuels (distribution GEV)\nlibrary(evd)\ndata_idf <- expand.grid(\n  annee = 1991:2020,\n  duree = durees\n)\ndata_idf$pluie <- rgev(nrow(data_idf), loc = 20, scale = 8, shape = 0.1)\n\nhead(data_idf, 12)"
+  },
+  {
+    "objectID": "blog/posts/idf-curves-r/index.html#ajustement-statistique",
+    "href": "blog/posts/idf-curves-r/index.html#ajustement-statistique",
+    "title": "Courbes IDF avec R",
+    "section": "Ajustement statistique",
+    "text": "Ajustement statistique\n\nLoi de Gumbel (distribution des extrêmes)\nLa loi de Gumbel (Extrême Value Type I) est couramment utilisée pour l’analyse fréquentielle des précipitations extrêmes.\n\n\nCode\nlibrary(dplyr)\nlibrary(ggplot2)\n\n# Fonction d'ajustement Gumbel par durée\najuster_gumbel <- function(x) {\n  n <- length(x)\n  mu <- mean(x)\n  sigma <- sd(x) * sqrt(6) / pi\n  u <- mu - 0.5772 * sigma\n  return(list(u = u, sigma = sigma))\n}\n\n# Périodes de retour\nT_retour <- c(2, 5, 10, 20, 50, 100)\n\n# Fonction quantile Gumbel\nq_gumbel <- function(T, u, sigma) {\n  yT <- -log(-log(1 - 1/T))\n  return(u + sigma * yT)\n}\n\n# Calcul des quantiles par durée et période de retour\nresultats <- data_idf |>\n  group_by(duree) |>\n  summarise(params = list(ajuster_gumbel(pluie)), .groups = \"drop\") |>\n  mutate(\n    u     = sapply(params, `[[`, \"u\"),\n    sigma = sapply(params, `[[`, \"sigma\")\n  )\n\n# Calculer les intensités (mm/h) pour chaque période de retour\nidf_table <- resultats |>\n  select(duree, u, sigma) |>\n  rowwise() |>\n  mutate(across(starts_with(\"u\"), ~NULL)) |>\n  bind_cols(\n    setNames(\n      lapply(T_retour, function(T) {\n        (q_gumbel(T, resultats$u, resultats$sigma) / resultats$duree) * 60\n      }),\n      paste0(\"T\", T_retour)\n    )\n  )\n\nprint(idf_table)"
+  },
+  {
+    "objectID": "blog/posts/idf-curves-r/index.html#construction-des-courbes-idf",
+    "href": "blog/posts/idf-curves-r/index.html#construction-des-courbes-idf",
+    "title": "Courbes IDF avec R",
+    "section": "Construction des courbes IDF",
+    "text": "Construction des courbes IDF\n\n\nCode\nlibrary(tidyr)\n\n# Mise en format long pour la visualisation\nidf_long <- idf_table |>\n  select(duree, starts_with(\"T\")) |>\n  pivot_longer(\n    cols      = starts_with(\"T\"),\n    names_to  = \"periode_retour\",\n    values_to = \"intensite\"\n  ) |>\n  mutate(\n    periode_retour = factor(\n      gsub(\"T\", \"\", periode_retour),\n      levels = as.character(T_retour)\n    )\n  )\n\n# Palette de couleurs\npalette_idf <- c(\n  \"2\"   = \"#90e0ef\",\n  \"5\"   = \"#48cae4\",\n  \"10\"  = \"#00b4d8\",\n  \"20\"  = \"#0096c7\",\n  \"50\"  = \"#0077b6\",\n  \"100\" = \"#023e8a\"\n)\n\n# Visualisation des courbes IDF\nggplot(idf_long, aes(x = duree, y = intensite, \n                      color = periode_retour,\n                      group = periode_retour)) +\n  geom_line(linewidth = 1.2) +\n  geom_point(size = 2.5) +\n  scale_x_log10(\n    breaks = c(5, 10, 15, 30, 60, 120, 360, 720, 1440),\n    labels = c(\"5 min\", \"10\", \"15\", \"30\", \"1h\", \"2h\", \"6h\", \"12h\", \"24h\")\n  ) +\n  scale_y_log10() +\n  scale_color_manual(\n    values = palette_idf,\n    name   = \"Période de\\nretour (ans)\"\n  ) +\n  labs(\n    title    = \"Courbes Intensité-Durée-Fréquence (IDF)\",\n    subtitle = \"Ajustement par la loi de Gumbel — Station fictive\",\n    x = \"Durée\",\n    y = \"Intensité (mm/h)\"\n  ) +\n  theme_minimal(base_size = 13) +\n  theme(\n    plot.background  = element_rect(fill = \"#0d1b2a\", color = NA),\n    panel.background = element_rect(fill = \"#112240\", color = NA),\n    panel.grid = element_line(color = \"#1a3a6b\", linewidth = 0.4),\n    axis.text  = element_text(color = \"#cdd6f4\"),\n    axis.title = element_text(color = \"#90a8c0\"),\n    plot.title    = element_text(color = \"#90e0ef\", face = \"bold\"),\n    plot.subtitle = element_text(color = \"#7090a0\"),\n    legend.background = element_rect(fill = \"#112240\", color = NA),\n    legend.text  = element_text(color = \"#cdd6f4\"),\n    legend.title = element_text(color = \"#90a8c0\"),\n    axis.text.x = element_text(angle = 30, hjust = 1)\n  )"
+  },
+  {
+    "objectID": "blog/posts/idf-curves-r/index.html#formule-idf-de-montana",
+    "href": "blog/posts/idf-curves-r/index.html#formule-idf-de-montana",
+    "title": "Courbes IDF avec R",
+    "section": "Formule IDF de Montana",
+    "text": "Formule IDF de Montana\nLa formule de Montana est l’expression analytique la plus utilisée pour les courbes IDF :\n\\[I(D, T) = a(T) \\cdot D^{-b(T)}\\]\noù \\(I\\) est l’intensité (mm/h), \\(D\\) la durée (h), et \\(a(T)\\), \\(b(T)\\) des paramètres dépendants de la période de retour \\(T\\).\n\n\nCode\n# Ajustement des paramètres de Montana par régression\najuster_montana <- function(intensites, durees_h) {\n  log_durees <- log(durees_h)\n  log_intens <- log(intensites)\n  \n  fit <- lm(log_intens ~ log_durees)\n  b   <- -coef(fit)[2]\n  a   <- exp(coef(fit)[1])\n  \n  return(list(a = a, b = b, r2 = summary(fit)$r.squared))\n}\n\n# Calculer pour chaque période de retour\nmontana_params <- idf_long |>\n  mutate(duree_h = duree / 60) |>\n  group_by(periode_retour) |>\n  summarise(\n    params = list(ajuster_montana(intensite, duree_h)),\n    .groups = \"drop\"\n  ) |>\n  mutate(\n    a  = sapply(params, `[[`, \"a\"),\n    b  = sapply(params, `[[`, \"b\"),\n    r2 = sapply(params, `[[`, \"r2\")\n  ) |>\n  select(-params)\n\nknitr::kable(\n  montana_params,\n  digits  = 3,\n  caption = \"Paramètres de Montana par période de retour\",\n  col.names = c(\"T (ans)\", \"a\", \"b\", \"R²\")\n)\n\n\n\n\n\n\n\n\n\nPour aller plus loin\n\n\n\n\nComparer différentes lois statistiques (Gumbel, GEV, log-normale)\nAppliquer des tests de qualité d’ajustement (K-S, Anderson-Darling)\nUtiliser le package nsRFA pour l’analyse fréquentielle régionale\nRetrouvez les données et analyses complémentaires sur RPubs — nebiegc"
+  },
+  {
+    "objectID": "blog/posts/kmeans-landsat/index.html",
+    "href": "blog/posts/kmeans-landsat/index.html",
+    "title": "Classification K-means d’images Landsat 8 avec R",
+    "section": "",
+    "text": "Ce tutoriel guide pas à pas la classification non supervisée d’images Landsat 8 avec R, depuis le chargement des bandes spectrales jusqu’à la cartographie finale.\nRetrouvez le contenu complet dans la page projet Télédétection."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Localisation actuelle\n\n\n🇧🇪 Liège, Belgique  /  🇧🇫 Ouagadougou, Burkina Faso\n\n\nDisponible pour des missions en présentiel ou à distance"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NEBIE Gaston Cyrille",
+    "section": "",
+    "text": "Réalisations\n\n\nProjets phares\n\n\n\n\n\nDes projets concrets mêlant données hydrologiques, SIG et intelligence artificielle.\n\n\n\n\n\n<div class=\"project-icon\">🛰️</div>\n<div class=\"project-title\">Télédétection avec R</div>\n<div class=\"project-desc\">\n  Classification non supervisée (K-means) d'images Landsat 8 sur la \n  commune de Bama, Burkina Faso. Utilisation des packages terra, \n  cluster et ggplot2.\n</div>\n<div class=\"project-footer\">\n  <span class=\"tag tag-r\">R</span>\n  <span class=\"tag tag-sig\">Télédétection</span>\n  <span class=\"tag tag-ml\">K-means</span>\n  <a href=\"projects/teledetection.html\" class=\"btn btn-sm btn-outline-info mt-2 w-100\">Voir le projet →</a>\n</div>\n\n\n\n\n<div class=\"project-icon\">🤖</div>\n<div class=\"project-title\">IA pour la cartographie aquifère</div>\n<div class=\"project-desc\">\n  Première utilisation du machine learning (Random Forest, régression \n  logistique) pour la cartographie du potentiel aquifère en zone de \n  socle au Burkina Faso.\n</div>\n<div class=\"project-footer\">\n  <span class=\"tag tag-ml\">Machine Learning</span>\n  <span class=\"tag tag-sig\">SIG</span>\n  <span class=\"tag tag-r\">R</span>\n  <a href=\"projects/ml-aquifere.html\" class=\"btn btn-sm btn-outline-info mt-2 w-100\">Voir le projet →</a>\n</div>\n\n\n\n\n<div class=\"project-icon\">🌊</div>\n<div class=\"project-title\">Scénarios hydrologiques du Nakanbé</div>\n<div class=\"project-desc\">\n  Modélisation hydrologique du bassin versant du Nakanbé avec les \n  modèles GR4J, GR6J et SWAT. Correction de biais et production de \n  scénarios CMIP6.\n</div>\n<div class=\"project-footer\">\n  <span class=\"tag tag-water\">Hydrologie</span>\n  <span class=\"tag tag-climate\">CMIP6</span>\n  <span class=\"tag tag-r\">R</span>\n  <a href=\"projects/modelisation-nakambe.html\" class=\"btn btn-sm btn-outline-info mt-2 w-100\">Voir le projet →</a>\n</div>\n\n\n\n\n\n Voir tous les projets → \n\n\n\n\n\n\n\n\n\n\n\n\n2024\n\n\n🏆 Distinction\n\n\nPrix des Pratiques Innovantes\n\n\n3ème édition des Trophées de l'Eau et de l'Assainissement du Burkina Faso\n\n\nRécompense pour l’application de méthodes d’intelligence artificielle à la cartographie des ressources en eau en zone de socle.\n\n\n\n\n\n\n\n\n\n\n\n\nBlog\n\n\nDerniers tutoriels R\n\n\n\n\n\n\n\n<div class=\"pub-item\">\n  <div class=\"pub-type pub-type-rpubs\">Tutoriel R</div>\n  <div class=\"pub-title\">Réalisation de courbes IDF avec R</div>\n  <div class=\"pub-meta\">Analyse fréquentielle des précipitations extrêmes</div>\n  <a href=\"blog/posts/idf-curves-r/index.html\" class=\"btn btn-sm btn-outline-secondary mt-2\">Lire →</a>\n</div>\n\n\n<div class=\"pub-item\">\n  <div class=\"pub-type pub-type-rpubs\">Tutoriel R</div>\n  <div class=\"pub-title\">Classification K-means Landsat 8</div>\n  <div class=\"pub-meta\">Télédétection non supervisée avec terra et cluster</div>\n  <a href=\"blog/posts/kmeans-landsat/index.html\" class=\"btn btn-sm btn-outline-secondary mt-2\">Lire →</a>\n</div>\n\n\n<div class=\"pub-item\">\n  <div class=\"pub-type pub-type-rpubs\">Tutoriel R</div>\n  <div class=\"pub-title\">Correction de biais des scénarios climatiques</div>\n  <div class=\"pub-meta\">Post-traitement des données CMIP avec R</div>\n  <a href=\"blog/posts/biais-correction/index.html\" class=\"btn btn-sm btn-outline-secondary mt-2\">Lire →</a>\n</div>\n\n\n\nVoir tous les articles →\n\n\n\n\n\n\n\n\n\nEngagement associatif & académique\n\n\n<div style=\"background:#112240;border:1px solid #1a3a6b;border-radius:0.5rem;padding:0.75rem 1.5rem;color:#cdd6f4;font-size:0.9rem;font-weight:500;\">\n  💧 Vice-Président — Association Hydro-Burkina\n</div>\n<div style=\"background:#112240;border:1px solid #1a3a6b;border-radius:0.5rem;padding:0.75rem 1.5rem;color:#cdd6f4;font-size:0.9rem;font-weight:500;\">\n  🎓 Master GRC — Université de Liège, Belgique\n</div>\n<div style=\"background:#112240;border:1px solid #1a3a6b;border-radius:0.5rem;padding:0.75rem 1.5rem;color:#cdd6f4;font-size:0.9rem;font-weight:500;\">\n  📊 CRA Agrhymet — Ingénieur Hydrologue\n</div>"
+  },
+  {
+    "objectID": "projects/gire-communautaire.html",
+    "href": "projects/gire-communautaire.html",
+    "title": "Manuel de GIRE communautaire — CECA-DR",
+    "section": "",
+    "text": "GIRE\n\n\nParticipatif\n\n\nConsultation\n\n\nBurkina Faso"
+  },
+  {
+    "objectID": "projects/gire-communautaire.html#contexte-de-la-mission",
+    "href": "projects/gire-communautaire.html#contexte-de-la-mission",
+    "title": "Manuel de GIRE communautaire — CECA-DR",
+    "section": "Contexte de la mission",
+    "text": "Contexte de la mission\nCette mission de consultation a été réalisée pour le CECA-DR (Centre d’Encadrement et d’Appui pour le Développement Rural), avec pour objectif l’élaboration d’un manuel de Gestion Intégrée des Ressources en Eau (GIRE) adapté aux communautés rurales de la région du Plateau Central du Burkina Faso.\n\nZone d’intervention\nDiagnostic participatif dans 6 villages de la région du Plateau Central, confrontés à des problèmes d’accès à l’eau, de dégradation des ouvrages hydrauliques et de conflits d’usages."
+  },
+  {
+    "objectID": "projects/gire-communautaire.html#méthodologie",
+    "href": "projects/gire-communautaire.html#méthodologie",
+    "title": "Manuel de GIRE communautaire — CECA-DR",
+    "section": "Méthodologie",
+    "text": "Méthodologie\n\n1. Diagnostic participatif\nLa démarche participative a mobilisé plusieurs outils :\n\nCartographie participative : élaboration de cartes de ressources et de risques avec les communautés\nEntretiens semi-directifs : chefs de village, responsables d’AUE (Associations d’Usagers de l’Eau), femmes\nFocus groups : groupes séparés par genre et catégorie sociale\nObservation directe : état des ouvrages, pratiques de gestion\n\n\n\n2. Analyse des vulnérabilités\nL’analyse a couvert :\n\n\n\nDimension\nIndicateurs évalués\n\n\n\n\nPhysique\nÉtat des forages, puits, retenues d’eau\n\n\nSociale\nAccès équitable (femmes, personnes vulnérables)\n\n\nÉconomique\nCapacité de contribution aux frais de maintenance\n\n\nInstitutionnelle\nFonctionnement des comités de gestion\n\n\n\n\n\n3. Ateliers participatifs\nOrganisation d’ateliers de restitution et de planification avec : - Les autorités coutumières et administratives locales - Les associations d’usagers de l’eau (AUE) - Les représentants des services déconcentrés de l’eau"
+  },
+  {
+    "objectID": "projects/gire-communautaire.html#résultats",
+    "href": "projects/gire-communautaire.html#résultats",
+    "title": "Manuel de GIRE communautaire — CECA-DR",
+    "section": "Résultats",
+    "text": "Résultats\n\nPlans d’action communautaires\nPour chaque village, un plan d’action a été élaboré comprenant :\n\nRéhabilitation des ouvrages prioritaires identifiés lors du diagnostic\nRenforcement des capacités des comités de gestion de l’eau\nRègles de gestion équitable adaptées aux pratiques locales\nMécanismes de financement de la maintenance préventive\n\n\n\nManuel GIRE\nLe manuel produit couvre :\n\n\n\n\n\n\nContenu du manuel\n\n\n\n\nPrincipes de la GIRE adaptés au contexte rural burkinabè\nMéthodologie de diagnostic participatif\nOutils de planification communautaire\n\nFiches pratiques de gestion des ouvrages\nModèles de conventions de gestion intercommunautaire"
+  },
+  {
+    "objectID": "projects/gire-communautaire.html#impact",
+    "href": "projects/gire-communautaire.html#impact",
+    "title": "Manuel de GIRE communautaire — CECA-DR",
+    "section": "Impact",
+    "text": "Impact\nCette mission s’inscrit dans la dynamique du Programme National de Gestion Intégrée des Ressources en Eau (PNGIRE) du Burkina Faso et contribue à renforcer la gouvernance locale de l’eau en milieu rural.\n\n“La gestion durable de l’eau en milieu rural ne peut se faire sans impliquer les communautés comme acteurs principaux — et non comme simples bénéficiaires.”\n— NEBIE Gaston Cyrille"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projets",
+    "section": "",
+    "text": "Portfolio\n\n\nCliquez sur un projet pour accéder au détail, aux résultats et au code R associé."
+  },
+  {
+    "objectID": "projects/index.html#hydrologie-modélisation",
+    "href": "projects/index.html#hydrologie-modélisation",
+    "title": "Projets",
+    "section": "🌊 Hydrologie & Modélisation",
+    "text": "🌊 Hydrologie & Modélisation\n\n\n\n\n🌊\n\n\nScénarios d’évolution de la ressource en eau — Nakanbé\n\n\nMémoire d'ingénieur. Élaboration de scénarios hydrologiques futurs pour le bassin \nversant du Nakanbé (Burkina Faso) en utilisant les modèles GR4J, GR6J et SWAT, \navec correction de biais des données climatiques CMIP.\n\n\n<span class=\"tag tag-water\">Hydrologie</span>\n<span class=\"tag tag-climate\">CMIP6</span>\n<span class=\"tag tag-r\">R</span>\n<span class=\"tag tag-sig\">SWAT</span>\n<a href=\"modelisation-nakambe.html\" class=\"btn btn-sm btn-outline-info mt-2 w-100\">Voir le projet →</a>\n\n\n\n\n\n\n📈\n\n\nBase de données agroclimatiques — BD_Agro_clim_AO\n\n\nDéveloppement d'une base de données agroclimatiques au format NetCDF couvrant \nl'Afrique de l'Ouest. Calcul des dates de début/fin de saison, séquences sèches \nmaximales selon la méthode Sivakumar (1994).\n\n\n<span class=\"tag tag-climate\">Agroclimatologie</span>\n<span class=\"tag tag-r\">R</span>\n<span class=\"tag tag-water\">NetCDF</span>\n<a href=\"bd-agroclimat.html\" class=\"btn btn-sm btn-outline-info mt-2 w-100\">Voir le projet →</a>"
+  },
+  {
+    "objectID": "projects/index.html#sig-télédétection",
+    "href": "projects/index.html#sig-télédétection",
+    "title": "Projets",
+    "section": "🛰️ SIG & Télédétection",
+    "text": "🛰️ SIG & Télédétection\n\n\n\n\n🛰️\n\n\nTélédétection avec R — Classification K-means Landsat 8\n\n\nClassification non supervisée d'images satellitaires Landsat 8 appliquée à la commune \nde Bama (Burkina Faso). Utilisation des packages terra et cluster pour la segmentation \nspectrale et l'interprétation des classes d'occupation du sol.\n\n\n<span class=\"tag tag-sig\">Télédétection</span>\n<span class=\"tag tag-ml\">K-means</span>\n<span class=\"tag tag-r\">R</span>\n<span class=\"tag tag-water\">Landsat 8</span>\n<a href=\"teledetection.html\" class=\"btn btn-sm btn-outline-info mt-2 w-100\">Voir le projet →</a>\n\n\n\n\n\n\n🗺️\n\n\nSDAGE — Schéma Directeur d’Aménagement et de Gestion des Eaux\n\n\nPremier document d'opérationnalisation du SDAGE de l'Agence de l'Eau du Nakanbé. \nContribution au volet SIG et cartographie pour la planification des ressources en eau.\n\n\n<span class=\"tag tag-gire\">GIRE</span>\n<span class=\"tag tag-sig\">SIG</span>\n<span class=\"tag tag-water\">Planification</span>\n<a href=\"sdage-aen.html\" class=\"btn btn-sm btn-outline-info mt-2 w-100\">Voir le projet →</a>"
+  },
+  {
+    "objectID": "projects/index.html#intelligence-artificielle-machine-learning",
+    "href": "projects/index.html#intelligence-artificielle-machine-learning",
+    "title": "Projets",
+    "section": "🤖 Intelligence Artificielle & Machine Learning",
+    "text": "🤖 Intelligence Artificielle & Machine Learning\n\n\n\n\n🤖\n\n\nIA pour la cartographie du potentiel aquifère\n\n\nPremière application du machine learning pour la cartographie des ressources en eau \nsouterraine au Burkina Faso. Projets PAEA (Groupe SGI) et ESEPV-Sahel (Bugego). \nAlgorithmes : Random Forest, arbres de décision, régression logistique.\n\n\n<span class=\"tag tag-ml\">Random Forest</span>\n<span class=\"tag tag-ml\">Machine Learning</span>\n<span class=\"tag tag-sig\">SIG</span>\n<span class=\"tag tag-r\">R</span>\n<a href=\"ml-aquifere.html\" class=\"btn btn-sm btn-outline-info mt-2 w-100\">Voir le projet →</a>\n\n\n\n\n\n\n⚡\n\n\nAnalyse des impacts CMIP6 sur les saisons agricoles\n\n\nCommunication au 4e Forum National de l'Eau et de l'Assainissement (2024). \nAnalyse des tendances des caractéristiques agroclimatiques au Burkina Faso \nselon les modèles CMIP6.\n\n\n<span class=\"tag tag-climate\">CMIP6</span>\n<span class=\"tag tag-r\">R</span>\n<span class=\"tag tag-climate\">Agroclimatologie</span>\n<a href=\"cmip6-agroclimat.html\" class=\"btn btn-sm btn-outline-info mt-2 w-100\">Voir le projet →</a>"
+  },
+  {
+    "objectID": "projects/index.html#consultation-gire",
+    "href": "projects/index.html#consultation-gire",
+    "title": "Projets",
+    "section": "🤝 Consultation & GIRE",
+    "text": "🤝 Consultation & GIRE\n\n\n\n\n📋\n\n\nManuel de GIRE communautaire — CECA-DR\n\n\nMission de consultation pour l'élaboration d'un manuel de Gestion Intégrée des \nRessources en Eau. Diagnostic participatif dans 6 villages du Plateau Central, \nanalyse des vulnérabilités et plans d'action communautaires.\n\n\n<span class=\"tag tag-gire\">GIRE</span>\n<span class=\"tag tag-gire\">Participatif</span>\n<span class=\"tag tag-water\">Consultation</span>\n<a href=\"gire-communautaire.html\" class=\"btn btn-sm btn-outline-info mt-2 w-100\">Voir le projet →</a>\n\n\n\n\n\n\n👨‍🏫\n\n\nFormation en analyse de données avec R\n\n\nRenforcement des capacités de cadres du Ministère en charge de l'Eau (Burkina Faso) \net de doctorants de l'UDDM (Niger) sur l'analyse statistique, les courbes de tarage \net le traitement des données hydroclimatiques avec R.\n\n\n<span class=\"tag tag-r\">R</span>\n<span class=\"tag tag-gire\">Formation</span>\n<span class=\"tag tag-water\">Hydrologie</span>\n<a href=\"formation-r.html\" class=\"btn btn-sm btn-outline-info mt-2 w-100\">Voir le projet →</a>\n\n\n\n\n\n\n\n\n\n\n\n📝 Portfolio en évolution\n\n\n\nCe portfolio est développé progressivement. De nouveaux projets et analyses seront ajoutés régulièrement. N’hésitez pas à consulter mon profil RPubs pour accéder à mes tutoriels et analyses publiés."
+  },
+  {
+    "objectID": "projects/ml-aquifere.html",
+    "href": "projects/ml-aquifere.html",
+    "title": "IA pour la cartographie du potentiel aquifère",
+    "section": "",
+    "text": "Random Forest\n\n\nMachine Learning\n\n\nSIG\n\n\nR\n\n\nBurkina Faso"
+  },
+  {
+    "objectID": "projects/ml-aquifere.html#contexte",
+    "href": "projects/ml-aquifere.html#contexte",
+    "title": "IA pour la cartographie du potentiel aquifère",
+    "section": "Contexte",
+    "text": "Contexte\nLa cartographie du potentiel aquifère en zone de socle est une problématique majeure en Afrique subsaharienne, où l’accès à l’eau souterraine représente un enjeu vital pour des millions de personnes. Les méthodes classiques reposant sur des approches géophysiques sont coûteuses et limitées à des zones précises.\nCe projet, mené dans le cadre de deux missions consultatives — le Programme d’Approvisionnement en Eau et Assainissement (PAEA) pour le Groupe SGI et le projet ESEPV-Sahel pour le bureau d’études Bugego — a introduit pour la première fois l’intelligence artificielle pour ce type d’analyses au Burkina Faso."
+  },
+  {
+    "objectID": "projects/ml-aquifere.html#données-et-variables-utilisées",
+    "href": "projects/ml-aquifere.html#données-et-variables-utilisées",
+    "title": "IA pour la cartographie du potentiel aquifère",
+    "section": "Données et variables utilisées",
+    "text": "Données et variables utilisées\nLes variables d’entrée pour les modèles ML ont été extraites et calculées à partir de diverses sources :\n\n\n\nVariable\nSource\nType\n\n\n\n\nLithologie\nCarte géologique\nCatégoriel\n\n\nDensité de fractures\nInterprétation Landsat\nNumérique\n\n\nPente (%)\nMNT SRTM 30m\nNumérique\n\n\nDensité de drainage\nMNT SRTM\nNumérique\n\n\nIndice topographique humidité\nMNT SRTM\nNumérique\n\n\nNDVI\nLandsat 8\nNumérique\n\n\nDistance aux failles\nCarte tectonique\nNumérique\n\n\nPrécipitations annuelles\nStations météo\nNumérique\n\n\nType de sol\nCarte pédologique\nCatégoriel"
+  },
+  {
+    "objectID": "projects/ml-aquifere.html#méthodologie",
+    "href": "projects/ml-aquifere.html#méthodologie",
+    "title": "IA pour la cartographie du potentiel aquifère",
+    "section": "Méthodologie",
+    "text": "Méthodologie\n\nPréparation des données\n\n\nCode\nlibrary(tidyverse)\nlibrary(caret)\nlibrary(randomForest)\nlibrary(rpart)\nlibrary(sf)\nlibrary(terra)\n\n# Charger les données d'entrainement\n# (points forages + variables environnementales)\ndata_forages <- read.csv(\"data/forages_variables.csv\")\n\n# Variable cible : productivité du forage (Bon/Moyen/Faible)\ndata_forages$productivite <- as.factor(data_forages$productivite)\n\n# Partition train/test\nset.seed(123)\nidx_train <- createDataPartition(data_forages$productivite, p = 0.75, list = FALSE)\ntrain_data <- data_forages[ idx_train, ]\ntest_data  <- data_forages[-idx_train, ]\n\ncat(\"Données d'entraînement :\", nrow(train_data), \"observations\\n\")\ncat(\"Données de test :\", nrow(test_data), \"observations\\n\")\n\n\n\n\nModèle Random Forest\n\n\nCode\n# Entraînement du Random Forest\nset.seed(42)\nrf_model <- randomForest(\n  productivite ~ lithologie + densite_fractures + pente + \n                 densite_drainage + twi + ndvi + \n                 dist_failles + precipitation + type_sol,\n  data       = train_data,\n  ntree      = 500,\n  importance = TRUE,\n  proximity  = TRUE\n)\n\nprint(rf_model)\n\n\n\n\nImportance des variables\n\n\nCode\n# Extraire et visualiser l'importance des variables\nimportance_df <- as.data.frame(importance(rf_model))\nimportance_df$variable <- rownames(importance_df)\n\nggplot(importance_df, aes(x = reorder(variable, MeanDecreaseGini), \n                           y = MeanDecreaseGini)) +\n  geom_col(fill = \"#00b4d8\", alpha = 0.85, width = 0.7) +\n  coord_flip() +\n  labs(\n    title    = \"Importance des variables — Random Forest\",\n    subtitle = \"Critère : Diminution moyenne de l'impureté de Gini\",\n    x = NULL, y = \"MeanDecreaseGini\"\n  ) +\n  theme_minimal(base_size = 12) +\n  theme(\n    plot.background  = element_rect(fill = \"#0d1b2a\", color = NA),\n    panel.background = element_rect(fill = \"#112240\", color = NA),\n    panel.grid = element_line(color = \"#1a3a6b\"),\n    axis.text  = element_text(color = \"#cdd6f4\"),\n    axis.title = element_text(color = \"#90a8c0\"),\n    plot.title    = element_text(color = \"#90e0ef\", face = \"bold\"),\n    plot.subtitle = element_text(color = \"#7090a0\")\n  )\n\n\n\n\nÉvaluation des modèles\n\n\nCode\n# Prédictions sur le jeu de test\npred_rf <- predict(rf_model, newdata = test_data)\n\n# Matrice de confusion\nconf_matrix <- confusionMatrix(pred_rf, test_data$productivite)\nprint(conf_matrix)\n\n# Comparaison avec régression logistique et arbre de décision\n# ... (modèles additionnels)"
+  },
+  {
+    "objectID": "projects/ml-aquifere.html#résultats",
+    "href": "projects/ml-aquifere.html#résultats",
+    "title": "IA pour la cartographie du potentiel aquifère",
+    "section": "Résultats",
+    "text": "Résultats\n\nPerformance des modèles\n\n\n\nModèle\nPrécision globale\nKappa\n\n\n\n\nRandom Forest\n84.2%\n0.76\n\n\nArbre de décision\n76.8%\n0.65\n\n\nRégression logistique\n71.3%\n0.57\n\n\n\nLe Random Forest obtient les meilleures performances, avec une précision globale de 84.2% sur le jeu de test.\n\n\nVariables les plus importantes\nL’analyse de l’importance des variables révèle que la densité de fractures et la lithologie sont les facteurs prédictifs les plus influents, suivis de la distance aux failles et du TWI (Topographic Wetness Index).\n\n\nCartographie du potentiel aquifère\n\n\nCode\n# Prédiction spatiale sur l'ensemble de la zone\n# (raster de variables prétraité)\nvars_raster <- rast(\"data/variables_spatiales.tif\")\n\n# Prédiction pixel par pixel\npred_raster <- predict(vars_raster, rf_model, type = \"class\")\n\n# Cartographie\nplot(pred_raster,\n     col  = c(\"#e63946\",\"#f4a261\",\"#06d6a0\"),\n     main = \"Potentiel aquifère — Zone d'étude\",\n     sub  = \"Modèle Random Forest\")\nlegend(\"bottomright\",\n       fill   = c(\"#e63946\",\"#f4a261\",\"#06d6a0\"),\n       legend = c(\"Faible\",\"Moyen\",\"Bon\"),\n       title  = \"Potentiel\",\n       bty    = \"n\")"
+  },
+  {
+    "objectID": "projects/ml-aquifere.html#impact-et-valorisation",
+    "href": "projects/ml-aquifere.html#impact-et-valorisation",
+    "title": "IA pour la cartographie du potentiel aquifère",
+    "section": "Impact et valorisation",
+    "text": "Impact et valorisation\n\n\n\n\n\n\nInnovation reconnue\n\n\n\nCette approche constitue une première au Burkina Faso dans l’utilisation de l’intelligence artificielle pour l’évaluation des ressources en eau souterraine, récompensée par le Prix des Pratiques Innovantes aux Trophées de l’Eau 2024.\n\n\nLes cartes de potentiel aquifère produites ont été utilisées pour : - L’optimisation des sites d’implantation de forages dans le cadre du PAEA - La priorisation des zones d’intervention du projet ESEPV-Sahel\n- L’aide à la décision pour les planificateurs du secteur eau"
+  },
+  {
+    "objectID": "projects/modelisation-nakambe.html",
+    "href": "projects/modelisation-nakambe.html",
+    "title": "Modélisation hydrologique du bassin versant du Nakanbé",
+    "section": "",
+    "text": "Hydrologie\n\n\nCMIP6\n\n\nR\n\n\nGR4J / GR6J\n\n\nSWAT"
+  },
+  {
+    "objectID": "projects/modelisation-nakambe.html#contexte",
+    "href": "projects/modelisation-nakambe.html#contexte",
+    "title": "Modélisation hydrologique du bassin versant du Nakanbé",
+    "section": "Contexte",
+    "text": "Contexte\nCe projet constitue le travail de mémoire d’ingénieur réalisé au Centre Régional Agrhymet (CRA, Niamey, Niger) en 2020. Il porte sur l’élaboration de scénarios d’évolution de la ressource en eau de surface dans le bassin versant du Nakanbé au Burkina Faso.\nLe bassin versant du Nakanbé est l’un des principaux bassins du Burkina Faso. Il alimente le barrage de Bagré et constitue une ressource vitale pour l’agriculture irriguée et l’alimentation en eau de plusieurs villes."
+  },
+  {
+    "objectID": "projects/modelisation-nakambe.html#méthodologie",
+    "href": "projects/modelisation-nakambe.html#méthodologie",
+    "title": "Modélisation hydrologique du bassin versant du Nakanbé",
+    "section": "Méthodologie",
+    "text": "Méthodologie\n1. Données hydroclimatiques\n\nCodelibrary(tidyverse)\nlibrary(lubridate)\nlibrary(ncdf4)\n\n# Charger les données observées\n# - Précipitations : 15 stations pluviométriques (1970-2018)\n# - Débits : Station de Wayen (1970-2018)\n# - ETP : Méthode Penman-Monteith\n\npluies <- read.csv(\"data/precipitations_nakambe.csv\")\ndebits <- read.csv(\"data/debits_wayen.csv\")\n\n\n2. Correction de biais des scénarios CMIP6\n\nCodelibrary(ncdf4)\nlibrary(qmap)\n\n# Ouvrir le fichier NetCDF CMIP6\nnc_hist <- nc_open(\"data/pr_hist_CMIP6.nc\")\nnc_futur <- nc_open(\"data/pr_ssp245_CMIP6.nc\")\n\n# Extraire les données de précipitation\npr_hist <- ncvar_get(nc_hist, \"pr\")\npr_futur <- ncvar_get(nc_futur, \"pr\")\n\n# Correction par Quantile Mapping (QM)\nqm_fit <- fitQmap(\n  obs = pluies_obs_ref,\n  mod = pr_hist_ref,\n  method = \"RQUANT\",\n  qstep = 0.01\n)\n\npr_futur_corrige <- doQmap(pr_futur, qm_fit)\n\n\n3. Modélisation avec GR4J (package airGR)\n\nCodelibrary(airGR)\n\n# Préparer les données d'entrée\nInputsModel <- CreateInputsModel(\n  FUN_MOD    = RunModel_GR4J,\n  DatesR     = as.POSIXct(debits$date),\n  Precip     = pluies_bassin$P,\n  PotEvap    = etp$ETP\n)\n\n# Paramètres calés par algorithme de Nelder-Mead\nRunOptions <- CreateRunOptions(\n  FUN_MOD        = RunModel_GR4J,\n  InputsModel    = InputsModel,\n  IndPeriod_Run  = 1:length(debits$date),\n  IniStates      = NULL,\n  IniResLevels   = NULL\n)\n\n# Calibration\nCalibOptions <- CreateCalibOptions(\n  FUN_MOD            = RunModel_GR4J,\n  FUN_CALIB          = Calibration_Michel,\n  SearchRanges       = matrix(\n    c(100, 0.5, 20, 1.1, 5000, 5, 300, 2.9),\n    ncol = 2\n  )\n)\n\nParam_calib <- Calibration(\n  InputsModel  = InputsModel,\n  RunOptions   = RunOptions,\n  InputsCrit   = CreateInputsCrit(\n    FUN_CRIT   = ErrorCrit_NSE,\n    InputsModel = InputsModel,\n    RunOptions = RunOptions,\n    Obs        = debits$Q\n  ),\n  CalibOptions = CalibOptions,\n  FUN_MOD      = RunModel_GR4J,\n  FUN_CALIB    = Calibration_Michel\n)\n\ncat(\"Paramètres calés GR4J :\", Param_calib$ParamFinalR, \"\\n\")\ncat(\"NSE :\", Param_calib$CritFinal, \"\\n\")\n\n\n4. Simulation des scénarios futurs\n\nCode# Simuler avec les données climatiques corrigées\n# Scénario SSP2-4.5 et SSP5-8.5\n\nscenarios <- list(\n  SSP245 = pr_futur_corrige_ssp245,\n  SSP585 = pr_futur_corrige_ssp585\n)\n\nresultats_scenarios <- lapply(names(scenarios), function(sc) {\n  # Simulation hydrologique\n  InputsModel_fut <- CreateInputsModel(\n    FUN_MOD = RunModel_GR4J,\n    DatesR  = dates_futur,\n    Precip  = scenarios[[sc]],\n    PotEvap = etp_futur\n  )\n  \n  OutputsModel <- RunModel_GR4J(\n    InputsModel = InputsModel_fut,\n    RunOptions  = RunOptions_fut,\n    Param       = Param_calib$ParamFinalR\n  )\n  \n  data.frame(\n    date    = dates_futur,\n    debit   = OutputsModel$Qsim,\n    scenario = sc\n  )\n})\n\ndebits_scenarios <- bind_rows(resultats_scenarios)"
+  },
+  {
+    "objectID": "projects/modelisation-nakambe.html#résultats",
+    "href": "projects/modelisation-nakambe.html#résultats",
+    "title": "Modélisation hydrologique du bassin versant du Nakanbé",
+    "section": "Résultats",
+    "text": "Résultats\nPerformance du modèle en calage/validation\n\n\nCritère\nCalage (1980-2000)\nValidation (2001-2018)\n\n\n\nNash-Sutcliffe (NSE)\n0.82\n0.78\n\n\nBiais (%)\n-2.3\n+4.1\n\n\nCorrélation (r)\n0.91\n0.89\n\n\n\n\nCodelibrary(ggplot2)\n\nggplot(debits_scenarios, aes(x = date, y = debit, color = scenario)) +\n  geom_line(alpha = 0.7) +\n  scale_color_manual(\n    values = c(\"SSP245\" = \"#0096c7\", \"SSP585\" = \"#e63946\"),\n    labels = c(\"SSP2-4.5 (optimiste)\", \"SSP5-8.5 (pessimiste)\")\n  ) +\n  labs(\n    title    = \"Évolution des débits simulés — Bassin versant du Nakanbé\",\n    subtitle = \"Modèle GR4J · Scénarios CMIP6 corrigés\",\n    x        = NULL, y = \"Débit (m³/s)\",\n    color    = \"Scénario\"\n  ) +\n  theme_minimal(base_size = 13) +\n  theme(\n    plot.background  = element_rect(fill = \"#0d1b2a\", color = NA),\n    panel.background = element_rect(fill = \"#112240\", color = NA),\n    panel.grid = element_line(color = \"#1a3a6b\"),\n    axis.text  = element_text(color = \"#cdd6f4\"),\n    axis.title = element_text(color = \"#90a8c0\"),\n    plot.title    = element_text(color = \"#90e0ef\", face = \"bold\"),\n    plot.subtitle = element_text(color = \"#7090a0\"),\n    legend.background = element_rect(fill = \"#112240\", color = NA),\n    legend.text  = element_text(color = \"#cdd6f4\"),\n    legend.title = element_text(color = \"#90a8c0\")\n  )\n\n\nTendances projetées\n\n\n\n\n\n\nRésultats principaux\n\n\n\nLes projections indiquent une réduction des débits annuels de -15% à -30% à l’horizon 2050-2100 pour le scénario SSP5-8.5, avec une intensification des événements extrêmes (crues et étiages)."
+  },
+  {
+    "objectID": "projects/modelisation-nakambe.html#conclusions",
+    "href": "projects/modelisation-nakambe.html#conclusions",
+    "title": "Modélisation hydrologique du bassin versant du Nakanbé",
+    "section": "Conclusions",
+    "text": "Conclusions\nCe travail a permis de démontrer la faisabilité de la modélisation hydrologique couplée aux scénarios climatiques CMIP6 pour le bassin du Nakanbé, et de produire des projections utiles à la planification de la gestion de l’eau à long terme.\nLes résultats ont été utilisés dans le cadre du Programme National de Gestion Intégrée des Ressources en Eau (PNGIRE) du Burkina Faso."
+  },
+  {
+    "objectID": "projects/teledetection.html",
+    "href": "projects/teledetection.html",
+    "title": "Télédétection avec R",
+    "section": "",
+    "text": "Télédétection\n\n\nK-means\n\n\nR\n\n\nLandsat 8\n\n\nBurkina Faso"
+  },
+  {
+    "objectID": "projects/teledetection.html#avant-propos",
+    "href": "projects/teledetection.html#avant-propos",
+    "title": "Télédétection avec R",
+    "section": "Avant-propos",
+    "text": "Avant-propos\nLa télédétection représente un domaine captivant où les données satellitaires jouent un rôle crucial en fournissant des informations essentielles sur notre environnement et nos ressources naturelles. Ce document explore la classification non supervisée d’images satellites, une méthode indispensable pour extraire des informations pertinentes à partir de vastes ensembles de données.\nLa classification non supervisée consiste à regrouper des pixels similaires d’une image en groupes homogènes basés principalement sur leurs caractéristiques spectrales, sans données de référence préalables. Elle est couramment utilisée pour :\n\nLa surveillance environnementale\nLa cartographie de la couverture terrestre\n\nLa gestion des catastrophes naturelles\n\nZone d’étude : Commune de Bama, Burkina Faso (ouest du pays).Données : Image Landsat 8, acquisition du 25 janvier 2024."
+  },
+  {
+    "objectID": "projects/teledetection.html#packages-requis",
+    "href": "projects/teledetection.html#packages-requis",
+    "title": "Télédétection avec R",
+    "section": "Packages requis",
+    "text": "Packages requis\n\nCode# Installation (si nécessaire)\n# install.packages(c(\"terra\", \"tidyr\", \"ggplot2\", \"cluster\"))\n\nlibrary(terra)    # Manipulation données raster et vectorielles\nlibrary(cluster)  # Algorithme K-means et indice de silhouette\nlibrary(ggplot2)  # Visualisation\nlibrary(tidyr)    # Restructuration des données\n\n\nConfiguration matérielle minimale : 8 Go de RAM."
+  },
+  {
+    "objectID": "projects/teledetection.html#chargement-des-données",
+    "href": "projects/teledetection.html#chargement-des-données",
+    "title": "Télédétection avec R",
+    "section": "1. Chargement des données",
+    "text": "1. Chargement des données\n1.1 Données raster (bandes spectrales)\n\nCode# Fixer le répertoire de travail\nsetwd(\"D:/articles_r/first_doc/\")\n\n# Lister les fichiers Landsat 8 (bandes .TIF)\nfiles <- list.files(\"data/landsat8\", pattern = \"\\\\.TIF$\", full.names = TRUE)\nfiles\n\n# Charger les bandes spectrales\nlandsat <- rast(files)\nlandsat  # Afficher les métadonnées\n\n\nLes identifiants contiennent : satellite (LC08), niveau de traitement (L1TP), chemin/rangée (197052), date d’acquisition (20240125).\n\nCode# Renommer les bandes pour simplifier\nnames(landsat) <- paste0(\"B\", 1:7)\nnames(landsat)\n\n\n\n\nBande\nLongueur d’onde\nUtilisation\n\n\n\nB1\nCôtière (0.43-0.45 µm)\nAérosols côtiers\n\n\nB2\nBleu (0.45-0.51 µm)\nBathymétrie\n\n\nB3\nVert (0.53-0.59 µm)\nVégétation\n\n\nB4\nRouge (0.64-0.67 µm)\nChlorophylle\n\n\nB5\nPIR (0.85-0.88 µm)\nVégétation/eau\n\n\nB6\nSWIR 1 (1.57-1.65 µm)\nHumidité sol\n\n\nB7\nSWIR 2 (2.11-2.29 µm)\nMinéraux\n\n\n1.2 Données vectorielles\n\nCode# Charger les limites de la commune de Bama\npoly <- vect(\"data/commune_bama.shp\")\npoly\n\n# Visualisation rapide : bande PIR + contour\nplot(landsat[[\"B5\"]])\nlines(poly, col = \"red\", lwd = 2)"
+  },
+  {
+    "objectID": "projects/teledetection.html#préparation-des-données",
+    "href": "projects/teledetection.html#préparation-des-données",
+    "title": "Télédétection avec R",
+    "section": "2. Préparation des données",
+    "text": "2. Préparation des données\n2.1 Recadrage sur la zone d’intérêt\n\nCode# Recadrer sur les limites de Bama\nlandsat_crop <- crop(landsat, poly)\nlandsat_mask <- mask(landsat_crop, poly)\n\n\n2.2 Normalisation et suppression des valeurs aberrantes\n\nCode# Quantiles pour l'étirement linéaire\nq_low  <- 0.02\nq_high <- 0.98\n\n# Appliquer par bande\nfor (b in names(landsat_mask)) {\n  vals      <- values(landsat_mask[[b]])\n  v_low     <- quantile(vals, q_low,  na.rm = TRUE)\n  v_high    <- quantile(vals, q_high, na.rm = TRUE)\n  vals_norm <- (vals - v_low) / (v_high - v_low)\n  vals_norm <- pmax(0, pmin(1, vals_norm))  # Clamp [0, 1]\n  values(landsat_mask[[b]]) <- vals_norm\n}\n\n\n2.3 Préparation de la matrice pour le clustering\n\nCode# Convertir le raster en matrice\nmat <- as.matrix(values(landsat_mask))\n\n# Supprimer les NA\nvalid_idx <- complete.cases(mat)\nmat_clean <- mat[valid_idx, ]\n\n# Échantillonnage (pour accélérer le calcul)\nset.seed(42)\nn_sample <- 15000\nidx_sample <- sample(nrow(mat_clean), min(n_sample, nrow(mat_clean)))\nmat_sample <- mat_clean[idx_sample, ]\n\ncat(\"Pixels valides :\", nrow(mat_clean), \"\\n\")\ncat(\"Taille échantillon :\", nrow(mat_sample), \"\\n\")"
+  },
+  {
+    "objectID": "projects/teledetection.html#classification-k-means",
+    "href": "projects/teledetection.html#classification-k-means",
+    "title": "Télédétection avec R",
+    "section": "3. Classification K-means",
+    "text": "3. Classification K-means\n3.1 Choix du nombre optimal de clusters\n\nCode# Méthode de l'indice de silhouette\nk_range <- 2:8\nsil_scores <- numeric(length(k_range))\n\nfor (i in seq_along(k_range)) {\n  k      <- k_range[i]\n  km     <- kmeans(mat_sample, centers = k, nstart = 10, iter.max = 100)\n  sil    <- silhouette(km$cluster, dist(mat_sample[sample(nrow(mat_sample), 500), ]))\n  sil_scores[i] <- mean(sil[, 3])\n  cat(\"k =\", k, \"| Silhouette moyen =\", round(sil_scores[i], 4), \"\\n\")\n}\n\n# Visualisation des scores\nsil_df <- data.frame(k = k_range, silhouette = sil_scores)\n\nggplot(sil_df, aes(x = k, y = silhouette)) +\n  geom_line(color = \"#00b4d8\", linewidth = 1.2) +\n  geom_point(color = \"#48cae4\", size = 4) +\n  geom_point(data = sil_df[which.max(sil_df$silhouette), ],\n             color = \"#ffd166\", size = 6, shape = 18) +\n  labs(\n    title    = \"Choix du nombre optimal de clusters\",\n    subtitle = \"Méthode de l'indice de silhouette moyen\",\n    x        = \"Nombre de clusters (k)\",\n    y        = \"Indice de silhouette moyen\"\n  ) +\n  theme_minimal(base_size = 13) +\n  theme(\n    plot.background  = element_rect(fill = \"#0d1b2a\", color = NA),\n    panel.background = element_rect(fill = \"#112240\", color = NA),\n    panel.grid = element_line(color = \"#1a3a6b\"),\n    axis.text  = element_text(color = \"#cdd6f4\"),\n    axis.title = element_text(color = \"#90a8c0\"),\n    plot.title    = element_text(color = \"#90e0ef\", face = \"bold\"),\n    plot.subtitle = element_text(color = \"#7090a0\")\n  )\n\n\n3.2 Application du K-means\n\nCode# Paramètres optimaux (adapter selon le résultat ci-dessus)\nk_optimal <- 5\n\nset.seed(42)\nkm_result <- kmeans(\n  x       = mat_clean,\n  centers = k_optimal,\n  nstart  = 25,\n  iter.max = 200\n)\n\n# Résultats\ncat(\"K-means avec k =\", k_optimal, \"\\n\")\ncat(\"Inertie intra-cluster :\", round(km_result$tot.withinss, 2), \"\\n\")\ncat(\"Répartition des clusters :\\n\")\nprint(table(km_result$cluster))"
+  },
+  {
+    "objectID": "projects/teledetection.html#interprétation-des-clusters",
+    "href": "projects/teledetection.html#interprétation-des-clusters",
+    "title": "Télédétection avec R",
+    "section": "4. Interprétation des clusters",
+    "text": "4. Interprétation des clusters\n4.1 Boîtes à moustaches par cluster et par bande\n\nCode# Associer les labels de cluster aux pixels valides\ndf_clusters <- as.data.frame(mat_clean)\ndf_clusters$cluster <- as.factor(km_result$cluster)\n\n# Restructurer en format long\ndf_long <- tidyr::pivot_longer(\n  df_clusters,\n  cols      = starts_with(\"B\"),\n  names_to  = \"Bande\",\n  values_to = \"Reflectance\"\n)\n\n# Visualisation\nggplot(df_long, aes(x = Bande, y = Reflectance, fill = cluster)) +\n  geom_boxplot(alpha = 0.75, outlier.size = 0.5) +\n  scale_fill_manual(\n    values = c(\"#0077b6\",\"#f4a261\",\"#06d6a0\",\"#e63946\",\"#c4b5fd\"),\n    labels = paste(\"Cluster\", 1:k_optimal)\n  ) +\n  labs(\n    title    = \"Profils spectraux par cluster\",\n    subtitle = \"Distribution de la réflectance par bande — Commune de Bama\",\n    x        = \"Bande spectrale\",\n    y        = \"Réflectance normalisée\",\n    fill     = \"Cluster\"\n  ) +\n  theme_minimal(base_size = 12) +\n  theme(\n    plot.background  = element_rect(fill = \"#0d1b2a\", color = NA),\n    panel.background = element_rect(fill = \"#112240\", color = NA),\n    panel.grid = element_line(color = \"#1a3a6b\"),\n    axis.text  = element_text(color = \"#cdd6f4\"),\n    axis.title = element_text(color = \"#90a8c0\"),\n    plot.title    = element_text(color = \"#90e0ef\", face = \"bold\"),\n    plot.subtitle = element_text(color = \"#7090a0\"),\n    legend.background = element_rect(fill = \"#112240\", color = NA),\n    legend.text  = element_text(color = \"#cdd6f4\"),\n    legend.title = element_text(color = \"#90a8c0\")\n  )\n\n\n4.2 Interprétation thématique\nSur la base des profils spectraux (valeurs de réflectance par bande) :\n\n\nCluster\nProfil dominant\nInterprétation probable\n\n\n\n1\nForte réflectance B6, B7 (SWIR)\nSols nus / zones dégradées\n\n\n2\nForte réflectance B5 (PIR)\nVégétation dense\n\n\n3\nFaible réflectance toutes bandes\nEau / zones humides\n\n\n4\nRéflectance modérée B3, B4\nVégétation éparse / jachères\n\n\n5\nForte réflectance B2, B3\nZones bâties / surfaces artificielles"
+  },
+  {
+    "objectID": "projects/teledetection.html#cartographie-des-résultats",
+    "href": "projects/teledetection.html#cartographie-des-résultats",
+    "title": "Télédétection avec R",
+    "section": "5. Cartographie des résultats",
+    "text": "5. Cartographie des résultats\n\nCode# Créer le raster de classification\nclass_rast <- rast(landsat_mask[[1]])  # Copier la structure\n\n# Remplir avec les labels de cluster\nvals_class           <- rep(NA, ncell(class_rast))\nvals_class[valid_idx] <- km_result$cluster\nvalues(class_rast)   <- vals_class\n\n# Palette de couleurs thématiques\npalette_classes <- c(\n  \"#c9b08e\",  # Sols nus / zones dégradées\n  \"#228b22\",  # Végétation dense\n  \"#1e90ff\",  # Eau / zones humides\n  \"#8fbc8f\",  # Végétation éparse\n  \"#e8d5b7\"   # Zones bâties\n)\n\n# Visualisation avec terra::plot\nterra::plot(\n  class_rast,\n  col  = palette_classes,\n  main = \"Classification K-means — Commune de Bama (Landsat 8, jan. 2024)\",\n  axes = FALSE\n)\nterra::lines(poly, col = \"white\", lwd = 1.5)\nterra::add_legend(\n  \"bottomright\",\n  fill   = palette_classes,\n  legend = c(\"Sols nus\", \"Végétation dense\", \"Eau\", \"Végétation éparse\", \"Zone bâtie\"),\n  bty    = \"n\",\n  cex    = 0.8\n)"
+  },
+  {
+    "objectID": "projects/teledetection.html#résultats-et-conclusion",
+    "href": "projects/teledetection.html#résultats-et-conclusion",
+    "title": "Télédétection avec R",
+    "section": "Résultats et conclusion",
+    "text": "Résultats et conclusion\nCette analyse démontre la capacité du langage R, via le package terra, à réaliser une chaîne de traitement complète d’images satellitaires Landsat 8 :\n\n\n\n\n\n\nPoints clés\n\n\n\n\n\nLa classification K-means avec validation par l’indice de silhouette permet d’identifier k=5 classes spectrales pertinentes sur la commune de Bama\n\nLes profils spectraux (boîtes à moustaches par bande) facilitent l’interprétation thématique de chaque cluster\n\nL’outil est facilement reproductible sur n’importe quelle image Landsat 8 en adaptant le chemin des données"
+  },
+  {
+    "objectID": "projects/teledetection.html#références",
+    "href": "projects/teledetection.html#références",
+    "title": "Télédétection avec R",
+    "section": "Références",
+    "text": "Références\n\n\nterra : Hijmans R.J. (2024). terra: Spatial Data Analysis\n\ncluster : Maechler M. et al. (2023). cluster: Cluster Analysis\nDescription des bandes Landsat 8 : NASA Landsat Science\n\n\n\nRetrouvez d’autres analyses sur RPubs — nebiegc"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications & Communications",
+    "section": "",
+    "text": "RPubs — nebiegc\n\n\n\nL’ensemble de mes publications et tutoriels R sont accessibles sur rpubs.com/nebiegc."
+  },
+  {
+    "objectID": "publications.html#distinction",
+    "href": "publications.html#distinction",
+    "title": "Publications & Communications",
+    "section": "🏆 Distinction",
+    "text": "🏆 Distinction\n\n\n2024\n\n\n🏆 Prix National\n\n\nPrix des Pratiques Innovantes\n\n\n3ème édition des Trophées de l’Eau et de l’Assainissement du Burkina Faso\n\n\nRécompense pour l’application de méthodes d’intelligence artificielle (Random Forest, arbres de décision) à la cartographie du potentiel aquifère en zone de socle — une première au Burkina Faso."
+  },
+  {
+    "objectID": "publications.html#publications-rpubs",
+    "href": "publications.html#publications-rpubs",
+    "title": "Publications & Communications",
+    "section": "📊 Publications RPubs",
+    "text": "📊 Publications RPubs\n\nSérie Hydrologie & Bassins versants\n\n\nRPubs · Tutoriel R\n\n\nHydrologie et bassin versant — Caractéristiques morphométriques\n\n\nP_f bk2020_001 · Calcul des paramètres morphométriques avec R\n\n\n<span class=\"tag tag-r\">R</span><span class=\"tag tag-water\">Hydrologie</span>\n<a href=\"https://rpubs.com/nebiegc\" target=\"_blank\" class=\"btn btn-sm btn-outline-secondary ms-2\">RPubs →</a>\n\n\n\n\nRPubs · Tutoriel R\n\n\nSpatialisation des données de pluie\n\n\nP_f bk2020_004 · Interpolation spatiale des précipitations\n\n\n<span class=\"tag tag-r\">R</span><span class=\"tag tag-sig\">SIG</span>\n<a href=\"https://rpubs.com/nebiegc\" target=\"_blank\" class=\"btn btn-sm btn-outline-secondary ms-2\">RPubs →</a>\n\n\n\n\nRPubs · Tutoriel R\n\n\nKrigeage — Interpolation géostatistique\n\n\nP_f bk2020_005 · Application du krigeage avec R\n\n\n<span class=\"tag tag-r\">R</span><span class=\"tag tag-sig\">Géostatistique</span>\n<a href=\"https://rpubs.com/nebiegc\" target=\"_blank\" class=\"btn btn-sm btn-outline-secondary ms-2\">RPubs →</a>\n\n\n\n\nRPubs · Tutoriel R\n\n\nModélisation hydrologique — Application du modèle GR4J\n\n\nP_f bk2020_006 · Modèle GR4J sur le bassin versant du Kou (Burkina Faso)\n\n\n<span class=\"tag tag-r\">R</span><span class=\"tag tag-water\">GR4J</span>\n<a href=\"https://rpubs.com/nebiegc\" target=\"_blank\" class=\"btn btn-sm btn-outline-secondary ms-2\">RPubs →</a>\n\n\n\n\nRPubs · Tutoriel R\n\n\nCourbes IDF — Analyse fréquentielle des pluies\n\n\nP_f bk2020_007 & 008 · Réalisation de courbes Intensité-Durée-Fréquence avec R\n\n\n<span class=\"tag tag-r\">R</span><span class=\"tag tag-water\">IDF</span><span class=\"tag tag-water\">Crues</span>\n<a href=\"https://rpubs.com/nebiegc\" target=\"_blank\" class=\"btn btn-sm btn-outline-secondary ms-2\">RPubs →</a>\n\n\n\n\nRPubs · Tutoriel R\n\n\nAnalyse fréquentielle — Les extrêmes hydrologiques (crues)\n\n\nP_f bk2020_011 · Analyse statistique des événements extrêmes\n\n\n<span class=\"tag tag-r\">R</span><span class=\"tag tag-risk\">Extrêmes</span>\n<a href=\"https://rpubs.com/nebiegc\" target=\"_blank\" class=\"btn btn-sm btn-outline-secondary ms-2\">RPubs →</a>\n\n\n\n\nClimatologie\n\n\nRPubs · Analyse\n\n\nCaractérisation de la saison des pluies au Burkina Faso\n\n\nNS_f bk2020_001 · Analyse de la variabilité saisonnière des précipitations\n\n\n<span class=\"tag tag-r\">R</span><span class=\"tag tag-climate\">Climatologie</span>\n<a href=\"https://rpubs.com/nebiegc\" target=\"_blank\" class=\"btn btn-sm btn-outline-secondary ms-2\">RPubs →</a>\n\n\n\n\nRPubs · Tutoriel R\n\n\nPost-traitement des scénarios climatiques — Correction de biais\n\n\nP_f bk2020_012 · Méthodes de correction de biais des données CMIP\n\n\n<span class=\"tag tag-r\">R</span><span class=\"tag tag-climate\">CMIP</span><span class=\"tag tag-climate\">Scénarios</span>\n<a href=\"https://rpubs.com/nebiegc\" target=\"_blank\" class=\"btn btn-sm btn-outline-secondary ms-2\">RPubs →</a>\n\n\n\n Voir toutes les publications sur RPubs →"
+  },
+  {
+    "objectID": "publications.html#communications-scientifiques",
+    "href": "publications.html#communications-scientifiques",
+    "title": "Publications & Communications",
+    "section": "🎤 Communications scientifiques",
+    "text": "🎤 Communications scientifiques\n\n\nCommunication · Conférence nationale\n\n\nImpacts des changements climatiques sur les caractéristiques agroclimatiques des saisons \nau Burkina Faso : quelles tendances selon les modèles climatiques CMIP6 ?\n\n\n4ème édition du Forum National de l'Eau et de l'Assainissement du Burkina Faso · 2024\n\n\n<span class=\"tag tag-climate\">CMIP6</span>\n<span class=\"tag tag-climate\">Agroclimatologie</span>\n<span class=\"tag tag-water\">Burkina Faso</span>"
+  },
+  {
+    "objectID": "publications.html#rapports-consultations",
+    "href": "publications.html#rapports-consultations",
+    "title": "Publications & Communications",
+    "section": "📄 Rapports & Consultations",
+    "text": "📄 Rapports & Consultations\n\n\nRapport · Consultation\n\n\nManuel de Gestion Intégrée des Ressources en Eau (GIRE) communautaire\n\n\nCECA-DR (Centre d'Encadrement et d'Appui pour le Développement Rural) · 2024 · \nDiagnostic participatif — 6 villages, Plateau Central, Burkina Faso\n\n\n<span class=\"tag tag-gire\">GIRE</span><span class=\"tag tag-gire\">Manuel</span>\n\n\n\n\nRapport · Planification\n\n\nDocument d’opérationnalisation du SDAGE de l’Agence de l’Eau du Nakanbé\n\n\nAgence de l'Eau du Nakanbé (AEN) · 2024 · \nPremier document SDAGE — Volet SIG et cartographie\n\n\n<span class=\"tag tag-gire\">SDAGE</span><span class=\"tag tag-sig\">SIG</span>"
+  },
+  {
+    "objectID": "publications.html#formations-animées",
+    "href": "publications.html#formations-animées",
+    "title": "Publications & Communications",
+    "section": "👨‍🏫 Formations animées",
+    "text": "👨‍🏫 Formations animées\n\n\nFormation · Renforcement de capacités\n\n\nUtilisation de R pour le traitement des données hydroclimatiques et l'élaboration \nde courbes de tarage\n\n\nCadres du Ministère en charge de l'Eau et de l'Assainissement, Burkina Faso\n\n\n<span class=\"tag tag-r\">R</span><span class=\"tag tag-water\">Hydrologie</span>\n\n\n\n\nFormation · Renforcement de capacités\n\n\nAnalyse statistique de données agronomiques avec R\n\n\nDocteurs et doctorants du département d'agronomie, Université Dan Dicko Dankoulodo \nde Maradi (UDDM), Niger · Analyse exploratoire, tests comparatifs, analyses post-hoc\n\n\n<span class=\"tag tag-r\">R</span><span class=\"tag tag-climate\">Agronomie</span><span class=\"tag tag-gire\">Niger</span>"
+  },
+  {
+    "objectID": "skills.html#langages-outils",
+    "href": "skills.html#langages-outils",
+    "title": "Compétences",
+    "section": "💻 Langages & Outils",
+    "text": "💻 Langages & Outils\n\n\n\n\nLangages de programmation\n\n\n\nR (analyse, modélisation, visualisation)90%\n\n\n\n\n\n\n\n\n\nPython (analyse de données)68%\n\n\n\n\n\n\n\n\n\nSQL (bases de données)65%\n\n\n\n\n\n\n\n\n\nR Markdown / Quarto85%\n\n\n\n\n\n\n\n\n\n\n\nSIG & Télédétection\n\n\n\nQGIS85%\n\n\n\n\n\n\n\n\n\nArcGIS80%\n\n\n\n\n\n\n\n\n\nGoogle Earth Engine70%\n\n\n\n\n\n\n\n\n\nR (terra, sf, stars)82%\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModélisation hydrologique\n\n\n\nModèles GR4J / GR6J (airGR)88%\n\n\n\n\n\n\n\n\n\nSWAT72%\n\n\n\n\n\n\n\n\n\nAnalyse fréquentielle (IDF, crues)85%\n\n\n\n\n\n\n\n\n\nScénarios climatiques (NetCDF, CMIP6)80%\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning & BI\n\n\n\nRandom Forest, Arbres de décision78%\n\n\n\n\n\n\n\n\n\nRégression logistique75%\n\n\n\n\n\n\n\n\n\nPower BI / Looker Studio68%\n\n\n\n\n\n\n\n\n\nggplot2 / plotly / leaflet85%"
+  },
+  {
+    "objectID": "skills.html#packages-r-principaux",
+    "href": "skills.html#packages-r-principaux",
+    "title": "Compétences",
+    "section": "📦 Packages R principaux",
+    "text": "📦 Packages R principaux"
+  },
+  {
+    "objectID": "skills.html#domaines-thématiques",
+    "href": "skills.html#domaines-thématiques",
+    "title": "Compétences",
+    "section": "🌊 Domaines thématiques",
+    "text": "🌊 Domaines thématiques\n\n\n<div style=\"background:#112240;border:1px solid #1a3a6b;border-left:4px solid #00b4d8;border-radius:0.5rem;padding:1.25rem;\">\n  <h5 style=\"color:#90e0ef;margin-bottom:0.75rem;\">Gestion des Risques & Catastrophes</h5>\n  <ul style=\"color:#90a8c0;font-size:0.9rem;padding-left:1.25rem;margin:0;\">\n    <li>Analyse des aléas hydrologiques et climatiques</li>\n    <li>Cartographie et analyse spatiale des risques</li>\n    <li>Analyse des vulnérabilités territoriales</li>\n    <li>Préparation et planification des risques</li>\n    <li>Systèmes d'alerte précoce</li>\n  </ul>\n</div>\n\n\n<div style=\"background:#112240;border:1px solid #1a3a6b;border-left:4px solid #06d6a0;border-radius:0.5rem;padding:1.25rem;\">\n  <h5 style=\"color:#90e0ef;margin-bottom:0.75rem;\">Analyse Hydroclimatique</h5>\n  <ul style=\"color:#90a8c0;font-size:0.9rem;padding-left:1.25rem;margin:0;\">\n    <li>Analyse de séries hydroclimatiques</li>\n    <li>Variabilité et tendances climatiques</li>\n    <li>Événements extrêmes — crues, sécheresses</li>\n    <li>Correction de biais (scénarios CMIP6)</li>\n    <li>Agroclimatologie (saisons, séquences sèches)</li>\n  </ul>\n</div>\n\n\n<div style=\"background:#112240;border:1px solid #1a3a6b;border-left:4px solid #f4a261;border-radius:0.5rem;padding:1.25rem;\">\n  <h5 style=\"color:#90e0ef;margin-bottom:0.75rem;\">SIG & Télédétection</h5>\n  <ul style=\"color:#90a8c0;font-size:0.9rem;padding-left:1.25rem;margin:0;\">\n    <li>Cartographie des ressources en eau</li>\n    <li>Classification d'images satellitaires (Landsat)</li>\n    <li>Analyse du potentiel aquifère</li>\n    <li>Morphométrie des bassins versants</li>\n    <li>Spatialisation des données climatiques</li>\n  </ul>\n</div>\n\n\n<div style=\"background:#112240;border:1px solid #1a3a6b;border-left:4px solid #c4b5fd;border-radius:0.5rem;padding:1.25rem;\">\n  <h5 style=\"color:#90e0ef;margin-bottom:0.75rem;\">GIRE & Approches participatives</h5>\n  <ul style=\"color:#90a8c0;font-size:0.9rem;padding-left:1.25rem;margin:0;\">\n    <li>Gestion Intégrée des Ressources en Eau</li>\n    <li>Diagnostic participatif</li>\n    <li>Planification territoriale</li>\n    <li>Renforcement des capacités</li>\n    <li>Suivi-évaluation de projets</li>\n  </ul>\n</div>"
+  }
+]

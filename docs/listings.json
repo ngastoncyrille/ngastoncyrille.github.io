@@ -1,0 +1,10 @@
+[
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/posts/biais-correction/index.html",
+      "/blog/posts/kmeans-landsat/index.html",
+      "/blog/posts/idf-curves-r/index.html"
+    ]
+  }
+]

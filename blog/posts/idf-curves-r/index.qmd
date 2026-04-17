@@ -1,0 +1,254 @@
+---
+title: "Courbes IDF avec R"
+subtitle: "Réalisation de courbes Intensité-Durée-Fréquence à partir du logiciel R"
+description: "Tutoriel complet pour l'analyse fréquentielle des précipitations et la construction de courbes IDF avec R — de l'ajustement statistique à la visualisation."
+author: "NEBIE Gaston Cyrille"
+date: "2024-01-15"
+categories: [R, Hydrologie, Analyse fréquentielle, IDF]
+format:
+  html:
+    toc: true
+    code-fold: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, eval = FALSE)
+```
+
+<div class="row g-2 mb-4">
+  <div class="col-auto"><span class="tag tag-r">R</span></div>
+  <div class="col-auto"><span class="tag tag-water">Hydrologie</span></div>
+  <div class="col-auto"><span class="tag tag-water">IDF</span></div>
+  <div class="col-auto"><span class="tag tag-risk">Analyse fréquentielle</span></div>
+</div>
+
+*Aussi disponible sur [RPubs — P_f bk2020_007 & 008](https://rpubs.com/nebiegc){target="_blank"}*
+
+---
+
+## Introduction
+
+Les courbes **Intensité-Durée-Fréquence (IDF)** sont des outils fondamentaux en 
+hydrologie pour la conception des ouvrages hydrauliques (dimensionnement de 
+caniveaux, bassins de rétention, ponts…). Elles permettent de lier :
+
+- **Intensité** (mm/h) : le débit moyen de la pluie sur une durée donnée
+- **Durée** (min, h) : le temps de la pluie observée  
+- **Fréquence** (ou période de retour, en années)
+
+Dans ce tutoriel, nous allons construire des courbes IDF à partir de données 
+pluviographiques réelles en utilisant uniquement le langage **R**.
+
+---
+
+## Données nécessaires
+
+Les données requises sont des **relevés pluviographiques** à pas de temps fin 
+(5 min, 10 min, 15 min, 30 min, 1h) sur une longue série (≥ 20 ans idéalement).
+
+```{r structure-donnees}
+# Structure attendue des données
+# station : identifiant de la station
+# date    : date de l'événement
+# duree   : durée (en minutes)
+# pluie   : hauteur de pluie (mm)
+
+# Exemple de création d'un jeu de données simulé
+set.seed(42)
+
+durees <- c(5, 10, 15, 30, 60, 120, 360, 720, 1440) # en minutes
+n_annees <- 30
+
+# Simuler des maximums annuels (distribution GEV)
+library(evd)
+data_idf <- expand.grid(
+  annee = 1991:2020,
+  duree = durees
+)
+data_idf$pluie <- rgev(nrow(data_idf), loc = 20, scale = 8, shape = 0.1)
+
+head(data_idf, 12)
+```
+
+---
+
+## Ajustement statistique
+
+### Loi de Gumbel (distribution des extrêmes)
+
+La loi de **Gumbel (Extrême Value Type I)** est couramment utilisée pour 
+l'analyse fréquentielle des précipitations extrêmes.
+
+```{r gumbel}
+library(dplyr)
+library(ggplot2)
+
+# Fonction d'ajustement Gumbel par durée
+ajuster_gumbel <- function(x) {
+  n <- length(x)
+  mu <- mean(x)
+  sigma <- sd(x) * sqrt(6) / pi
+  u <- mu - 0.5772 * sigma
+  return(list(u = u, sigma = sigma))
+}
+
+# Périodes de retour
+T_retour <- c(2, 5, 10, 20, 50, 100)
+
+# Fonction quantile Gumbel
+q_gumbel <- function(T, u, sigma) {
+  yT <- -log(-log(1 - 1/T))
+  return(u + sigma * yT)
+}
+
+# Calcul des quantiles par durée et période de retour
+resultats <- data_idf |>
+  group_by(duree) |>
+  summarise(params = list(ajuster_gumbel(pluie)), .groups = "drop") |>
+  mutate(
+    u     = sapply(params, `[[`, "u"),
+    sigma = sapply(params, `[[`, "sigma")
+  )
+
+# Calculer les intensités (mm/h) pour chaque période de retour
+idf_table <- resultats |>
+  select(duree, u, sigma) |>
+  rowwise() |>
+  mutate(across(starts_with("u"), ~NULL)) |>
+  bind_cols(
+    setNames(
+      lapply(T_retour, function(T) {
+        (q_gumbel(T, resultats$u, resultats$sigma) / resultats$duree) * 60
+      }),
+      paste0("T", T_retour)
+    )
+  )
+
+print(idf_table)
+```
+
+---
+
+## Construction des courbes IDF
+
+```{r courbes-idf}
+library(tidyr)
+
+# Mise en format long pour la visualisation
+idf_long <- idf_table |>
+  select(duree, starts_with("T")) |>
+  pivot_longer(
+    cols      = starts_with("T"),
+    names_to  = "periode_retour",
+    values_to = "intensite"
+  ) |>
+  mutate(
+    periode_retour = factor(
+      gsub("T", "", periode_retour),
+      levels = as.character(T_retour)
+    )
+  )
+
+# Palette de couleurs
+palette_idf <- c(
+  "2"   = "#90e0ef",
+  "5"   = "#48cae4",
+  "10"  = "#00b4d8",
+  "20"  = "#0096c7",
+  "50"  = "#0077b6",
+  "100" = "#023e8a"
+)
+
+# Visualisation des courbes IDF
+ggplot(idf_long, aes(x = duree, y = intensite, 
+                      color = periode_retour,
+                      group = periode_retour)) +
+  geom_line(linewidth = 1.2) +
+  geom_point(size = 2.5) +
+  scale_x_log10(
+    breaks = c(5, 10, 15, 30, 60, 120, 360, 720, 1440),
+    labels = c("5 min", "10", "15", "30", "1h", "2h", "6h", "12h", "24h")
+  ) +
+  scale_y_log10() +
+  scale_color_manual(
+    values = palette_idf,
+    name   = "Période de\nretour (ans)"
+  ) +
+  labs(
+    title    = "Courbes Intensité-Durée-Fréquence (IDF)",
+    subtitle = "Ajustement par la loi de Gumbel — Station fictive",
+    x = "Durée",
+    y = "Intensité (mm/h)"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    plot.background  = element_rect(fill = "#0d1b2a", color = NA),
+    panel.background = element_rect(fill = "#112240", color = NA),
+    panel.grid = element_line(color = "#1a3a6b", linewidth = 0.4),
+    axis.text  = element_text(color = "#cdd6f4"),
+    axis.title = element_text(color = "#90a8c0"),
+    plot.title    = element_text(color = "#90e0ef", face = "bold"),
+    plot.subtitle = element_text(color = "#7090a0"),
+    legend.background = element_rect(fill = "#112240", color = NA),
+    legend.text  = element_text(color = "#cdd6f4"),
+    legend.title = element_text(color = "#90a8c0"),
+    axis.text.x = element_text(angle = 30, hjust = 1)
+  )
+```
+
+---
+
+## Formule IDF de Montana
+
+La formule de **Montana** est l'expression analytique la plus utilisée pour les courbes IDF :
+
+$$I(D, T) = a(T) \cdot D^{-b(T)}$$
+
+où $I$ est l'intensité (mm/h), $D$ la durée (h), et $a(T)$, $b(T)$ des paramètres 
+dépendants de la période de retour $T$.
+
+```{r montana}
+# Ajustement des paramètres de Montana par régression
+ajuster_montana <- function(intensites, durees_h) {
+  log_durees <- log(durees_h)
+  log_intens <- log(intensites)
+  
+  fit <- lm(log_intens ~ log_durees)
+  b   <- -coef(fit)[2]
+  a   <- exp(coef(fit)[1])
+  
+  return(list(a = a, b = b, r2 = summary(fit)$r.squared))
+}
+
+# Calculer pour chaque période de retour
+montana_params <- idf_long |>
+  mutate(duree_h = duree / 60) |>
+  group_by(periode_retour) |>
+  summarise(
+    params = list(ajuster_montana(intensite, duree_h)),
+    .groups = "drop"
+  ) |>
+  mutate(
+    a  = sapply(params, `[[`, "a"),
+    b  = sapply(params, `[[`, "b"),
+    r2 = sapply(params, `[[`, "r2")
+  ) |>
+  select(-params)
+
+knitr::kable(
+  montana_params,
+  digits  = 3,
+  caption = "Paramètres de Montana par période de retour",
+  col.names = c("T (ans)", "a", "b", "R²")
+)
+```
+
+---
+
+::: {.callout-tip}
+## Pour aller plus loin
+- Comparer différentes lois statistiques (Gumbel, GEV, log-normale)
+- Appliquer des tests de qualité d'ajustement (K-S, Anderson-Darling)
+- Utiliser le package `nsRFA` pour l'analyse fréquentielle régionale
+- Retrouvez les données et analyses complémentaires sur [RPubs — nebiegc](https://rpubs.com/nebiegc){target="_blank"}
+:::

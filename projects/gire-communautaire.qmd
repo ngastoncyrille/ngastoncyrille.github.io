@@ -1,0 +1,101 @@
+---
+title: "Manuel de GIRE communautaire — CECA-DR"
+subtitle: "Diagnostic participatif et plans d'action pour la gestion de l'eau dans 6 villages du Plateau Central"
+author: "NEBIE Gaston Cyrille"
+date: "2024"
+categories: [GIRE, Consultation, Participatif, Burkina Faso]
+format:
+  html:
+    toc: true
+---
+
+<div class="row g-2 mb-4">
+  <div class="col-auto"><span class="tag tag-gire">GIRE</span></div>
+  <div class="col-auto"><span class="tag tag-gire">Participatif</span></div>
+  <div class="col-auto"><span class="tag tag-water">Consultation</span></div>
+  <div class="col-auto"><span class="tag tag-sig">Burkina Faso</span></div>
+</div>
+
+## Contexte de la mission
+
+Cette mission de consultation a été réalisée pour le **CECA-DR** (Centre d'Encadrement 
+et d'Appui pour le Développement Rural), avec pour objectif l'élaboration d'un 
+**manuel de Gestion Intégrée des Ressources en Eau (GIRE)** adapté aux communautés 
+rurales de la région du Plateau Central du Burkina Faso.
+
+### Zone d'intervention
+
+Diagnostic participatif dans **6 villages** de la région du Plateau Central, 
+confrontés à des problèmes d'accès à l'eau, de dégradation des ouvrages hydrauliques 
+et de conflits d'usages.
+
+---
+
+## Méthodologie
+
+### 1. Diagnostic participatif
+
+La démarche participative a mobilisé plusieurs outils :
+
+- **Cartographie participative** : élaboration de cartes de ressources et de risques 
+  avec les communautés
+- **Entretiens semi-directifs** : chefs de village, responsables d'AUE 
+  (Associations d'Usagers de l'Eau), femmes
+- **Focus groups** : groupes séparés par genre et catégorie sociale
+- **Observation directe** : état des ouvrages, pratiques de gestion
+
+### 2. Analyse des vulnérabilités
+
+L'analyse a couvert :
+
+| Dimension | Indicateurs évalués |
+|-----------|---------------------|
+| Physique  | État des forages, puits, retenues d'eau |
+| Sociale   | Accès équitable (femmes, personnes vulnérables) |
+| Économique | Capacité de contribution aux frais de maintenance |
+| Institutionnelle | Fonctionnement des comités de gestion |
+
+### 3. Ateliers participatifs
+
+Organisation d'**ateliers de restitution et de planification** avec :
+- Les autorités coutumières et administratives locales
+- Les associations d'usagers de l'eau (AUE)
+- Les représentants des services déconcentrés de l'eau
+
+---
+
+## Résultats
+
+### Plans d'action communautaires
+
+Pour chaque village, un plan d'action a été élaboré comprenant :
+
+1. **Réhabilitation des ouvrages prioritaires** identifiés lors du diagnostic
+2. **Renforcement des capacités** des comités de gestion de l'eau
+3. **Règles de gestion équitable** adaptées aux pratiques locales
+4. **Mécanismes de financement** de la maintenance préventive
+
+### Manuel GIRE
+
+Le manuel produit couvre :
+
+::: {.callout-tip}
+## Contenu du manuel
+- Principes de la GIRE adaptés au contexte rural burkinabè
+- Méthodologie de diagnostic participatif
+- Outils de planification communautaire  
+- Fiches pratiques de gestion des ouvrages
+- Modèles de conventions de gestion intercommunautaire
+:::
+
+---
+
+## Impact
+
+Cette mission s'inscrit dans la dynamique du **Programme National de Gestion 
+Intégrée des Ressources en Eau (PNGIRE)** du Burkina Faso et contribue à renforcer 
+la gouvernance locale de l'eau en milieu rural.
+
+> *"La gestion durable de l'eau en milieu rural ne peut se faire sans impliquer 
+> les communautés comme acteurs principaux — et non comme simples bénéficiaires."*  
+> — NEBIE Gaston Cyrille
