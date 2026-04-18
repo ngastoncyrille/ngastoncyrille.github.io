@@ -1,31 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ngastoncyrille.github.io/contact.html</loc>
-    <lastmod>2026-04-17T08:49:10.612Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ngastoncyrille.github.io/blog/posts/biais-correction/index.html</loc>
-    <lastmod>2026-04-17T08:55:47.769Z</lastmod>
+    <loc>https://ngastoncyrille.github.io/about.html</loc>
+    <lastmod>2026-04-18T12:33:05.302Z</lastmod>
   </url>
   <url>
     <loc>https://ngastoncyrille.github.io/blog/index.html</loc>
-    <lastmod>2026-04-17T08:58:24.819Z</lastmod>
+    <lastmod>2026-04-18T12:33:06.033Z</lastmod>
   </url>
   <url>
-    <loc>https://ngastoncyrille.github.io/blog/posts/kmeans-landsat/index.html</loc>
-    <lastmod>2026-04-17T08:57:37.743Z</lastmod>
+    <loc>https://ngastoncyrille.github.io/blog/posts/biais-correction/index.html</loc>
+    <lastmod>2026-04-18T12:33:06.488Z</lastmod>
   </url>
   <url>
     <loc>https://ngastoncyrille.github.io/blog/posts/idf-curves-r/index.html</loc>
-    <lastmod>2026-04-17T08:58:24.393Z</lastmod>
+    <lastmod>2026-04-18T12:33:07.394Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ngastoncyrille.github.io/blog/posts/kmeans-landsat/index.html</loc>
+    <lastmod>2026-04-18T12:33:07.941Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ngastoncyrille.github.io/contact.html</loc>
+    <lastmod>2026-04-18T12:33:08.284Z</lastmod>
   </url>
   <url>
     <loc>https://ngastoncyrille.github.io/index.html</loc>
-    <lastmod>2026-04-17T09:00:42.791Z</lastmod>
+    <lastmod>2026-04-18T12:33:08.682Z</lastmod>
   </url>
   <url>
-    <loc>https://ngastoncyrille.github.io/about.html</loc>
-    <lastmod>2026-04-17T09:01:05.243Z</lastmod>
+    <loc>https://ngastoncyrille.github.io/projects/gire-communautaire.html</loc>
+    <lastmod>2026-04-18T12:33:09.191Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ngastoncyrille.github.io/projects/index.html</loc>
+    <lastmod>2026-04-18T12:33:09.660Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ngastoncyrille.github.io/projects/ml-aquifere.html</loc>
+    <lastmod>2026-04-18T12:33:10.478Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ngastoncyrille.github.io/projects/modelisation-nakambe.html</loc>
+    <lastmod>2026-04-18T12:33:11.282Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ngastoncyrille.github.io/projects/teledetection.html</loc>
+    <lastmod>2026-04-18T12:33:12.137Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ngastoncyrille.github.io/publications.html</loc>
+    <lastmod>2026-04-18T12:33:12.559Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ngastoncyrille.github.io/skills.html</loc>
+    <lastmod>2026-04-18T12:33:13.494Z</lastmod>
   </url>
 </urlset>
