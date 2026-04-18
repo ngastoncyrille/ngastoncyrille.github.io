@@ -1,29 +1,41 @@
 ---
-title: "Projets"
-subtitle: "Réalisations concrètes en hydrologie, SIG, machine learning et gestion des risques"
+title: "Travaux"
+subtitle: "Projets R&D, missions de consultation et formations en hydrologie, SIG et science des données"
 format:
   html:
     toc: false
 ---
 
+```{=html}
 <div class="section-header mt-3">
-  <div class="section-label">Portfolio</div>
-  <p class="text-muted-blue">Cliquez sur un projet pour accéder au détail, aux résultats et au code R associé.</p>
+  <div class="section-label">Réalisations</div>
+  <p class="text-muted-blue">
+    Trois axes de travail : recherche & développement en outils hydrologiques, 
+    missions de consultation terrain, et renforcement de capacités.
+  </p>
 </div>
+```
 
----
+::: {.panel-tabset}
 
-## 🌊 Hydrologie & Modélisation
+## 🔬 Projets R&D
+
+```{=html}
+<p class="text-muted-blue mb-4" style="font-size:0.9rem;">
+  Scripts R, outils de traitement, modèles hydrologiques et analyses développés 
+  dans un cadre académique ou professionnel avec code disponible.
+</p>
 
 <div class="row g-4">
 
+<!-- Nakanbé -->
 <div class="col-md-6">
 <div class="project-card">
   <div class="project-icon">🌊</div>
-  <div class="project-title">Scénarios d'évolution de la ressource en eau — Nakanbé</div>
+  <div class="project-title">Scénarios hydrologiques du Nakanbé</div>
   <div class="project-desc">
-    Mémoire d'ingénieur. Élaboration de scénarios hydrologiques futurs pour le bassin 
-    versant du Nakanbé (Burkina Faso) en utilisant les modèles GR4J, GR6J et SWAT, 
+    Mémoire d'ingénieur (CRA Agrhymet, 2020). Élaboration de scénarios futurs 
+    pour le bassin versant du Nakanbé via les modèles GR4J, GR6J et SWAT, 
     avec correction de biais des données climatiques CMIP.
   </div>
   <div class="project-footer">
@@ -36,14 +48,15 @@ format:
 </div>
 </div>
 
+<!-- BD Agroclimat -->
 <div class="col-md-6">
 <div class="project-card">
   <div class="project-icon">📈</div>
   <div class="project-title">Base de données agroclimatiques — BD_Agro_clim_AO</div>
   <div class="project-desc">
-    Développement d'une base de données agroclimatiques au format NetCDF couvrant 
-    l'Afrique de l'Ouest. Calcul des dates de début/fin de saison, séquences sèches 
-    maximales selon la méthode Sivakumar (1994).
+    Développement collaboratif d'une base de données agroclimatiques NetCDF 
+    couvrant l'Afrique de l'Ouest. Calcul des dates de début/fin de saison 
+    et séquences sèches selon la méthode Sivakumar (1994).
   </div>
   <div class="project-footer">
     <span class="tag tag-climate">Agroclimatologie</span>
@@ -54,70 +67,37 @@ format:
 </div>
 </div>
 
-</div>
-
----
-
-## 🛰️ SIG & Télédétection
-
-<div class="row g-4">
-
+<!-- Télédétection -->
 <div class="col-md-6">
 <div class="project-card">
   <div class="project-icon">🛰️</div>
   <div class="project-title">Télédétection avec R — Classification K-means Landsat 8</div>
   <div class="project-desc">
-    Classification non supervisée d'images satellitaires Landsat 8 appliquée à la commune 
-    de Bama (Burkina Faso). Utilisation des packages terra et cluster pour la segmentation 
-    spectrale et l'interprétation des classes d'occupation du sol.
+    Classification non supervisée d'images Landsat 8 sur la commune de Bama 
+    (Burkina Faso). Packages <code>terra</code> et <code>cluster</code> 
+    pour la segmentation spectrale et l'interprétation des classes d'occupation du sol.
   </div>
   <div class="project-footer">
     <span class="tag tag-sig">Télédétection</span>
     <span class="tag tag-ml">K-means</span>
     <span class="tag tag-r">R</span>
-    <span class="tag tag-water">Landsat 8</span>
     <a href="teledetection.html" class="btn btn-sm btn-outline-info mt-2 w-100">Voir le projet →</a>
   </div>
 </div>
 </div>
 
-<div class="col-md-6">
-<div class="project-card">
-  <div class="project-icon">🗺️</div>
-  <div class="project-title">SDAGE — Schéma Directeur d'Aménagement et de Gestion des Eaux</div>
-  <div class="project-desc">
-    Premier document d'opérationnalisation du SDAGE de l'Agence de l'Eau du Nakanbé. 
-    Contribution au volet SIG et cartographie pour la planification des ressources en eau.
-  </div>
-  <div class="project-footer">
-    <span class="tag tag-gire">GIRE</span>
-    <span class="tag tag-sig">SIG</span>
-    <span class="tag tag-water">Planification</span>
-    <a href="sdage-aen.html" class="btn btn-sm btn-outline-info mt-2 w-100">Voir le projet →</a>
-  </div>
-</div>
-</div>
-
-</div>
-
----
-
-## 🤖 Intelligence Artificielle & Machine Learning
-
-<div class="row g-4">
-
+<!-- IA Aquifère -->
 <div class="col-md-6">
 <div class="project-card">
   <div class="project-icon">🤖</div>
   <div class="project-title">IA pour la cartographie du potentiel aquifère</div>
   <div class="project-desc">
-    Première application du machine learning pour la cartographie des ressources en eau 
-    souterraine au Burkina Faso. Projets PAEA (Groupe SGI) et ESEPV-Sahel (Bugego). 
+    Première application du machine learning à la cartographie des ressources 
+    en eau souterraine au Burkina Faso (projets PAEA et ESEPV-Sahel). 
     Algorithmes : Random Forest, arbres de décision, régression logistique.
   </div>
   <div class="project-footer">
     <span class="tag tag-ml">Random Forest</span>
-    <span class="tag tag-ml">Machine Learning</span>
     <span class="tag tag-sig">SIG</span>
     <span class="tag tag-r">R</span>
     <a href="ml-aquifere.html" class="btn btn-sm btn-outline-info mt-2 w-100">Voir le projet →</a>
@@ -125,14 +105,15 @@ format:
 </div>
 </div>
 
+<!-- CMIP6 Agroclimat -->
 <div class="col-md-6">
 <div class="project-card">
-  <div class="project-icon">⚡</div>
-  <div class="project-title">Analyse des impacts CMIP6 sur les saisons agricoles</div>
+  <div class="project-icon">☁️</div>
+  <div class="project-title">Impacts CMIP6 sur les saisons agricoles au Burkina Faso</div>
   <div class="project-desc">
     Communication au 4e Forum National de l'Eau et de l'Assainissement (2024). 
-    Analyse des tendances des caractéristiques agroclimatiques au Burkina Faso 
-    selon les modèles CMIP6.
+    Analyse des tendances des caractéristiques agroclimatiques futures selon 
+    les modèles climatiques CMIP6.
   </div>
   <div class="project-footer">
     <span class="tag tag-climate">CMIP6</span>
@@ -143,58 +124,225 @@ format:
 </div>
 </div>
 
+<!-- Suivi pluvio TAMSAT -->
+<div class="col-md-6">
+<div class="project-card">
+  <div class="project-icon">🌧️</div>
+  <div class="project-title">Suivi pluviométrique par données TAMSAT — HydroBurkina</div>
+  <div class="project-desc">
+    Script R de suivi en temps quasi-réel des données de pluie satellitaires 
+    TAMSAT sur le Burkina Faso. Développé pour l'association HydroBurkina 
+    dans le cadre de la vulgarisation scientifique.
+  </div>
+  <div class="project-footer">
+    <span class="tag tag-r">R</span>
+    <span class="tag tag-climate">TAMSAT</span>
+    <span class="tag tag-water">Pluviométrie</span>
+    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-info mt-2 w-100">Voir sur RPubs →</a>
+  </div>
+</div>
 </div>
 
----
+</div><!-- /row R&D -->
+```
 
-## 🤝 Consultation & GIRE
+## 🤝 Consultations
+
+```{=html}
+<p class="text-muted-blue mb-4" style="font-size:0.9rem;">
+  Missions d'expertise réalisées pour des institutions publiques et bureaux d'études.
+  Les rapports confidentiels sont décrits sans diffusion de contenu sensible.
+</p>
 
 <div class="row g-4">
 
+<!-- CECA-DR -->
 <div class="col-md-6">
 <div class="project-card">
   <div class="project-icon">📋</div>
   <div class="project-title">Manuel de GIRE communautaire — CECA-DR</div>
   <div class="project-desc">
-    Mission de consultation pour l'élaboration d'un manuel de Gestion Intégrée des 
-    Ressources en Eau. Diagnostic participatif dans 6 villages du Plateau Central, 
-    analyse des vulnérabilités et plans d'action communautaires.
+    Élaboration d'un manuel de Gestion Intégrée des Ressources en Eau pour 
+    des comités villageois. Diagnostic participatif dans 6 villages du 
+    Plateau Central, analyse des vulnérabilités et plans d'action communautaires.
   </div>
   <div class="project-footer">
     <span class="tag tag-gire">GIRE</span>
     <span class="tag tag-gire">Participatif</span>
     <span class="tag tag-water">Consultation</span>
+    <span class="badge-done">Livré · 2024</span>
     <a href="gire-communautaire.html" class="btn btn-sm btn-outline-info mt-2 w-100">Voir le projet →</a>
+  </div>
+</div>
+</div>
+
+<!-- SDAGE AEN -->
+<div class="col-md-6">
+<div class="project-card">
+  <div class="project-icon">🗺️</div>
+  <div class="project-title">Opérationnalisation du SDAGE — Agence de l'Eau du Nakanbé</div>
+  <div class="project-desc">
+    Premier document d'opérationnalisation du Schéma Directeur d'Aménagement 
+    et de Gestion des Eaux (SDAGE) de l'AEN. Contribution au volet SIG, 
+    cartographie et planification des ressources en eau.
+  </div>
+  <div class="project-footer">
+    <span class="tag tag-gire">SDAGE</span>
+    <span class="tag tag-sig">SIG</span>
+    <span class="tag tag-water">Planification</span>
+    <span class="badge-done">Livré · 2024</span>
+    <!-- Décommenter après upload sur Drive :
+    <a href="LIEN_DRIVE" target="_blank" class="btn btn-sm btn-outline-info mt-2 w-100">📄 Consulter →</a>
+    -->
+  </div>
+</div>
+</div>
+
+<!-- PAEA -->
+<div class="col-md-6">
+<div class="project-card">
+  <div class="project-icon">💧</div>
+  <div class="project-title">Cartographie aquifère — Projet PAEA (Groupe SGI)</div>
+  <div class="project-desc">
+    Expert SIG & Data Science pour le Projet d'Alimentation en Eau et 
+    d'Assainissement (PAEA). Cartographie du potentiel aquifère en zone 
+    de socle par machine learning — première au Burkina Faso.
+  </div>
+  <div class="project-footer">
+    <span class="tag tag-ml">Machine Learning</span>
+    <span class="tag tag-sig">SIG</span>
+    <span class="tag tag-water">Hydrogéologie</span>
+    <span class="badge-done">Livré · 2022–2023</span>
+  </div>
+</div>
+</div>
+
+<!-- ESEPV-Sahel -->
+<div class="col-md-6">
+<div class="project-card">
+  <div class="project-icon">🌱</div>
+  <div class="project-title">Cartographie aquifère — ESEPV-Sahel (Bugego)</div>
+  <div class="project-desc">
+    Mission similaire dans le cadre du projet ESEPV-Sahel avec le bureau 
+    d'études Bugego. Application des mêmes méthodes d'IA pour la cartographie 
+    des ressources en eaux souterraines.
+  </div>
+  <div class="project-footer">
+    <span class="tag tag-ml">Random Forest</span>
+    <span class="tag tag-sig">SIG</span>
+    <span class="tag tag-water">Hydrogéologie</span>
+    <span class="badge-done">Livré · 2023</span>
+  </div>
+</div>
+</div>
+
+</div><!-- /row Consultations -->
+```
+
+## 🎓 Formations
+
+```{=html}
+<p class="text-muted-blue mb-4" style="font-size:0.9rem;">
+  Formations animées pour des institutions partenaires et formations en cours de développement.
+</p>
+
+<!-- Formations animées -->
+<div class="section-label mb-3">Formations réalisées</div>
+
+<div class="row g-4 mb-5">
+
+<!-- Formation Ministère -->
+<div class="col-md-6">
+<div class="project-card">
+  <div class="project-icon">📊</div>
+  <div class="project-title">Données hydroclimatiques & courbes de tarage avec R</div>
+  <div class="project-desc">
+    Formation au profit des cadres du Ministère en charge de l'Eau et de 
+    l'Assainissement du Burkina Faso. Traitement des données hydrométriques, 
+    analyse de fréquence et élaboration de courbes de tarage avec R.
+  </div>
+  <div class="project-footer">
+    <span class="tag tag-r">R</span>
+    <span class="tag tag-water">Hydrologie</span>
+    <span class="badge-done">Réalisée</span>
+    <!-- Contenu institutionnel — pas de diffusion publique -->
+  </div>
+</div>
+</div>
+
+<!-- Formation UDDM -->
+<div class="col-md-6">
+<div class="project-card">
+  <div class="project-icon">🎓</div>
+  <div class="project-title">Analyse statistique agronomique avec R — UDDM Niger</div>
+  <div class="project-desc">
+    Formation destinée aux docteurs et doctorants du département d'agronomie 
+    de l'Université Dan Dicko Dankoulodo de Maradi (Niger). Analyse exploratoire, 
+    tests comparatifs et analyses post-hoc avec R.
+  </div>
+  <div class="project-footer">
+    <span class="tag tag-r">R</span>
+    <span class="tag tag-climate">Agronomie</span>
+    <span class="badge-done">Réalisée</span>
+    <!-- Décommenter si supports diffusables :
+    <a href="LIEN_DRIVE" target="_blank" class="btn btn-sm btn-outline-info mt-2 w-100">📁 Supports →</a>
+    -->
+  </div>
+</div>
+</div>
+
+</div><!-- /row formations réalisées -->
+
+<!-- Formations en développement -->
+<div class="section-label mb-3">Formations en développement</div>
+
+<div class="row g-4">
+
+<div class="col-md-6">
+<div class="project-card">
+  <div class="project-icon">🚧</div>
+  <div class="project-title">Introduction à l'analyse de données hydrologiques avec R</div>
+  <div class="project-desc">
+    Formation en ligne destinée aux techniciens et ingénieurs en ressources en eau 
+    d'Afrique de l'Ouest. Contenu : import/nettoyage de données, statistiques 
+    descriptives, visualisation, analyse fréquentielle.
+  </div>
+  <div class="project-footer">
+    <span class="tag tag-r">R</span>
+    <span class="tag tag-water">Hydrologie</span>
+    <span class="badge-coming">🚧 En développement</span>
   </div>
 </div>
 </div>
 
 <div class="col-md-6">
 <div class="project-card">
-  <div class="project-icon">👨‍🏫</div>
-  <div class="project-title">Formation en analyse de données avec R</div>
+  <div class="project-icon">🗺️</div>
+  <div class="project-title">SIG & Cartographie des risques avec R et QGIS</div>
   <div class="project-desc">
-    Renforcement des capacités de cadres du Ministère en charge de l'Eau (Burkina Faso) 
-    et de doctorants de l'UDDM (Niger) sur l'analyse statistique, les courbes de tarage 
-    et le traitement des données hydroclimatiques avec R.
+    Formation pratique sur l'utilisation de R et QGIS pour la cartographie 
+    des risques hydrologiques. Public cible : agents des services de 
+    protection civile et gestion des ressources en eau.
   </div>
   <div class="project-footer">
     <span class="tag tag-r">R</span>
-    <span class="tag tag-gire">Formation</span>
-    <span class="tag tag-water">Hydrologie</span>
-    <a href="formation-r.html" class="btn btn-sm btn-outline-info mt-2 w-100">Voir le projet →</a>
+    <span class="tag tag-sig">QGIS</span>
+    <span class="tag tag-risk">Risques</span>
+    <span class="badge-coming">🚧 En développement</span>
   </div>
 </div>
 </div>
 
-</div>
+</div><!-- /row formations en développement -->
+```
+
+:::
 
 ---
 
 ::: {.callout-tip}
 ## 📝 Portfolio en évolution
-Ce portfolio est développé progressivement. De nouveaux projets et analyses seront 
-ajoutés régulièrement. N'hésitez pas à consulter mon profil 
-[RPubs](https://rpubs.com/nebiegc){target="_blank"} pour accéder à mes tutoriels et 
-analyses publiés.
+Ce portfolio est mis à jour progressivement. Consultez mon profil 
+[RPubs](https://rpubs.com/nebiegc){target="_blank"} pour accéder à mes 
+tutoriels et analyses publiés en accès libre.
 :::
