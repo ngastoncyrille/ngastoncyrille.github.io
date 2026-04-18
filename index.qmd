@@ -6,6 +6,7 @@ format:
     toc: false
 ---
 
+```{=html}
 <!-- ============================================================ -->
 <!-- HERO                                                          -->
 <!-- ============================================================ -->
@@ -23,7 +24,7 @@ format:
   </p>
   <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
     <a href="projects/index.html" class="btn btn-primary btn-lg px-4">Voir mes projets</a>
-    <a href="about.html" class="btn btn-outline-info btn-lg px-4">À propos</a>
+    <a href="about.html" class="btn btn-outline-info btn-lg px-4">Profil</a>
     <a href="assets/cv/cv_nebie_2026.pdf" class="btn btn-outline-secondary btn-lg px-4" target="_blank">
       ↓ CV
     </a>
@@ -143,7 +144,7 @@ format:
 
 <div class="text-center mt-4">
   <a href="projects/index.html" class="btn btn-outline-primary px-5">
-    Voir tous les projets →
+    Voir tous les travaux →
   </a>
 </div>
 
@@ -153,21 +154,21 @@ format:
 <!-- ============================================================ -->
 <!-- DISTINCTION                                                   -->
 <!-- ============================================================ -->
-<div style="background:#050d1a;padding:4rem 0;border-top:1px solid #1a3a6b;border-bottom:1px solid #1a3a6b;">
+<div class="section-alt">
 <div class="container">
 <div class="row justify-content-center">
 <div class="col-lg-8">
 
 <div class="award-card">
   <div class="award-year">2024</div>
-  <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:0.15em;color:#ffd166;font-weight:700;margin-bottom:0.5rem;">
+  <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:0.15em;color:#b8860b;font-weight:700;margin-bottom:0.5rem;">
     🏆 Distinction
   </div>
   <div class="award-title">Prix des Pratiques Innovantes</div>
   <div class="award-org">
     3ème édition des Trophées de l'Eau et de l'Assainissement du Burkina Faso
   </div>
-  <p style="font-size:0.9rem;color:#90a8c0;margin:0;max-width:540px;">
+  <p style="font-size:0.9rem;color:#4a6a80;margin:0;max-width:540px;">
     Récompense pour l'application de méthodes d'intelligence artificielle 
     à la cartographie des ressources en eau en zone de socle.
   </p>
@@ -176,72 +177,73 @@ format:
 </div>
 </div>
 </div>
-</div>
+</div><!-- /section-alt -->
 
 
 <!-- ============================================================ -->
-<!-- DERNIERS ARTICLES                                             -->
+<!-- DERNIÈRES PUBLICATIONS                                        -->
 <!-- ============================================================ -->
 <div class="container py-5">
 
 <div class="section-header">
-  <div class="section-label">Blog</div>
-  <h2 class="section-main-title">Derniers tutoriels R</h2>
+  <div class="section-label">Publications récentes</div>
+  <h2 class="section-main-title">Tutoriels & Articles</h2>
   <div class="section-divider"></div>
 </div>
 
 <div class="row g-3">
   <div class="col-md-4">
     <div class="pub-item">
-      <div class="pub-type pub-type-rpubs">Tutoriel R</div>
+      <div class="pub-type pub-type-rpubs">Tutoriel RPubs</div>
       <div class="pub-title">Réalisation de courbes IDF avec R</div>
       <div class="pub-meta">Analyse fréquentielle des précipitations extrêmes</div>
-      <a href="blog/posts/idf-curves-r/index.html" class="btn btn-sm btn-outline-secondary mt-2">Lire →</a>
+      <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-primary mt-2">Lire sur RPubs →</a>
     </div>
   </div>
   <div class="col-md-4">
     <div class="pub-item">
-      <div class="pub-type pub-type-rpubs">Tutoriel R</div>
+      <div class="pub-type pub-type-rpubs">Tutoriel RPubs</div>
       <div class="pub-title">Classification K-means Landsat 8</div>
       <div class="pub-meta">Télédétection non supervisée avec terra et cluster</div>
-      <a href="blog/posts/kmeans-landsat/index.html" class="btn btn-sm btn-outline-secondary mt-2">Lire →</a>
+      <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-primary mt-2">Lire sur RPubs →</a>
     </div>
   </div>
   <div class="col-md-4">
     <div class="pub-item">
-      <div class="pub-type pub-type-rpubs">Tutoriel R</div>
-      <div class="pub-title">Correction de biais des scénarios climatiques</div>
-      <div class="pub-meta">Post-traitement des données CMIP avec R</div>
-      <a href="blog/posts/biais-correction/index.html" class="btn btn-sm btn-outline-secondary mt-2">Lire →</a>
+      <div class="pub-type pub-type-hydrobf">HydroBurkina</div>
+      <div class="pub-title">Suivi pluviométrique par données satellitaires</div>
+      <div class="pub-meta">Script R de suivi TAMSAT — VP HydroBurkina</div>
+      <a href="publications.html" class="btn btn-sm btn-outline-primary mt-2">Voir plus →</a>
     </div>
   </div>
 </div>
 
 <div class="text-center mt-4">
-  <a href="blog/index.html" class="btn btn-outline-primary px-5">Voir tous les articles →</a>
+  <a href="publications.html" class="btn btn-outline-primary px-5">Toutes les publications →</a>
 </div>
 
 </div><!-- /container -->
 
 
 <!-- ============================================================ -->
-<!-- ASSOCIATIONS & RÉSEAUX                                        -->
+<!-- ENGAGEMENT ASSOCIATIF                                         -->
 <!-- ============================================================ -->
-<div style="background:#050d1a;padding:3rem 0;border-top:1px solid #1a3a6b;">
+<div class="section-alt">
 <div class="container text-center">
-  <p class="text-muted-blue mb-3" style="font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;">
+  <p class="text-muted-blue mb-3" style="font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;font-weight:700;">
     Engagement associatif & académique
   </p>
-  <div class="d-flex justify-content-center align-items-center gap-4 flex-wrap">
-    <div style="background:#112240;border:1px solid #1a3a6b;border-radius:0.5rem;padding:0.75rem 1.5rem;color:#cdd6f4;font-size:0.9rem;font-weight:500;">
-      💧 Vice-Président — Association Hydro-Burkina
+  <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
+    <div style="background:#ffffff;border:1px solid #d0e4f0;border-radius:0.5rem;padding:0.75rem 1.5rem;color:#023e8a;font-size:0.9rem;font-weight:500;box-shadow:0 1px 6px rgba(0,119,182,0.06);">
+      💧 Vice-Président — Association HydroBurkina
     </div>
-    <div style="background:#112240;border:1px solid #1a3a6b;border-radius:0.5rem;padding:0.75rem 1.5rem;color:#cdd6f4;font-size:0.9rem;font-weight:500;">
+    <div style="background:#ffffff;border:1px solid #d0e4f0;border-radius:0.5rem;padding:0.75rem 1.5rem;color:#023e8a;font-size:0.9rem;font-weight:500;box-shadow:0 1px 6px rgba(0,119,182,0.06);">
       🎓 Master GRC — Université de Liège, Belgique
     </div>
-    <div style="background:#112240;border:1px solid #1a3a6b;border-radius:0.5rem;padding:0.75rem 1.5rem;color:#cdd6f4;font-size:0.9rem;font-weight:500;">
+    <div style="background:#ffffff;border:1px solid #d0e4f0;border-radius:0.5rem;padding:0.75rem 1.5rem;color:#023e8a;font-size:0.9rem;font-weight:500;box-shadow:0 1px 6px rgba(0,119,182,0.06);">
       📊 CRA Agrhymet — Ingénieur Hydrologue
     </div>
   </div>
 </div>
-</div>
+</div><!-- /section-alt -->
+```

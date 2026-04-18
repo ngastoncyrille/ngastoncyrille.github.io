@@ -6,33 +6,29 @@ website:
   title: "NEBIE Gaston Cyrille"
   description: "Ingénieur Hydrologue | Expert en Gestion des Risques Climatiques | Analyste de données"
   site-url: "https://ngastoncyrille.github.io"
-  # favicon: assets/img/favicon.png   # Décommenter après avoir ajouté le fichier
+  # favicon: assets/img/favicon.png   # Décommenter après ajout du fichier
 
   navbar:
-    background: "#050d1a"
-    foreground: "#cdd6f4"
-    # logo: assets/img/logo_hz.png    # Décommenter après avoir ajouté le logo
+    background: "white"
+    foreground: "#023e8a"
+    # logo: assets/img/logo_hz.png    # Décommenter après ajout du logo
     title: "💧 NGC"
     collapse-below: lg
     left:
       - text: "Accueil"
         href: index.qmd
         icon: house
-      - text: "À propos"
+      - text: "Profil"
         href: about.qmd
         icon: person
-      - text: "Compétences"
-        href: skills.qmd
-        icon: bar-chart
-      - text: "Projets"
+      - text: "Travaux"
         href: projects/index.qmd
         icon: folder
+        # ↳ Regroupe : Projets R&D, Consultations, Formations
       - text: "Publications"
         href: publications.qmd
         icon: journal-text
-      - text: "Blog"
-        href: blog/index.qmd
-        icon: pencil
+        # ↳ Regroupe : Articles scientifiques, RPubs, HydroBurkina, Blog
       - text: "Contact"
         href: contact.qmd
         icon: envelope
@@ -45,7 +41,8 @@ website:
         aria-label: LinkedIn
 
   page-footer:
-    background: "#050d1a"
+    background: "#eaf4fb"
+    foreground: "#4a6a80"
     border: true
     left: |
       © 2026 **NEBIE Gaston Cyrille** · Ingénieur Hydrologue
@@ -60,13 +57,12 @@ website:
     type: overlay
 
   cookie-consent: false
-
   back-to-top-navigation: true
 
 format:
   html:
     theme:
-      - darkly
+      - flatly
       - styles.scss
     toc: true
     toc-depth: 3
@@ -77,7 +73,7 @@ format:
     code-tools: true
     code-copy: true
     code-link: false
-    highlight-style: dracula
+    highlight-style: arrow-light
     link-external-icon: true
     link-external-newwindow: true
     smooth-scroll: true
