@@ -1,8 +1,5 @@
+# Dans ton .gitignore, vérifie que ces lignes sont présentes :
 .Rproj.user/
-.quarto/
-docs/
+.Rhistory
+.RData
 _freeze/
-*.Rproj
-.Rproj.user
-
-/.quarto/
