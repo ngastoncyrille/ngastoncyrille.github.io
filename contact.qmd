@@ -6,8 +6,10 @@ format:
     toc: false
 ---
 
+```{=html}
 <div class="row g-5 mt-2">
 
+<!-- ── Coordonnées ── -->
 <div class="col-md-6">
 
 <h3 class="text-water mb-4">Coordonnées</h3>
@@ -45,53 +47,66 @@ format:
   </div>
 </a>
 
-<div style="background:#112240;border:1px solid #1a3a6b;border-radius:0.65rem;padding:1.25rem;margin-top:1.5rem;">
-  <div style="font-size:0.75rem;color:#48cae4;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.5rem;">
-    💧 Association Hydro-Burkina
+<div style="background:#eaf4fb;border:1px solid #c8dff0;border-left:4px solid #0077b6;border-radius:0.65rem;padding:1.25rem;margin-top:1.5rem;">
+  <div style="font-size:0.75rem;color:#0077b6;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.5rem;">
+    💧 Association HydroBurkina
   </div>
-  <div style="font-size:0.9rem;color:#90a8c0;">
+  <div style="font-size:0.9rem;color:#3a6080;">
     Vice-Président · Production et diffusion d'information sur l'eau et le climat en 
     Afrique de l'Ouest
   </div>
 </div>
 
-</div><!-- /col -->
+<div style="text-align:center;margin-top:2rem;padding:1.5rem;background:#f4f8fb;border-radius:0.75rem;border:1px solid #d0e4f0;">
+  <p style="font-size:0.8rem;color:#6a8aaa;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.5rem;">
+    Localisation actuelle
+  </p>
+  <p style="font-size:1.05rem;color:#023e8a;font-weight:600;margin-bottom:0.25rem;">
+    🇧🇪 Liège, Belgique &nbsp;/&nbsp; 🇧🇫 Ouagadougou, Burkina Faso
+  </p>
+  <p style="font-size:0.88rem;color:#6a8aaa;margin:0;">
+    Disponible pour des missions en présentiel ou à distance
+  </p>
+</div>
 
+</div><!-- /col coordonnées -->
+
+<!-- ── Formulaire ── -->
 <div class="col-md-6">
 
 <h3 class="text-water mb-4">Formulaire de contact</h3>
 
-<div style="background:#112240;border:1px solid #1a3a6b;border-radius:0.75rem;padding:1.75rem;">
+<div style="background:#ffffff;border:1px solid #d0e4f0;border-radius:0.75rem;padding:1.75rem;box-shadow:0 2px 16px rgba(0,119,182,0.07);">
 
 <form action="https://formspree.io/f/VOTRE_ID_FORMSPREE" method="POST">
 
   <div style="margin-bottom:1rem;">
-    <label style="font-size:0.85rem;color:#90a8c0;display:block;margin-bottom:0.4rem;">
+    <label style="font-size:0.85rem;color:#4a6a80;display:block;margin-bottom:0.4rem;font-weight:500;">
       Nom complet
     </label>
     <input type="text" name="nom" required
-           style="width:100%;padding:0.6rem 0.9rem;background:#0d1b2a;border:1px solid #1a3a6b;
-                  border-radius:0.4rem;color:#cdd6f4;font-size:0.95rem;"
+           style="width:100%;padding:0.6rem 0.9rem;background:#f4f8fb;border:1px solid #c8dff0;
+                  border-radius:0.4rem;color:#1a2e42;font-size:0.95rem;outline:none;"
            placeholder="Votre nom">
   </div>
 
   <div style="margin-bottom:1rem;">
-    <label style="font-size:0.85rem;color:#90a8c0;display:block;margin-bottom:0.4rem;">
+    <label style="font-size:0.85rem;color:#4a6a80;display:block;margin-bottom:0.4rem;font-weight:500;">
       Adresse email
     </label>
     <input type="email" name="email" required
-           style="width:100%;padding:0.6rem 0.9rem;background:#0d1b2a;border:1px solid #1a3a6b;
-                  border-radius:0.4rem;color:#cdd6f4;font-size:0.95rem;"
+           style="width:100%;padding:0.6rem 0.9rem;background:#f4f8fb;border:1px solid #c8dff0;
+                  border-radius:0.4rem;color:#1a2e42;font-size:0.95rem;outline:none;"
            placeholder="votre@email.com">
   </div>
 
   <div style="margin-bottom:1rem;">
-    <label style="font-size:0.85rem;color:#90a8c0;display:block;margin-bottom:0.4rem;">
+    <label style="font-size:0.85rem;color:#4a6a80;display:block;margin-bottom:0.4rem;font-weight:500;">
       Sujet
     </label>
     <select name="sujet"
-            style="width:100%;padding:0.6rem 0.9rem;background:#0d1b2a;border:1px solid #1a3a6b;
-                   border-radius:0.4rem;color:#cdd6f4;font-size:0.95rem;">
+            style="width:100%;padding:0.6rem 0.9rem;background:#f4f8fb;border:1px solid #c8dff0;
+                   border-radius:0.4rem;color:#1a2e42;font-size:0.95rem;">
       <option value="collaboration">Collaboration / Projet</option>
       <option value="consultation">Mission de consultation</option>
       <option value="formation">Formation / Renforcement de capacités</option>
@@ -101,12 +116,12 @@ format:
   </div>
 
   <div style="margin-bottom:1.5rem;">
-    <label style="font-size:0.85rem;color:#90a8c0;display:block;margin-bottom:0.4rem;">
+    <label style="font-size:0.85rem;color:#4a6a80;display:block;margin-bottom:0.4rem;font-weight:500;">
       Message
     </label>
     <textarea name="message" required rows="5"
-              style="width:100%;padding:0.6rem 0.9rem;background:#0d1b2a;border:1px solid #1a3a6b;
-                     border-radius:0.4rem;color:#cdd6f4;font-size:0.95rem;resize:vertical;"
+              style="width:100%;padding:0.6rem 0.9rem;background:#f4f8fb;border:1px solid #c8dff0;
+                     border-radius:0.4rem;color:#1a2e42;font-size:0.95rem;resize:vertical;"
               placeholder="Décrivez votre demande..."></textarea>
   </div>
 
@@ -114,33 +129,20 @@ format:
           style="width:100%;padding:0.75rem;background:#0077b6;border:none;border-radius:0.4rem;
                  color:white;font-size:1rem;font-weight:600;cursor:pointer;
                  transition:background 0.2s;"
-          onmouseover="this.style.background='#00b4d8'"
+          onmouseover="this.style.background='#005f8e'"
           onmouseout="this.style.background='#0077b6'">
-    Envoyer le message
+    ✉ Envoyer le message
   </button>
 
 </form>
 
-<p style="font-size:0.8rem;color:#5a7090;margin-top:1rem;text-align:center;">
-  ⚡ Alimenté par Formspree · Réponse sous 48h
+<p style="font-size:0.8rem;color:#8aacbf;margin-top:1rem;text-align:center;">
+  ⚡ Alimenté par <a href="https://formspree.io" target="_blank" style="color:#0077b6;">Formspree</a> · Réponse sous 48h
 </p>
 
-</div>
+</div><!-- /form card -->
 
-</div><!-- /col -->
+</div><!-- /col formulaire -->
 
 </div><!-- /row -->
-
----
-
-<div class="text-center mt-4" style="padding:2rem;">
-  <p class="text-muted-blue" style="font-size:0.85rem;text-transform:uppercase;letter-spacing:0.1em;">
-    Localisation actuelle
-  </p>
-  <p style="font-size:1.1rem;color:#90e0ef;font-weight:500;">
-    🇧🇪 Liège, Belgique &nbsp;/&nbsp; 🇧🇫 Ouagadougou, Burkina Faso
-  </p>
-  <p style="font-size:0.9rem;color:#7090a0;">
-    Disponible pour des missions en présentiel ou à distance
-  </p>
-</div>
+```

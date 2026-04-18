@@ -1,6 +1,6 @@
 ---
 title: "Publications & Communications"
-subtitle: "Articles RPubs, conférences, rapports et distinctions"
+subtitle: "Articles RPubs, HydroBurkina, conférences, rapports et formations"
 format:
   html:
     toc: true
@@ -8,7 +8,7 @@ format:
 
 ::: {.callout-note}
 ## RPubs — nebiegc
-L'ensemble de mes publications et tutoriels R sont accessibles sur 
+L'ensemble de mes tutoriels et analyses R sont accessibles sur 
 [**rpubs.com/nebiegc**](https://rpubs.com/nebiegc){target="_blank"}.
 :::
 
@@ -16,105 +16,110 @@ L'ensemble de mes publications et tutoriels R sont accessibles sur
 
 ## 🏆 Distinction
 
+```{=html}
 <div class="award-card mb-4">
   <div class="award-year">2024</div>
-  <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:0.15em;color:#ffd166;font-weight:700;margin-bottom:0.5rem;">
+  <div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:0.15em;color:#b8860b;font-weight:700;margin-bottom:0.5rem;">
     🏆 Prix National
   </div>
   <div class="award-title">Prix des Pratiques Innovantes</div>
   <div class="award-org">3ème édition des Trophées de l'Eau et de l'Assainissement du Burkina Faso</div>
-  <p style="font-size:0.9rem;color:#90a8c0;margin:0.75rem 0 0;max-width:560px;">
+  <p style="font-size:0.9rem;color:#4a6a80;margin:0.75rem 0 0;max-width:560px;">
     Récompense pour l'application de méthodes d'intelligence artificielle (Random Forest, 
     arbres de décision) à la cartographie du potentiel aquifère en zone de socle — 
     une première au Burkina Faso.
   </p>
 </div>
+```
 
 ---
 
-## 📊 Publications RPubs
+## 📊 Tutoriels RPubs
 
-### Série Hydrologie & Bassins versants
+### Hydrologie & Bassins versants
 
+```{=html}
 <div class="pub-item">
   <div class="pub-type pub-type-rpubs">RPubs · Tutoriel R</div>
   <div class="pub-title">Hydrologie et bassin versant — Caractéristiques morphométriques</div>
-  <div class="pub-meta">P_f bk2020_001 · Calcul des paramètres morphométriques avec R</div>
+  <div class="pub-meta">P_fbk2020_001 · Calcul des paramètres morphométriques avec R</div>
   <div style="margin-top:0.5rem;">
     <span class="tag tag-r">R</span><span class="tag tag-water">Hydrologie</span>
-    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-secondary ms-2">RPubs →</a>
+    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-primary ms-2">RPubs →</a>
   </div>
 </div>
 
 <div class="pub-item">
   <div class="pub-type pub-type-rpubs">RPubs · Tutoriel R</div>
   <div class="pub-title">Spatialisation des données de pluie</div>
-  <div class="pub-meta">P_f bk2020_004 · Interpolation spatiale des précipitations</div>
+  <div class="pub-meta">P_fbk2020_004 · Interpolation spatiale des précipitations</div>
   <div style="margin-top:0.5rem;">
     <span class="tag tag-r">R</span><span class="tag tag-sig">SIG</span>
-    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-secondary ms-2">RPubs →</a>
+    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-primary ms-2">RPubs →</a>
   </div>
 </div>
 
 <div class="pub-item">
   <div class="pub-type pub-type-rpubs">RPubs · Tutoriel R</div>
   <div class="pub-title">Krigeage — Interpolation géostatistique</div>
-  <div class="pub-meta">P_f bk2020_005 · Application du krigeage avec R</div>
+  <div class="pub-meta">P_fbk2020_005 · Application du krigeage avec R</div>
   <div style="margin-top:0.5rem;">
     <span class="tag tag-r">R</span><span class="tag tag-sig">Géostatistique</span>
-    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-secondary ms-2">RPubs →</a>
+    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-primary ms-2">RPubs →</a>
   </div>
 </div>
 
 <div class="pub-item">
   <div class="pub-type pub-type-rpubs">RPubs · Tutoriel R</div>
   <div class="pub-title">Modélisation hydrologique — Application du modèle GR4J</div>
-  <div class="pub-meta">P_f bk2020_006 · Modèle GR4J sur le bassin versant du Kou (Burkina Faso)</div>
+  <div class="pub-meta">P_fbk2020_006 · Modèle GR4J sur le bassin versant du Kou (Burkina Faso)</div>
   <div style="margin-top:0.5rem;">
     <span class="tag tag-r">R</span><span class="tag tag-water">GR4J</span>
-    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-secondary ms-2">RPubs →</a>
+    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-primary ms-2">RPubs →</a>
   </div>
 </div>
 
 <div class="pub-item">
   <div class="pub-type pub-type-rpubs">RPubs · Tutoriel R</div>
   <div class="pub-title">Courbes IDF — Analyse fréquentielle des pluies</div>
-  <div class="pub-meta">P_f bk2020_007 & 008 · Réalisation de courbes Intensité-Durée-Fréquence avec R</div>
+  <div class="pub-meta">P_fbk2020_007 & 008 · Réalisation de courbes Intensité-Durée-Fréquence avec R</div>
   <div style="margin-top:0.5rem;">
     <span class="tag tag-r">R</span><span class="tag tag-water">IDF</span><span class="tag tag-water">Crues</span>
-    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-secondary ms-2">RPubs →</a>
+    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-primary ms-2">RPubs →</a>
   </div>
 </div>
 
 <div class="pub-item">
   <div class="pub-type pub-type-rpubs">RPubs · Tutoriel R</div>
   <div class="pub-title">Analyse fréquentielle — Les extrêmes hydrologiques (crues)</div>
-  <div class="pub-meta">P_f bk2020_011 · Analyse statistique des événements extrêmes</div>
+  <div class="pub-meta">P_fbk2020_011 · Analyse statistique des événements extrêmes</div>
   <div style="margin-top:0.5rem;">
     <span class="tag tag-r">R</span><span class="tag tag-risk">Extrêmes</span>
-    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-secondary ms-2">RPubs →</a>
+    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-primary ms-2">RPubs →</a>
   </div>
 </div>
+```
 
 ### Climatologie
 
+```{=html}
 <div class="pub-item">
   <div class="pub-type pub-type-rpubs">RPubs · Analyse</div>
   <div class="pub-title">Caractérisation de la saison des pluies au Burkina Faso</div>
-  <div class="pub-meta">NS_f bk2020_001 · Analyse de la variabilité saisonnière des précipitations</div>
+  <div class="pub-meta">NS_fbk2020_001 · Analyse de la variabilité saisonnière des précipitations</div>
   <div style="margin-top:0.5rem;">
     <span class="tag tag-r">R</span><span class="tag tag-climate">Climatologie</span>
-    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-secondary ms-2">RPubs →</a>
+    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-primary ms-2">RPubs →</a>
   </div>
 </div>
 
 <div class="pub-item">
   <div class="pub-type pub-type-rpubs">RPubs · Tutoriel R</div>
   <div class="pub-title">Post-traitement des scénarios climatiques — Correction de biais</div>
-  <div class="pub-meta">P_f bk2020_012 · Méthodes de correction de biais des données CMIP</div>
+  <div class="pub-meta">P_fbk2020_012 · Méthodes de correction de biais des données CMIP</div>
   <div style="margin-top:0.5rem;">
     <span class="tag tag-r">R</span><span class="tag tag-climate">CMIP</span><span class="tag tag-climate">Scénarios</span>
-    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-secondary ms-2">RPubs →</a>
+    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-primary ms-2">RPubs →</a>
   </div>
 </div>
 
@@ -123,11 +128,51 @@ L'ensemble de mes publications et tutoriels R sont accessibles sur
     Voir toutes les publications sur RPubs →
   </a>
 </div>
+```
+
+---
+
+## 💧 HydroBurkina — Vulgarisation scientifique
+
+::: {.callout-note}
+Articles de vulgarisation co-rédigés en tant que **Vice-Président de l'Association HydroBurkina**, 
+diffusés sur la page Facebook de l'association.
+:::
+
+```{=html}
+<div class="pub-item">
+  <div class="pub-type pub-type-hydrobf">HydroBurkina · Vulgarisation</div>
+  <div class="pub-title">Suivi pluviométrique par données satellitaires TAMSAT</div>
+  <div class="pub-meta">
+    Script R de suivi des données de pluie TAMSAT sur le Burkina Faso · Association HydroBurkina
+  </div>
+  <div style="margin-top:0.5rem;">
+    <span class="tag tag-r">R</span>
+    <span class="tag tag-climate">TAMSAT</span>
+    <span class="tag tag-water">Pluviométrie</span>
+    <span class="badge-done">Publié</span>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-type pub-type-hydrobf">HydroBurkina · Vulgarisation</div>
+  <div class="pub-title">Ressources en eau en Afrique de l'Ouest — État des lieux</div>
+  <div class="pub-meta">
+    Article de sensibilisation sur la gestion des ressources hydriques · Association HydroBurkina
+  </div>
+  <div style="margin-top:0.5rem;">
+    <span class="tag tag-water">Hydrologie</span>
+    <span class="tag tag-gire">GIRE</span>
+    <span class="badge-done">Publié</span>
+  </div>
+</div>
+```
 
 ---
 
 ## 🎤 Communications scientifiques
 
+```{=html}
 <div class="pub-item">
   <div class="pub-type pub-type-conf">Communication · Conférence nationale</div>
   <div class="pub-title">
@@ -141,52 +186,81 @@ L'ensemble de mes publications et tutoriels R sont accessibles sur
     <span class="tag tag-climate">CMIP6</span>
     <span class="tag tag-climate">Agroclimatologie</span>
     <span class="tag tag-water">Burkina Faso</span>
+    <span class="badge-done">Présenté</span>
   </div>
 </div>
+
+<div class="pub-item">
+  <div class="pub-type pub-type-preprint">Article scientifique · En préparation</div>
+  <div class="pub-title">
+    Machine learning pour la cartographie du potentiel aquifère en zone de socle
+  </div>
+  <div class="pub-meta">
+    Application Random Forest et régression logistique — Burkina Faso · En cours de rédaction
+  </div>
+  <div style="margin-top:0.5rem;">
+    <span class="tag tag-ml">Machine Learning</span>
+    <span class="tag tag-water">Hydrogéologie</span>
+    <span class="badge-wip">En préparation</span>
+  </div>
+</div>
+```
 
 ---
 
 ## 📄 Rapports & Consultations
 
+```{=html}
 <div class="pub-item">
   <div class="pub-type pub-type-report">Rapport · Consultation</div>
   <div class="pub-title">Manuel de Gestion Intégrée des Ressources en Eau (GIRE) communautaire</div>
   <div class="pub-meta">
-    CECA-DR (Centre d'Encadrement et d'Appui pour le Développement Rural) · 2024 · 
-    Diagnostic participatif — 6 villages, Plateau Central, Burkina Faso
+    CECA-DR · 2024 · Diagnostic participatif — 6 villages, Plateau Central, Burkina Faso
   </div>
   <div style="margin-top:0.5rem;">
-    <span class="tag tag-gire">GIRE</span><span class="tag tag-gire">Manuel</span>
+    <span class="tag tag-gire">GIRE</span>
+    <span class="tag tag-gire">Manuel</span>
+    <span class="badge-done">Livré</span>
+    <!-- Décommenter après upload sur Drive :
+    <a href="LIEN_DRIVE" target="_blank" class="btn btn-sm btn-outline-primary ms-2">📄 Consulter →</a>
+    -->
   </div>
 </div>
 
 <div class="pub-item">
   <div class="pub-type pub-type-report">Rapport · Planification</div>
-  <div class="pub-title">Document d'opérationnalisation du SDAGE de l'Agence de l'Eau du Nakanbé</div>
+  <div class="pub-title">Document d'opérationnalisation du SDAGE — Agence de l'Eau du Nakanbé</div>
   <div class="pub-meta">
-    Agence de l'Eau du Nakanbé (AEN) · 2024 · 
-    Premier document SDAGE — Volet SIG et cartographie
+    AEN · 2024 · Premier document SDAGE — Volet SIG et cartographie
   </div>
   <div style="margin-top:0.5rem;">
-    <span class="tag tag-gire">SDAGE</span><span class="tag tag-sig">SIG</span>
+    <span class="tag tag-gire">SDAGE</span>
+    <span class="tag tag-sig">SIG</span>
+    <span class="badge-done">Livré</span>
   </div>
 </div>
+```
 
 ---
 
 ## 👨‍🏫 Formations animées
 
+```{=html}
 <div class="pub-item">
   <div class="pub-type pub-type-training">Formation · Renforcement de capacités</div>
   <div class="pub-title">
-    Utilisation de R pour le traitement des données hydroclimatiques et l'élaboration 
-    de courbes de tarage
+    Utilisation de R pour le traitement des données hydroclimatiques et l'élaboration de courbes de tarage
   </div>
   <div class="pub-meta">
     Cadres du Ministère en charge de l'Eau et de l'Assainissement, Burkina Faso
   </div>
   <div style="margin-top:0.5rem;">
-    <span class="tag tag-r">R</span><span class="tag tag-water">Hydrologie</span>
+    <span class="tag tag-r">R</span>
+    <span class="tag tag-water">Hydrologie</span>
+    <span class="badge-done">Réalisée</span>
+    <!-- Ajouter lien Drive si contenu diffusable :
+    <a href="LIEN_DRIVE" target="_blank" class="btn btn-sm btn-outline-primary ms-2">📁 Supports →</a>
+    -->
   </div>
 </div>
 
@@ -196,10 +270,28 @@ L'ensemble de mes publications et tutoriels R sont accessibles sur
     Analyse statistique de données agronomiques avec R
   </div>
   <div class="pub-meta">
-    Docteurs et doctorants du département d'agronomie, Université Dan Dicko Dankoulodo 
-    de Maradi (UDDM), Niger · Analyse exploratoire, tests comparatifs, analyses post-hoc
+    Docteurs et doctorants — Université Dan Dicko Dankoulodo de Maradi (UDDM), Niger ·
+    Analyse exploratoire, tests comparatifs, analyses post-hoc
   </div>
   <div style="margin-top:0.5rem;">
-    <span class="tag tag-r">R</span><span class="tag tag-climate">Agronomie</span><span class="tag tag-gire">Niger</span>
+    <span class="tag tag-r">R</span>
+    <span class="tag tag-climate">Agronomie</span>
+    <span class="badge-done">Réalisée</span>
   </div>
 </div>
+
+<div class="pub-item">
+  <div class="pub-type pub-type-training">Formation · En développement</div>
+  <div class="pub-title">
+    Introduction à l'analyse de données hydrologiques avec R — Formation en ligne
+  </div>
+  <div class="pub-meta">
+    Destinée aux techniciens et ingénieurs en ressources en eau · Afrique de l'Ouest
+  </div>
+  <div style="margin-top:0.5rem;">
+    <span class="tag tag-r">R</span>
+    <span class="tag tag-water">Hydrologie</span>
+    <span class="badge-coming">🚧 En développement</span>
+  </div>
+</div>
+```

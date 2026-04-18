@@ -1,5 +1,5 @@
 ---
-title: "À propos"
+title: "Profil"
 subtitle: "Ingénieur Hydrologue | Expert en Gestion des Risques Climatiques"
 format:
   html:
@@ -10,6 +10,7 @@ format:
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
+```{=html}
 <!-- INTRO -->
 <div class="row align-items-center g-5 mb-5">
 <div class="col-md-4 text-center">
@@ -26,7 +27,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
     <span class="tag tag-gire">GIRE</span>
   </div>
   <div style="margin-top:1.5rem;display:flex;gap:0.5rem;justify-content:center;flex-wrap:wrap;">
-    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-info">
+    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-primary">
       📊 RPubs
     </a>
     <a href="https://www.linkedin.com/in/gaston-cyrille-nebie-a2a977222" target="_blank" class="btn btn-sm btn-outline-secondary">
@@ -40,42 +41,44 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 <div class="col-md-8">
   <h2 class="text-water mb-1">NEBIE Gaston Cyrille</h2>
-  <p style="color:#48cae4;font-weight:600;font-size:0.9rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:1.25rem;">
+  <p style="color:#0077b6;font-weight:600;font-size:0.9rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:1.25rem;">
     Hydrologue · Analyste des Risques Climatiques · Data Scientist
   </p>
-  <p>
+  <p style="color:#1a2e42;">
     Ingénieur hydrologue avec plus de cinq années d'expérience dans l'analyse 
     hydroclimatique, la gestion des ressources en eau et la cartographie des risques. 
     Mon parcours combine une formation technique rigoureuse au <strong>Centre Régional 
     Agrhymet (CRA, Niamey)</strong> et une expérience opérationnelle au sein du Ministère 
     en charge de l'Eau et de l'Assainissement du Burkina Faso.
   </p>
-  <p>
+  <p style="color:#1a2e42;">
     Actuellement étudiant en <strong>Master de spécialisation en Gestion des Risques 
     et des Catastrophes à l'ère de l'Anthropocène</strong> à l'Université de Liège (Belgique), 
     je développe une expertise transversale alliant hydrologie, analyse spatiale, 
     intelligence artificielle et approches participatives de réduction des vulnérabilités.
   </p>
-  <p>
-    Vice-président de l'<strong>Association Hydro-Burkina</strong>, je contribue à la 
+  <p style="color:#1a2e42;">
+    Vice-président de l'<strong>Association HydroBurkina</strong>, je contribue à la 
     diffusion de l'information climatique et à la mise en place d'outils d'aide à la 
     décision pour la gestion de l'eau en Afrique de l'Ouest.
   </p>
 </div>
 </div>
 
----
+<hr style="border-color:#d0e4f0;">
+```
 
 ## 🎓 Formation
 
+```{=html}
 <div class="timeline">
 
 <div class="timeline-item">
   <div class="timeline-date">2025 – 2026</div>
-  <div class="timeline-title">Master de spécialisation en Gestion des Risques et des Catastrophes à l'ère de l'Anthropocène</div>
+  <div class="timeline-title">Master — Gestion des Risques et des Catastrophes à l'ère de l'Anthropocène</div>
   <div class="timeline-org">Université de Liège (ULiège) — Belgique</div>
   <div class="timeline-body">
-    Axes : analyse des risques et catastrophes · résilience territoriale · migration environnementale · systèmes d'alerte précoce · droit international humanitaire.
+    Analyse des risques · Résilience territoriale · Migration environnementale · Systèmes d'alerte précoce · Droit international humanitaire.
   </div>
 </div>
 
@@ -84,7 +87,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
   <div class="timeline-title">Diplôme d'Ingénieur Hydrologue</div>
   <div class="timeline-org">Centre Régional Agrhymet (CRA) — Niamey, Niger</div>
   <div class="timeline-body">
-    Mémoire : <em>Élaboration de scénarios d'évolution de la ressource en eau de surface dans le bassin versant du Nakanbé</em>. Modèles GR4J, GR6J, SWAT ; correction de biais ; scénarios climatiques CMIP.
+    Mémoire : <em>Élaboration de scénarios d'évolution de la ressource en eau de surface dans le bassin versant du Nakanbé</em>. Modèles GR4J, GR6J, SWAT · Correction de biais · Scénarios climatiques CMIP.
   </div>
 </div>
 
@@ -99,10 +102,12 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 </div>
 
----
+<hr style="border-color:#d0e4f0;">
+```
 
 ## 💼 Expériences professionnelles
 
+```{=html}
 <div class="timeline">
 
 <div class="timeline-item">
@@ -128,7 +133,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
   <div class="timeline-title">Ingénieur du Génie Rural</div>
   <div class="timeline-org">Ministère en charge de l'Eau et de l'Assainissement — Burkina Faso</div>
   <div class="timeline-body">
-    Direction Régionale du Centre (DRC) puis Direction Générale des Ressources en Eau (DGRE) · Mise en place du Comité d'Usagers de l'Eau · Diagnostic des ouvrages de mobilisation d'eau · Contribution au PNGIRE.
+    Direction Régionale du Centre (DRC) puis DGRE · Comités d'Usagers de l'Eau · Diagnostic des ouvrages · Contribution au PNGIRE.
   </div>
 </div>
 
@@ -146,20 +151,112 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
   <div class="timeline-title">Expert SIG & Data Science</div>
   <div class="timeline-org">Groupe SGI (PAEA) &amp; Bureau d'études Bugego (ESEPV-Sahel)</div>
   <div class="timeline-body">
-    Cartographie du potentiel aquifère en zone de socle par machine learning (Random Forest, arbres de décision, régression logistique) — première utilisation de l'IA dans ce domaine au Burkina Faso.
+    Cartographie du potentiel aquifère par machine learning (Random Forest, arbres de décision, régression logistique) — première utilisation de l'IA dans ce domaine au Burkina Faso.
   </div>
 </div>
 
 </div>
 
----
+<hr style="border-color:#d0e4f0;">
+```
+
+## 🛠️ Compétences
+
+```{=html}
+<div class="row g-4">
+
+<!-- Colonne 1 -->
+<div class="col-md-6">
+
+  <div class="skill-group">
+    <div class="skill-category-label">💧 Hydrologie & Eau</div>
+
+    <div class="skill-item">
+      <div class="skill-name"><span>Modélisation hydrologique (GR4J, GR6J, SWAT)</span><span class="skill-pct">90%</span></div>
+      <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-name"><span>Analyse fréquentielle & courbes IDF</span><span class="skill-pct">88%</span></div>
+      <div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-name"><span>GIRE & gestion des ressources en eau</span><span class="skill-pct">85%</span></div>
+      <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-name"><span>Gestion des risques & inondations</span><span class="skill-pct">82%</span></div>
+      <div class="skill-bar"><div class="skill-fill" style="width:82%"></div></div>
+    </div>
+  </div>
+
+  <div class="skill-group">
+    <div class="skill-category-label">☁️ Climatologie</div>
+    <div class="skill-item">
+      <div class="skill-name"><span>Scénarios climatiques CMIP5/CMIP6</span><span class="skill-pct">85%</span></div>
+      <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-name"><span>Correction de biais</span><span class="skill-pct">82%</span></div>
+      <div class="skill-bar"><div class="skill-fill" style="width:82%"></div></div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-name"><span>Données satellitaires (TAMSAT, CHIRPS)</span><span class="skill-pct">80%</span></div>
+      <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Colonne 2 -->
+<div class="col-md-6">
+
+  <div class="skill-group">
+    <div class="skill-category-label">💻 Outils & Langages</div>
+    <div class="skill-item">
+      <div class="skill-name"><span>R (tidyverse, ggplot2, sf, terra, leaflet…)</span><span class="skill-pct">90%</span></div>
+      <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-name"><span>Python (pandas, scikit-learn, geopandas)</span><span class="skill-pct">65%</span></div>
+      <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-name"><span>QGIS / ArcGIS</span><span class="skill-pct">85%</span></div>
+      <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-name"><span>Quarto / RMarkdown</span><span class="skill-pct">80%</span></div>
+      <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+    </div>
+  </div>
+
+  <div class="skill-group">
+    <div class="skill-category-label">🤖 Machine Learning & SIG</div>
+    <div class="skill-item">
+      <div class="skill-name"><span>Random Forest, Arbres de décision</span><span class="skill-pct">80%</span></div>
+      <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-name"><span>Télédétection (Landsat, classification)</span><span class="skill-pct">78%</span></div>
+      <div class="skill-bar"><div class="skill-fill" style="width:78%"></div></div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-name"><span>Interpolation spatiale & géostatistique</span><span class="skill-pct">82%</span></div>
+      <div class="skill-bar"><div class="skill-fill" style="width:82%"></div></div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<hr style="border-color:#d0e4f0;">
+```
 
 ## 🗺️ Zones d'intervention
 
 ```{r carte-intervention}
 library(leaflet)
 
-# Zones d'intervention
 zones <- data.frame(
   nom  = c(
     "Bassin versant du Nakanbé",
@@ -188,15 +285,13 @@ zones <- data.frame(
   stringsAsFactors = FALSE
 )
 
-# Palette de couleurs par type
 pal <- colorFactor(
-  palette = c("#00b4d8", "#e63946", "#f4a261", "#06d6a0", "#c4b5fd"),
+  palette = c("#0077b6", "#c0392b", "#e07a30", "#0a9e78", "#6a0dad"),
   domain  = c("Hydrologie","Institution","SIG","Formation","GIRE")
 )
 
-# Carte
 leaflet(zones) |>
-  addProviderTiles("CartoDB.DarkMatter") |>
+  addProviderTiles("CartoDB.Positron") |>
   addCircleMarkers(
     lng         = ~lng,
     lat         = ~lat,
@@ -208,18 +303,18 @@ leaflet(zones) |>
     opacity     = 1,
     label       = ~nom,
     popup       = ~paste0(
-      "<div style='font-family:sans-serif;padding:6px;min-width:210px;'>",
-      "<b style='color:#00b4d8;font-size:0.95em;'>", nom, "</b><br>",
-      "<span style='color:#555;font-size:0.8em;'>", type, "</span><br><br>",
+      "<div style='font-family:Inter,sans-serif;padding:8px;min-width:210px;'>",
+      "<b style='color:#0077b6;font-size:0.95em;'>", nom, "</b><br>",
+      "<span style='color:#888;font-size:0.8em;'>", type, "</span><br><br>",
       "<span style='color:#333;font-size:0.85em;'>", desc, "</span>",
       "</div>"
     ),
     labelOptions = labelOptions(
       style = list(
-        "font-family"      = "sans-serif",
-        "background-color" = "#1a1a2e",
-        "color"            = "#cdd6f4",
-        "border-color"     = "#00b4d8",
+        "font-family"      = "Inter, sans-serif",
+        "background-color" = "#ffffff",
+        "color"            = "#023e8a",
+        "border-color"     = "#0077b6",
         "border-radius"    = "4px",
         "padding"          = "4px 8px"
       )
@@ -231,8 +326,7 @@ leaflet(zones) |>
     pal       = pal,
     values    = ~type,
     title     = "Type d'intervention",
-    opacity   = 0.9,
-    labFormat = labelFormat()
+    opacity   = 0.9
   )
 ```
 
@@ -245,29 +339,31 @@ leaflet(zones) |>
 Application de méthodes d'intelligence artificielle à la cartographie des ressources en eau.
 :::
 
+```{=html}
 <div class="row g-3 mt-2">
   <div class="col-md-4">
-    <div style="background:#112240;border:1px solid #1a3a6b;border-radius:0.5rem;padding:1rem;">
-      <div style="color:#06d6a0;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;font-weight:700;margin-bottom:0.4rem;">Certification</div>
-      <div style="font-weight:600;color:#cdd6f4;">Brevet Européen des Premiers Secours (BEPS)</div>
-      <div style="font-size:0.85rem;color:#7090a0;">Croix-Rouge de Belgique — valable jusqu'en 2030</div>
+    <div style="background:#ffffff;border:1px solid #d0e4f0;border-radius:0.5rem;padding:1rem;box-shadow:0 1px 6px rgba(0,119,182,0.05);">
+      <div style="color:#0a9e78;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;font-weight:700;margin-bottom:0.4rem;">Certification</div>
+      <div style="font-weight:600;color:#023e8a;">Brevet Européen des Premiers Secours (BEPS)</div>
+      <div style="font-size:0.85rem;color:#6a8aaa;">Croix-Rouge de Belgique — valable jusqu'en 2030</div>
     </div>
   </div>
   <div class="col-md-4">
-    <div style="background:#112240;border:1px solid #1a3a6b;border-radius:0.5rem;padding:1rem;">
-      <div style="color:#06d6a0;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;font-weight:700;margin-bottom:0.4rem;">Formation</div>
-      <div style="font-weight:600;color:#cdd6f4;">Osons l'Humanitaire — DIH</div>
-      <div style="font-size:0.85rem;color:#7090a0;">Croix-Rouge de Belgique — 2026</div>
+    <div style="background:#ffffff;border:1px solid #d0e4f0;border-radius:0.5rem;padding:1rem;box-shadow:0 1px 6px rgba(0,119,182,0.05);">
+      <div style="color:#0a9e78;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;font-weight:700;margin-bottom:0.4rem;">Formation</div>
+      <div style="font-weight:600;color:#023e8a;">Osons l'Humanitaire — DIH</div>
+      <div style="font-size:0.85rem;color:#6a8aaa;">Croix-Rouge de Belgique — 2026</div>
     </div>
   </div>
   <div class="col-md-4">
-    <div style="background:#112240;border:1px solid #1a3a6b;border-radius:0.5rem;padding:1rem;">
-      <div style="color:#06d6a0;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;font-weight:700;margin-bottom:0.4rem;">Formation continue</div>
-      <div style="font-weight:600;color:#cdd6f4;">MOOC FUN, MOOC ADF, Udemy</div>
-      <div style="font-size:0.85rem;color:#7090a0;">R, Python, SIG, Machine Learning</div>
+    <div style="background:#ffffff;border:1px solid #d0e4f0;border-radius:0.5rem;padding:1rem;box-shadow:0 1px 6px rgba(0,119,182,0.05);">
+      <div style="color:#0a9e78;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;font-weight:700;margin-bottom:0.4rem;">Formation continue</div>
+      <div style="font-weight:600;color:#023e8a;">MOOC FUN, MOOC ADF, Udemy</div>
+      <div style="font-size:0.85rem;color:#6a8aaa;">R, Python, SIG, Machine Learning</div>
     </div>
   </div>
 </div>
+```
 
 ---
 
