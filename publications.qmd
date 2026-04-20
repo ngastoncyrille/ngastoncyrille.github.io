@@ -36,7 +36,69 @@ L'ensemble de mes tutoriels et analyses R sont accessibles sur
 
 ## 📊 Tutoriels RPubs
 
-### Hydrologie & Bassins versants
+```{=html}
+<div class="pub-item">
+  <div class="pub-type pub-type-rpubs">terra, sf, ggplot2, ggspatial, tidyverse</div>
+  <div class="pub-title">Localisation des zones d’exploitation optimale du Pin blanc avec R</div>
+  <div class="pub-meta">Tutoriel pédagogique décrivant une méthode SIG sous R pour localiser les zones d’exploitation optimale du Pin blanc à partir d’un raster d’occupation du sol, en intégrant des contraintes de distance hydrologique et de superficie minimale.</div>
+  <div style="margin-top:0.5rem;">
+    <span class="tag tag-r">R</span><span class="tag tag-water">SIG</span>
+    <a href="https://rpubs.com/nebiegc/1373145" class="btn btn-sm btn-outline-primary ms-2">→</a>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="pub-item">
+  <div class="pub-type pub-type-rpubs">sf, ggplot2, patchwork, tidyverse</div>
+  <div class="pub-title">Mise à jour des limites administratives du Burkina Faso selon la réforme de 2025</div>
+  <div class="pub-meta">Cet article présente une méthodologie reproductible pour mettre à jour les limites administratives du Burkina Faso suite à la réforme territoriale de 2025. Grâce à R et au package sf, nous passons de l’ancien découpage (13 régions et 45 provinces) au nouveau (17 régions et 47 provinces) en appliquant une série d’opérations spatiales simples et robustes.</div>
+  <div style="margin-top:0.5rem;">
+    <span class="tag tag-r">R</span><span class="tag tag-water">SIG</span>
+    <a href="https://rpubs.com/nebiegc/limites_admin" class="btn btn-sm btn-outline-primary ms-2">→</a>
+  </div>
+</div>
+```
+
+
+```{=html}
+<div class="pub-item">
+  <div class="pub-type pub-type-rpubs">sf, terra, ggplot2, tidyterra, tidyverse</div>
+  <div class="pub-title">Prétraitement des données spatiales : Découpage du MNT et du réseau hydrographique pour le sous-bassin de Wayen</div>
+  <div class="pub-meta">Dans ce tutoriel, nous utilisons R et ses packages sf et terra pour illustrer un cas concret : le découpage d’un Modèle Numérique de Terrain (MNT) et d’un réseau hydrographique à la limite du sous-bassin de Wayen, situé dans le bassin du Nakanbé au Burkina Faso.</div>
+  <div style="margin-top:0.5rem;">
+    <span class="tag tag-r">R</span><span class="tag tag-water">SIG</span>
+    <a href="https://rpubs.com/nebiegc/1338170" class="btn btn-sm btn-outline-primary ms-2">→</a>
+  </div>
+</div>
+```
+
+
+```{=html}
+<div class="pub-item">
+  <div class="pub-type pub-type-rpubs">plotly, splines, tidyverse</div>
+  <div class="pub-title">Analyse du risque de défaillance des joints toriques de la navette Challenger</div>
+  <div class="pub-meta">Cette analyse est un exercice du MOOC Recherche reproductible : principes méthodologiques pour une science transparente. Je le partage pour appliquer un des principes du document computationnel ...</div>
+  <div style="margin-top:0.5rem;">
+    <span class="tag tag-r">R</span><span class="tag tag-water">Science reproductible</span>
+    <a href="https://rpubs.com/nebiegc/1264289" class="btn btn-sm btn-outline-primary ms-2">→</a>
+  </div>
+</div>
+```
+---
+
+## 💧 HydroBurkina - Vulgarisation scientifique
+
+::: {.callout-note}
+## Association HydroBurkina — *"La porte de l'information sur l'eau"*
+Cette section présente de cours articles en lien avec l'hydrologie et ses sciences connexes. La majeur partie a été co-rédigée dans le cadre des activités de l'association **HydroBurkina**,
+en collaboration avec [**OUEDRAOGO M. Joseph**](https://www.linkedin.com/in/manegawene-joseph-ouedraogo-2861861b1/) (co-auteur principal de la série).
+Diffusés sur la page Facebook de l'association à destination des professionnels et étudiants
+en sciences de l'eau.
+:::
+
+### 📘 Série de publications sur l'hydrologie et les bassins versants 
+
 
 ```{=html}
 <div class="pub-item">
@@ -100,70 +162,54 @@ L'ensemble de mes tutoriels et analyses R sont accessibles sur
 </div>
 ```
 
-### Climatologie
+
+
+
+### 🌦️ Série Climatologie — NS_fbk2020
 
 ```{=html}
 <div class="pub-item">
-  <div class="pub-type pub-type-rpubs">RPubs · Analyse</div>
-  <div class="pub-title">Caractérisation de la saison des pluies au Burkina Faso</div>
-  <div class="pub-meta">NS_fbk2020_001 · Analyse de la variabilité saisonnière des précipitations</div>
+  <div class="pub-type pub-type-hydrobf">HydroBurkina · Série NS_fbk2020</div>
+  <div class="pub-title">NS_fbk2020_001 · Caractérisation de la saison des pluies — Cas du Burkina Faso</div>
+  <div class="pub-meta">Co-auteur : OUEDRAOGO M. Joseph · Variabilité saisonnière des précipitations</div>
   <div style="margin-top:0.5rem;">
-    <span class="tag tag-r">R</span><span class="tag tag-climate">Climatologie</span>
-    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-primary ms-2">RPubs →</a>
+    <span class="tag tag-climate">Climatologie</span>
+    <span class="tag tag-water">Précipitations</span>
+    <span class="tag tag-r">R</span>
+    <span class="badge-done">Publié</span>
+    <!-- <a href="LIEN_DRIVE" target="_blank" class="btn btn-sm btn-outline-primary ms-2">📄 Lire →</a> -->
   </div>
 </div>
 
 <div class="pub-item">
-  <div class="pub-type pub-type-rpubs">RPubs · Tutoriel R</div>
-  <div class="pub-title">Post-traitement des scénarios climatiques — Correction de biais</div>
-  <div class="pub-meta">P_fbk2020_012 · Méthodes de correction de biais des données CMIP</div>
+  <div class="pub-type pub-type-hydrobf">HydroBurkina · Série P_fbk2020</div>
+  <div class="pub-title">P_fbk2020_012 · Post-traitement des scénarios climatiques — Correction de biais</div>
+  <div class="pub-meta">Co-auteur : OUEDRAOGO M. Joseph · Méthodes de correction de biais des données CMIP</div>
   <div style="margin-top:0.5rem;">
-    <span class="tag tag-r">R</span><span class="tag tag-climate">CMIP</span><span class="tag tag-climate">Scénarios</span>
-    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-primary ms-2">RPubs →</a>
+    <span class="tag tag-climate">CMIP</span>
+    <span class="tag tag-climate">Scénarios</span>
+    <span class="tag tag-r">R</span>
+    <span class="badge-done">Publié</span>
+    <!-- <a href="LIEN_DRIVE" target="_blank" class="btn btn-sm btn-outline-primary ms-2">📄 Lire →</a> -->
   </div>
-</div>
-
-<div class="text-center mt-3 mb-2">
-  <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-primary px-5">
-    Voir toutes les publications sur RPubs →
-  </a>
 </div>
 ```
 
----
-
-## 💧 HydroBurkina — Vulgarisation scientifique
-
-::: {.callout-note}
-Articles de vulgarisation co-rédigés en tant que **Vice-Président de l'Association HydroBurkina**, 
-diffusés sur la page Facebook de l'association.
-:::
+### 🎓 Encadrement académique
 
 ```{=html}
 <div class="pub-item">
-  <div class="pub-type pub-type-hydrobf">HydroBurkina · Vulgarisation</div>
-  <div class="pub-title">Suivi pluviométrique par données satellitaires TAMSAT</div>
+  <div class="pub-type pub-type-training">Encadrement · Mémoire de Master</div>
+  <div class="pub-title">Mémoire de Master — KONE KAANFAR</div>
   <div class="pub-meta">
-    Script R de suivi des données de pluie TAMSAT sur le Burkina Faso · Association HydroBurkina
-  </div>
-  <div style="margin-top:0.5rem;">
-    <span class="tag tag-r">R</span>
-    <span class="tag tag-climate">TAMSAT</span>
-    <span class="tag tag-water">Pluviométrie</span>
-    <span class="badge-done">Publié</span>
-  </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-type pub-type-hydrobf">HydroBurkina · Vulgarisation</div>
-  <div class="pub-title">Ressources en eau en Afrique de l'Ouest — État des lieux</div>
-  <div class="pub-meta">
-    Article de sensibilisation sur la gestion des ressources hydriques · Association HydroBurkina
+    Maître de stage · Thématique en lien avec l'hydrologie et la gestion des ressources en eau ·
+    Université / Institution à préciser
   </div>
   <div style="margin-top:0.5rem;">
     <span class="tag tag-water">Hydrologie</span>
-    <span class="tag tag-gire">GIRE</span>
-    <span class="badge-done">Publié</span>
+    <span class="tag tag-gire">Encadrement</span>
+    <span class="badge-done">Soutenu</span>
+    <!-- <a href="LIEN_DRIVE" target="_blank" class="btn btn-sm btn-outline-primary ms-2">📄 Mémoire →</a> -->
   </div>
 </div>
 ```

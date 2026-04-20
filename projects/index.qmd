@@ -10,7 +10,7 @@ format:
 <div class="section-header mt-3">
   <div class="section-label">Réalisations</div>
   <p class="text-muted-blue">
-    Trois axes de travail : recherche & développement en outils hydrologiques, 
+    Trois axes de travail : recherche & développement en outils, 
     missions de consultation terrain, et renforcement de capacités.
   </p>
 </div>
@@ -23,7 +23,7 @@ format:
 ```{=html}
 <p class="text-muted-blue mb-4" style="font-size:0.9rem;">
   Scripts R, outils de traitement, modèles hydrologiques et analyses développés 
-  dans un cadre académique ou professionnel avec code disponible.
+  dans un cadre académique.
 </p>
 
 <div class="row g-4">
@@ -40,10 +40,10 @@ format:
   </div>
   <div class="project-footer">
     <span class="tag tag-water">Hydrologie</span>
-    <span class="tag tag-climate">CMIP6</span>
+    <span class="tag tag-climate">CMIP5</span>
     <span class="tag tag-r">R</span>
-    <span class="tag tag-sig">SWAT</span>
-    <a href="modelisation-nakambe.html" class="btn btn-sm btn-outline-info mt-2 w-100">Voir le projet →</a>
+    <span class="tag tag-sig">GR4J, SWAT</span>
+    <a href="https://drive.google.com/file/d/1FgHmk3PLMQSRMYcEWo9cjMCC0MpCwrHE/view?usp=sharing" class="btn btn-sm btn-outline-info mt-2 w-100">Accéder au rapport de mémoire →</a>
   </div>
 </div>
 </div>
@@ -150,7 +150,7 @@ format:
 
 ```{=html}
 <p class="text-muted-blue mb-4" style="font-size:0.9rem;">
-  Missions d'expertise réalisées pour des institutions publiques et bureaux d'études.
+  Missions d'expertise réalisées pour des institutions publiques, association et bureaux d'études.
   Les rapports confidentiels sont décrits sans diffusion de contenu sensible.
 </p>
 
@@ -160,7 +160,8 @@ format:
 <div class="col-md-6">
 <div class="project-card">
   <div class="project-icon">📋</div>
-  <div class="project-title">Manuel de GIRE communautaire — CECA-DR</div>
+  <div class="project-title">Manuel de GIRE communautaire - Centre d’Encadrement, de Coopération et d’Appui 
+Pour le Développement Rural (CECA-DR)</div>
   <div class="project-desc">
     Élaboration d'un manuel de Gestion Intégrée des Ressources en Eau pour 
     des comités villageois. Diagnostic participatif dans 6 villages du 
@@ -170,49 +171,27 @@ format:
     <span class="tag tag-gire">GIRE</span>
     <span class="tag tag-gire">Participatif</span>
     <span class="tag tag-water">Consultation</span>
-    <span class="badge-done">Livré · 2024</span>
-    <a href="gire-communautaire.html" class="btn btn-sm btn-outline-info mt-2 w-100">Voir le projet →</a>
+    <span class="badge-done">Livré · 2025</span>
+    <a href="https://drive.google.com/file/d/1V1Zx8XsXNzmc9EO4umXFRsYIzQo5Oj6m/view?usp=sharing" class="btn btn-sm btn-outline-info mt-2 w-100">Voir le livrable →</a>
   </div>
 </div>
 </div>
 
-<!-- SDAGE AEN -->
-<div class="col-md-6">
-<div class="project-card">
-  <div class="project-icon">🗺️</div>
-  <div class="project-title">Opérationnalisation du SDAGE — Agence de l'Eau du Nakanbé</div>
-  <div class="project-desc">
-    Premier document d'opérationnalisation du Schéma Directeur d'Aménagement 
-    et de Gestion des Eaux (SDAGE) de l'AEN. Contribution au volet SIG, 
-    cartographie et planification des ressources en eau.
-  </div>
-  <div class="project-footer">
-    <span class="tag tag-gire">SDAGE</span>
-    <span class="tag tag-sig">SIG</span>
-    <span class="tag tag-water">Planification</span>
-    <span class="badge-done">Livré · 2024</span>
-    <!-- Décommenter après upload sur Drive :
-    <a href="LIEN_DRIVE" target="_blank" class="btn btn-sm btn-outline-info mt-2 w-100">📄 Consulter →</a>
-    -->
-  </div>
-</div>
-</div>
 
 <!-- PAEA -->
 <div class="col-md-6">
 <div class="project-card">
   <div class="project-icon">💧</div>
-  <div class="project-title">Cartographie aquifère — Projet PAEA (Groupe SGI)</div>
+  <div class="project-title">Cartographie de potentiel aquifère sur l'ensemble du socle du Burkina Faso - Groupe SGI</div>
   <div class="project-desc">
-    Expert SIG & Data Science pour le Projet d'Alimentation en Eau et 
-    d'Assainissement (PAEA). Cartographie du potentiel aquifère en zone 
-    de socle par machine learning — première au Burkina Faso.
+    J'ai intervenu au compte du groupe SGI en tant qu'expert SIG & Data Science dans le cadre du Programme d'Approvissionnement en Eau d'Assainissemnt (PAEA)  (PAEA). Cartographie du potentiel aquifère en zone de socle par machine learning - une première au Burkina Faso.
   </div>
   <div class="project-footer">
     <span class="tag tag-ml">Machine Learning</span>
     <span class="tag tag-sig">SIG</span>
     <span class="tag tag-water">Hydrogéologie</span>
     <span class="badge-done">Livré · 2022–2023</span>
+    <a href="https://drive.google.com/file/d/1pJONd9CmtklW9FviIFzsocisdphDTAaa/view?usp=sharing" class="btn btn-sm btn-outline-info mt-2 w-100">Voir le livrable →</a>
   </div>
 </div>
 </div>
@@ -221,10 +200,9 @@ format:
 <div class="col-md-6">
 <div class="project-card">
   <div class="project-icon">🌱</div>
-  <div class="project-title">Cartographie aquifère — ESEPV-Sahel (Bugego)</div>
+  <div class="project-title">Cartographie de potentiel aquifère - Bugego</div>
   <div class="project-desc">
-    Mission similaire dans le cadre du projet ESEPV-Sahel avec le bureau 
-    d'études Bugego. Application des mêmes méthodes d'IA pour la cartographie 
+    Mission similaire dans le cadre du projet Développement socio-économique des populations vulnérables au Sahel (ESEPV-Sahel) de COWATER  avec le bureau d'études Bugego. Application des mêmes méthodes d'IA pour la cartographie 
     des ressources en eaux souterraines.
   </div>
   <div class="project-footer">
@@ -232,6 +210,7 @@ format:
     <span class="tag tag-sig">SIG</span>
     <span class="tag tag-water">Hydrogéologie</span>
     <span class="badge-done">Livré · 2023</span>
+    <a href="https://drive.google.com/file/d/1S_4oL23_XC597Kpr1nJW0-UfX4nWPoy3/view?usp=sharing" class="btn btn-sm btn-outline-info mt-2 w-100">Voir le livrable →</a>
   </div>
 </div>
 </div>
@@ -340,9 +319,3 @@ format:
 
 ---
 
-::: {.callout-tip}
-## 📝 Portfolio en évolution
-Ce portfolio est mis à jour progressivement. Consultez mon profil 
-[RPubs](https://rpubs.com/nebiegc){target="_blank"} pour accéder à mes 
-tutoriels et analyses publiés en accès libre.
-:::
