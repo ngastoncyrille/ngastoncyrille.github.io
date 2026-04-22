@@ -31,6 +31,24 @@ format:
 <!-- Nakanbé -->
 <div class="col-md-6">
 <div class="project-card">
+  <div class="project-icon">📊</div>
+  <div class="project-title">Tableau de bord sur le taux d'accès à l'eau potable au Burkina Faso</div>
+  <div class="project-desc">
+    Il a été conçu pour offrir un accès simplifié et structuré aux données sur le taux d'accès à l'eau potable au Burkina Faso, en couvrant les niveaux national, régional, provincial et communal.
+  </div>
+  <div class="project-footer">
+    <span class="tag tag-water">Tableau de bord</span>
+    <span class="tag tag-climate">Eau potable</span>
+    <span class="tag tag-r">Burkina Faso</span>
+    <span class="tag tag-sig">Looker studio</span>
+    <a href="https://datastudio.google.com/reporting/edd5e8e1-9540-4ed5-9844-6cb0ebae6b40" class="btn btn-sm btn-outline-info mt-2 w-100">Accéder au tableau de bord →</a>
+  </div>
+</div>
+</div>
+
+<!-- Nakanbé -->
+<div class="col-md-6">
+<div class="project-card">
   <div class="project-icon">🌊</div>
   <div class="project-title">Scénarios hydrologiques du Nakanbé</div>
   <div class="project-desc">
@@ -221,6 +239,55 @@ Pour le Développement Rural (CECA-DR)</div>
 ## 🎓 Formations
 
 ```{=html}
+<div class="pub-item">
+  <div class="pub-type pub-type-training">Formation · Renforcement de capacités</div>
+  <div class="pub-title">
+    Utilisation de R pour le traitement des données hydroclimatiques et l'élaboration de courbes de tarage
+  </div>
+  <div class="pub-meta">
+    Cadres du Ministère en charge de l'Eau et de l'Assainissement, Burkina Faso
+  </div>
+  <div style="margin-top:0.5rem;">
+    <span class="tag tag-r">R</span>
+    <span class="tag tag-water">Hydrologie</span>
+    <span class="badge-done">Réalisée</span>
+    <!-- Ajouter lien Drive si contenu diffusable :
+    <a href="LIEN_DRIVE" target="_blank" class="btn btn-sm btn-outline-primary ms-2">📁 Supports →</a>
+    -->
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-type pub-type-training">Formation · Renforcement de capacités</div>
+  <div class="pub-title">
+    Analyse statistique de données agronomiques avec R
+  </div>
+  <div class="pub-meta">
+    Docteurs et doctorants — Université Dan Dicko Dankoulodo de Maradi (UDDM), Niger ·
+    Analyse exploratoire, tests comparatifs, analyses post-hoc
+  </div>
+  <div style="margin-top:0.5rem;">
+    <span class="tag tag-r">R</span>
+    <span class="tag tag-climate">Agronomie</span>
+    <span class="badge-done">Réalisée</span>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-type pub-type-training">Formation · En développement</div>
+  <div class="pub-title">
+    Introduction à l'analyse de données hydrologiques avec R — Formation en ligne
+  </div>
+  <div class="pub-meta">
+    Destinée aux techniciens et ingénieurs en ressources en eau · Afrique de l'Ouest
+  </div>
+  <div style="margin-top:0.5rem;">
+    <span class="tag tag-r">R</span>
+    <span class="tag tag-water">Hydrologie</span>
+    <span class="badge-coming">🚧 En développement</span>
+  </div>
+</div>
+
 <p class="text-muted-blue mb-4" style="font-size:0.9rem;">
   Formations animées pour des institutions partenaires et formations en cours de développement.
 </p>

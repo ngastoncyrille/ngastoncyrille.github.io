@@ -240,6 +240,10 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
       <div class="skill-bar"><div class="skill-fill" style="width:50%"></div></div>
     </div>
     <div class="skill-item">
+      <div class="skill-name"><span>Power BI, Looker Studio</span><span class="skill-pct">50%</span></div>
+      <div class="skill-bar"><div class="skill-fill" style="width:50%"></div></div>
+    </div>
+    <div class="skill-item">
       <div class="skill-name"><span>QGIS / ArcGIS</span><span class="skill-pct">75%</span></div>
       <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
     </div>
