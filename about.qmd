@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 <!-- INTRO -->
 <div class="row align-items-center g-5 mb-5">
 <div class="col-md-4 text-center">
-  <img src="../assets/img/photo.jpg" 
+  <img src="../assets/img/photo_1.jpg" 
        class="profile-img mb-3" 
        alt="NEBIE Gaston Cyrille"
        onerror="this.parentElement.innerHTML='<div class=\'profile-img-placeholder\'>💧</div>'">

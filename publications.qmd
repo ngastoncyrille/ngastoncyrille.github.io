@@ -64,7 +64,7 @@ format:
 ## 💧 HydroBurkina - Vulgarisation scientifique
 
 ::: {.callout-note}
-## Association HydroBurkina — *"La porte de l'information sur l'eau"*
+## Association HydroBurkina - *"La porte de l'information sur l'eau"*
 Cette section présente de cours articles en lien avec l'hydrologie et ses sciences connexes. La majeur partie a été co-rédigée dans le cadre des activités de l'association **HydroBurkina**,
 en collaboration avec [**OUEDRAOGO M. Joseph**](https://www.linkedin.com/in/manegawene-joseph-ouedraogo-2861861b1/) (co-auteur principal de la série).
 Diffusés sur la page Facebook de l'association à destination des professionnels et étudiants
@@ -76,12 +76,12 @@ en sciences de l'eau.
 
 ```{=html}
 <div class="pub-item">
-  <div class="pub-type pub-type-rpubs">RPubs · Tutoriel R</div>
+  <div class="pub-type pub-type-rpubs">HydroBurkina</div>
   <div class="pub-title">Hydrologie et bassin versant — Caractéristiques morphométriques</div>
   <div class="pub-meta">P_fbk2020_001 · Hydrologie et Bassin versant : Caractéristiques morphométriques.</div>
   <div style="margin-top:0.5rem;">
     <span class="tag tag-r">R</span><span class="tag tag-water">Hydrologie</span><span class="tag tag-r">R</span><span class="tag tag-water">Hydrologie</span>
-    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-primary ms-2">RPubs →</a>
+    <a href="https://rpubs.com/nebiegc" target="_blank" class="btn btn-sm btn-outline-primary ms-2"> →</a>
   </div>
 </div>
 
@@ -147,37 +147,44 @@ GR4J au bassin versant du Kou (Burkina Faso).</div>
   </div>
 </div>
 
-```
-
-
-
-
-### 🌦️ Série Climatologie
-
-```{=html}
 <div class="pub-item">
-  <div class="pub-type pub-type-hydrobf">HydroBurkina · Série NS_fbk2020</div>
-  <div class="pub-title">NS_fbk2020_001 · Caractérisation de la saison des pluies — Cas du Burkina Faso</div>
-  <div class="pub-meta">Co-auteur : OUEDRAOGO M. Joseph · Variabilité saisonnière des précipitations</div>
+  <div class="pub-type pub-type-rpubs">HydroBurkina</div>
+  <div class="pub-title">P_fbk2020_010 · Hydrologie et analyse fréquentielle.
+Les extrêmes hydrologiques : les étiages.</div>
+  <div class="pub-meta">Ce document présente les principes et les étapes méthodologiques de l'analyse fréquentielle appliquée aux extrêmes hydrologiques, plus spécifiquement aux étiages. Il détaille un processus rigoureux allant de la constitution de séries de données (débits minima, variables VCN, etc.) à l'exploitation de modèles statistiques mathématiques pour prédire la probabilité d'occurrence d'événements futurs. L'article inclut également une application pratique utilisant le langage R sur une période de simulation allant de 1981 à 2010.</div>
   <div style="margin-top:0.5rem;">
-    <span class="tag tag-climate">Climatologie</span>
-    <span class="tag tag-water">Précipitations</span>
-    <span class="tag tag-r">R</span>
-    <span class="badge-done">Publié</span>
-    <!-- <a href="LIEN_DRIVE" target="_blank" class="btn btn-sm btn-outline-primary ms-2">📄 Lire →</a> -->
+    <span class="tag tag-r">Analyse fréquentielle </span><span class="tag tag-water">Étiages</span><span class="tag tag-water">Modélisation statistique</span>
+    <a href="https://drive.google.com/file/d/128eVr3fgjq42m4xTXy2vovez71E4lzDW/view?usp=sharing" target="_blank" class="btn btn-sm btn-outline-primary ms-2"> →</a>
   </div>
 </div>
 
 <div class="pub-item">
-  <div class="pub-type pub-type-hydrobf">HydroBurkina · Série P_fbk2020</div>
-  <div class="pub-title">P_fbk2020_012 · Post-traitement des scénarios climatiques — Correction de biais</div>
-  <div class="pub-meta">Co-auteur : OUEDRAOGO M. Joseph · Méthodes de correction de biais des données CMIP</div>
+  <div class="pub-type pub-type-rpubs">HydroBurkina</div>
+  <div class="pub-title">P_fbk2020_011 · Hydrologie et analyse fréquentielle. Les extrêmes hydrologiques : les crues.</div>
+  <div class="pub-meta">Cet article présente une méthodologie d'analyse fréquentielle appliquée aux crues pour prédéterminer les débits extrêmes, essentielle à la gestion des risques hydrologiques et à la sécurité des ouvrages. L'étude s'appuie sur une chronique de débits journaliers (1981-2010) traitée avec le logiciel R, incluant le comblement de données manquantes par le modèle GR4J et la vérification de l'indépendance et de la stationnarité des séries. Après avoir testé cinq lois de distribution, les résultats démontrent que les lois de Gumbel et de Pearson III offrent les meilleurs ajustements pour caractériser les périodes de retour des évènements extrêmes.</div>
   <div style="margin-top:0.5rem;">
-    <span class="tag tag-climate">CMIP</span>
-    <span class="tag tag-climate">Scénarios</span>
-    <span class="tag tag-r">R</span>
-    <span class="badge-done">Publié</span>
-    <!-- <a href="LIEN_DRIVE" target="_blank" class="btn btn-sm btn-outline-primary ms-2">📄 Lire →</a> -->
+    <span class="tag tag-r">Analyse fréquentielle </span><span class="tag tag-water">Crues</span><span class="tag tag-water">Modélisation hydrologique</span>
+    <a href="https://drive.google.com/file/d/11fLaXlU5l4KwBou9EeMeaL3Vc6mKfAd0/view?usp=sharing" target="_blank" class="btn btn-sm btn-outline-primary ms-2"> →</a>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-type pub-type-rpubs">HydroBurkina</div>
+  <div class="pub-title">NS_f bk2020_001 · Caractérisation de la saison des pluies : Cas du Burkina Faso.</div>
+  <div class="pub-meta">Cette note spéciale analyse la caractérisation de la saison des pluies au Burkina Faso en utilisant des données pluviométriques de dix stations sur la période 1980-2017. L'étude s'appuie sur le critère agronomique de Sivakumar pour déterminer les dates clés du calendrier agricole, révélant un démarrage moyen de la saison vers la mi-mai et une fin début octobre, avec une variabilité spatiale marquée du sud vers le nord. En plus de définir la durée de la saison culturale et les cumuls annuels, le document évalue les probabilités de séquences sèches intrasaisonnières de plus de 10 jours, fournissant ainsi des informations cruciales pour la planification de la production agricole face aux aléas climatiques au Sahel.</div>
+  <div style="margin-top:0.5rem;">
+    <span class="tag tag-r">Pluviométrie </span><span class="tag tag-water">Agriculture</span><span class="tag tag-water">Burkina Faso</span>
+    <a href="https://drive.google.com/file/d/1KZpTN-g2x35y_1jqBFTbGPMAKsDkc_ld/view?usp=sharing" target="_blank" class="btn btn-sm btn-outline-primary ms-2"> →</a>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-type pub-type-rpubs">HydroBurkina</div>
+  <div class="pub-title">SWATplusR · Calibration et validation du modèle hydrologique SWAT sous le logiciel R à l’aide du package SWATplusR et associés.</div>
+  <div class="pub-meta">Ce document présente un guide pratique pour la calibration et la validation du modèle hydrologique SWAT en utilisant l'environnement de programmation R via le package SWATplusR. L'étude se concentre sur le bassin versant du Nakanbé au Burkina Faso, détaillant l'utilisation de données hydroclimatiques et géospatiales pour simuler les écoulements. La méthodologie inclut une analyse de sensibilité rigoureuse pour identifier les paramètres influençant les processus hydrologiques, suivie d'un étalonnage par échantillonnage aléatoire et d'une validation des performances du modèle à l'aide du critère de Nash-Sutcliffe.</div>
+  <div style="margin-top:0.5rem;">
+    <span class="tag tag-r">Modélisation hydrologique </span><span class="tag tag-water">SWATplusR</span><span class="tag tag-water">Calibration-validation</span>
+    <a href="https://drive.google.com/file/d/1LhUx4dQ0eUAvNcX39xvdgZuulLHJ8ZRf/view?usp=sharing" target="_blank" class="btn btn-sm btn-outline-primary ms-2"> →</a>
   </div>
 </div>
 ```
@@ -187,16 +194,15 @@ GR4J au bassin versant du Kou (Burkina Faso).</div>
 ```{=html}
 <div class="pub-item">
   <div class="pub-type pub-type-training">Encadrement · Mémoire de Master</div>
-  <div class="pub-title">Mémoire de Master — KONE KAANFAR</div>
+  <div class="pub-title">Evaluation des lois d’ajustement des données des pluies extrêmes au Burkina Faso de 1981 à 2015</div>
   <div class="pub-meta">
-    Maître de stage · Thématique en lien avec l'hydrologie et la gestion des ressources en eau ·
-    Université / Institution à préciser
+    Ce travail de recherche porte sur l'identification des modèles statistiques les plus performants pour prédire les pluies extrêmes au Burkina Faso, un enjeu crucial pour la prévention des inondations et le dimensionnement des ouvrages hydrauliques. L'étude a analysé les précipitations journalières de 271 communes entre 1981 et 2015 en ajustant dix-neuf modèles fréquentiels par la méthode des L-moments. Les résultats, évalués par l'erreur quadratique moyenne (RMSE), révèlent que la loi de Wakeby (wak) est celle qui s'adapte le mieux à la majorité des communes du pays, surpassant les modèles traditionnellement utilisés en hydrologie tels que GEV ou Gumbel.
   </div>
   <div style="margin-top:0.5rem;">
-    <span class="tag tag-water">Hydrologie</span>
-    <span class="tag tag-gire">Encadrement</span>
-    <span class="badge-done">Soutenu</span>
-    <!-- <a href="LIEN_DRIVE" target="_blank" class="btn btn-sm btn-outline-primary ms-2">📄 Mémoire →</a> -->
+    <span class="tag tag-water">Analyse fréquentielle </span>
+    <span class="tag tag-gire">Pluies extrêmes</span>
+    <span class="badge-done">Modèle de Wakeby</span>
+     <a href="https://drive.google.com/file/d/15qyasSx1GLzK7fM4jaRweVapEWsHRjey/view?usp=sharing" target="_blank" class="btn btn-sm btn-outline-primary ms-2">📄 Mémoire →</a> 
   </div>
 </div>
 ```
@@ -213,13 +219,13 @@ GR4J au bassin versant du Kou (Burkina Faso).</div>
     au Burkina Faso : quelles tendances selon les modèles climatiques CMIP6 ?
   </div>
   <div class="pub-meta">
-    4ème édition du Forum National de l'Eau et de l'Assainissement du Burkina Faso · 2024
+    Ce document présente une étude sur les impacts des changements climatiques au Burkina Faso à l'horizon 2031-2060, en utilisant les modèles climatiques récents du CMIP6 (scénarios SSP2-4.5 et SSP5-8.5). Les résultats mettent en évidence une forte variabilité spatiale des paramètres agroclimatiques, notamment une installation précoce des saisons au Sahel contrastant avec un démarrage tardif à l'Est, ainsi qu'une augmentation significative des cumuls pluviométriques dans les zones sahéliennes (~+40%). L'analyse souligne également un accroissement des séquences sèches maximales dans les régions du Nord et du Centre, fournissant ainsi des informations cruciales pour l'aide à la décision et la planification stratégique de la production agricole face aux risques climatiques futurs.
   </div>
   <div style="margin-top:0.5rem;">
     <span class="tag tag-climate">CMIP6</span>
     <span class="tag tag-climate">Agroclimatologie</span>
-    <span class="tag tag-water">Burkina Faso</span>
-    <span class="badge-done">Présenté</span>
+    <span class="tag tag-water">Changements climatiques</span>
+     <a href="https://drive.google.com/file/d/1Wqth7eQRqpW2S8Ppu7Bf6HWUdtN2e4Yc/view?usp=sharing" target="_blank" class="btn btn-sm btn-outline-primary ms-2">📄 Communication →</a> 
   </div>
 </div>
 
